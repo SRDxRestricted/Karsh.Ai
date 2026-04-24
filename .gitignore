@@ -2,14 +2,19 @@
 models/
 vosk-model*/
 *.gguf
+*.zip
 
 # Audio Output
 *.wav
 *.mp3
+Malayalam TTS/*.wav
+Malayalam TTS/*.mp3
 
 # Python Cache
 __pycache__/
 *.pyc
+Malayalam TTS/__pycache__/
+Malayalam TTS/*.pyc
 
 # Virtual Environment
 venv/
