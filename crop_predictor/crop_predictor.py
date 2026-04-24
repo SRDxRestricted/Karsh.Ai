@@ -104,12 +104,28 @@ def predict_top_crops(month, district, land_area, top_n=3):
             # Divide by 100 as market prices in the dataset are typically per quintal (100kg)
             est_revenue = (est_yield * avg_price) / 100
             
+            # --- Advanced Analysis from Dataset ---
+            # Filter the raw data for this specific crop and month to find best market
+            crop_data = df[(df['Commodity'] == crop_name) & (df['month'] == month)]
+            
+            if not crop_data.empty:
+                # Find the market with the highest average modal price for this crop
+                best_market_row = crop_data.groupby('Market')['Modal_Price'].mean().idxmax()
+                min_hist = crop_data['Min_Price'].min()
+                max_hist = crop_data['Max_Price'].max()
+            else:
+                best_market_row = "General Market"
+                min_hist = avg_price * 0.9
+                max_hist = avg_price * 1.1
+
             results.append({
                 "crop": crop_name,
                 "match_score": f"{prob * 100:.1f}%",
                 "est_revenue": est_revenue,
                 "avg_price": avg_price,
-                "est_yield": est_yield
+                "est_yield": est_yield,
+                "best_market": best_market_row,
+                "price_range": f"₹{min_hist:,.0f} - ₹{max_hist:,.0f}"
             })
             
             # Stop once we have reached the required number of top crops
@@ -167,11 +183,22 @@ if __name__ == "__main__":
             if not results:
                 print("No suitable crops found.")
             else:
-                print(f"\n{'Rank':<5} | {'Crop Name':<15} | {'AI Confidence':<15} | {'Est. Yield (Units)':<20} | {'Est. Revenue (₹)':<20}")
+                # Comprehensive Output Table
+                print(f"\n{'Rank':<5} | {'Crop Name':<15} | {'Best Market':<20} | {'Price Range/Qtl':<20} | {'Est. Revenue (₹)':<15}")
                 print("-" * 85)
                 for i, res in enumerate(results, 1):
-                    print(f"{i:<5} | {res['crop']:<15} | {res['match_score']:<15} | {res['est_yield']:<20.0f} | ₹{res['est_revenue']:,.2f}")
-                print("\nNote: Revenue is estimated based on historical average Modal Prices.")
+                    print(f"{i:<5} | {res['crop']:<15} | {res['best_market']:<20} | {res['price_range']:<20} | ₹{res['est_revenue']:,.2f}")
+                
+                print("\n" + "="*85)
+                print("DETAILED ANALYSIS FOR TOP RECOMMENDATION")
+                print("="*85)
+                top = results[0]
+                print(f"Target Crop: {top['crop']}")
+                print(f"Recommended Market: {top['best_market']} (Highest historical price in Month {month_input})")
+                print(f"Projected Yield: {top['est_yield']:,.0f} units on {land_area} hectares")
+                print(f"Estimated Revenue: ₹{top['est_revenue']:,.2f}")
+                print(f"Market Volatility: {top['price_range']} (Min-Max Price per Quintal)")
+                print("="*85)
                     
         except KeyboardInterrupt:
             break
