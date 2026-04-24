@@ -1,0 +1,13 @@
+{
+    "personal_info": {
+        "name": "SANJANA ROHIT",
+        "gender": "Female",
+        "district": "Unknown"
+    },
+    "land_records": [
+        {
+            "survey_number": "1288824396",
+            "dob": "2002"
+        }
+    ]
+}
