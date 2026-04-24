@@ -1,57 +1,2004 @@
 Date,District,Market,Commodity,Variety,Min_Price,Max_Price,Modal_Price
-2026-04-20,Idukki,Vandanmedu,Cardamom,Small,180000,210000,195000
-2026-04-20,Idukki,Kumily,Black Pepper,Garbled,55000,62000,58500
-2026-04-20,Ernakulam,Aluva,Banana,Nendran,4200,5500,4800
-2026-04-20,Alappuzha,Kayamkulam,Coconut,Without Husk,3200,3800,3500
-2026-04-20,Kottayam,Kottayam Market,Rubber,RSS-4,16500,17200,16800
-2026-04-20,Kollam,Kollam Market,Tapioca,Raw,1800,2400,2100
-2026-04-20,Palakkad,Palakkad Mandi,Paddy,Jyothi,2800,3100,2950
-2026-04-19,Idukki,Vandanmedu,Cardamom,Small,178000,208000,192000
-2026-04-19,Idukki,Kumily,Black Pepper,Garbled,54500,61000,58000
-2026-04-19,Ernakulam,Aluva,Banana,Nendran,4100,5400,4750
-2026-04-19,Alappuzha,Kayamkulam,Coconut,Without Husk,3150,3750,3450
-2026-04-19,Kottayam,Kottayam Market,Rubber,RSS-4,16400,17000,16700
-2026-04-19,Kollam,Kollam Market,Tapioca,Raw,1750,2300,2000
-2026-04-19,Palakkad,Palakkad Mandi,Paddy,Jyothi,2750,3050,2900
-2026-04-18,Wayanad,Kalpetta,Black Pepper,Un-garbled,52000,58000,55000
-2026-04-18,Thrissur,Thrissur Market,Banana,Nendran,4000,5200,4600
-2026-04-18,Kozhikode,Kozhikode Mandi,Coconut,Without Husk,3300,3900,3600
-2026-04-18,Pathanamthitta,Adoor,Rubber,RSS-4,16300,16900,16600
-2026-04-18,Trivandrum,Chalai,Tapioca,Raw,1900,2500,2200
-2026-04-17,Idukki,Vandanmedu,Cardamom,Small,177500,205000,190000
-2026-04-17,Idukki,Kumily,Black Pepper,Garbled,54000,60500,57500
-2026-04-17,Ernakulam,Aluva,Banana,Nendran,4050,5350,4700
-2026-04-17,Alappuzha,Kayamkulam,Coconut,Without Husk,3100,3700,3400
-2026-04-17,Kottayam,Kottayam Market,Rubber,RSS-4,16200,16800,16500
-2026-04-17,Kollam,Kollam Market,Tapioca,Raw,1700,2250,1950
-2026-04-17,Palakkad,Palakkad Mandi,Paddy,Jyothi,2700,3000,2850
-2026-04-16,Wayanad,Kalpetta,Black Pepper,Un-garbled,51500,57500,54500
-2026-04-16,Thrissur,Thrissur Market,Banana,Nendran,3950,5150,4550
-2026-04-16,Kozhikode,Kozhikode Mandi,Coconut,Without Husk,3250,3850,3550
-2026-04-16,Pathanamthitta,Adoor,Rubber,RSS-4,16100,16700,16400
-2026-04-16,Trivandrum,Chalai,Tapioca,Raw,1850,2450,2150
-2026-04-16,Idukki,Vandanmedu,Cardamom,Small,176000,204000,189000
-2026-04-15,Idukki,Kumily,Black Pepper,Garbled,53500,60000,57000
-2026-04-15,Ernakulam,Aluva,Banana,Nendran,3900,5200,4600
-2026-04-15,Alappuzha,Kayamkulam,Coconut,Without Husk,3050,3650,3350
-2026-04-15,Kottayam,Kottayam Market,Rubber,RSS-4,16000,16600,16300
-2026-04-15,Kollam,Kollam Market,Tapioca,Raw,1650,2200,1900
-2026-04-15,Palakkad,Palakkad Mandi,Paddy,Jyothi,2650,2950,2800
-2026-04-14,Wayanad,Kalpetta,Black Pepper,Un-garbled,51000,57000,54000
-2026-04-14,Thrissur,Thrissur Market,Banana,Nendran,3850,5100,4500
-2026-04-14,Kozhikode,Kozhikode Mandi,Coconut,Without Husk,3200,3800,3500
-2026-04-14,Pathanamthitta,Adoor,Rubber,RSS-4,15900,16500,16200
-2026-04-14,Trivandrum,Chalai,Tapioca,Raw,1800,2400,2100
-2026-04-14,Idukki,Vandanmedu,Cardamom,Small,175000,202000,188000
-2026-04-13,Idukki,Kumily,Black Pepper,Garbled,53000,59500,56500
-2026-04-13,Ernakulam,Aluva,Banana,Nendran,3800,5100,4450
-2026-04-13,Alappuzha,Kayamkulam,Coconut,Without Husk,3000,3600,3300
-2026-04-13,Kottayam,Kottayam Market,Rubber,RSS-4,15800,16400,16100
-2026-04-13,Kollam,Kollam Market,Tapioca,Raw,1600,2150,1850
-2026-04-13,Palakkad,Palakkad Mandi,Paddy,Jyothi,2600,2900,2750
-2026-04-12,Wayanad,Kalpetta,Black Pepper,Un-garbled,50500,56500,53500
-2026-04-12,Thrissur,Thrissur Market,Banana,Nendran,3750,5050,4400
-2026-04-12,Kozhikode,Kozhikode Mandi,Coconut,Without Husk,3150,3750,3450
-2026-04-12,Pathanamthitta,Adoor,Rubber,RSS-4,15700,16300,16000
-2026-04-12,Trivandrum,Chalai,Tapioca,Raw,1750,2350,2050
-2026-04-12,Idukki,Vandanmedu,Cardamom,Small,174000,200000,187000
+2026-01-01,Kollam,Kollam Market,Tapioca,Raw,1425,2564,1994
+2026-01-01,Trivandrum,Trivandrum Market,Tapioca,Raw,1539,2597,2068
+2026-01-01,Ernakulam,Ernakulam Market,Tapioca,Raw,1413,2493,1953
+2026-01-01,Kottayam,Kottayam Market,Tapioca,Raw,1525,2524,2024
+2026-01-01,Alappuzha,Alappuzha Market,Coconut,Without Husk,2979,3926,3452
+2026-01-01,Kozhikode,Kozhikode Market,Coconut,Without Husk,2986,4043,3514
+2026-01-01,Ernakulam,Ernakulam Market,Coconut,Without Husk,2952,4049,3500
+2026-01-01,Palakkad,Palakkad Market,Coconut,Without Husk,3081,3954,3517
+2026-01-02,Kollam,Kollam Market,Tapioca,Raw,1569,2435,2002
+2026-01-02,Trivandrum,Trivandrum Market,Tapioca,Raw,1541,2484,2012
+2026-01-02,Ernakulam,Ernakulam Market,Tapioca,Raw,1575,2510,2042
+2026-01-02,Kottayam,Kottayam Market,Tapioca,Raw,1492,2584,2038
+2026-01-02,Alappuzha,Alappuzha Market,Coconut,Without Husk,3066,3926,3496
+2026-01-02,Kozhikode,Kozhikode Market,Coconut,Without Husk,2926,4076,3501
+2026-01-02,Ernakulam,Ernakulam Market,Coconut,Without Husk,3034,3990,3512
+2026-01-02,Palakkad,Palakkad Market,Coconut,Without Husk,3045,4024,3534
+2026-01-03,Kollam,Kollam Market,Tapioca,Raw,1539,2446,1992
+2026-01-03,Trivandrum,Trivandrum Market,Tapioca,Raw,1426,2461,1943
+2026-01-03,Ernakulam,Ernakulam Market,Tapioca,Raw,1528,2516,2022
+2026-01-03,Kottayam,Kottayam Market,Tapioca,Raw,1405,2584,1994
+2026-01-03,Alappuzha,Alappuzha Market,Coconut,Without Husk,3098,4082,3590
+2026-01-03,Kozhikode,Kozhikode Market,Coconut,Without Husk,3037,3944,3490
+2026-01-03,Ernakulam,Ernakulam Market,Coconut,Without Husk,3096,3975,3535
+2026-01-03,Palakkad,Palakkad Market,Coconut,Without Husk,3038,4038,3538
+2026-01-04,Kollam,Kollam Market,Tapioca,Raw,1561,2479,2020
+2026-01-04,Trivandrum,Trivandrum Market,Tapioca,Raw,1584,2484,2034
+2026-01-04,Ernakulam,Ernakulam Market,Tapioca,Raw,1486,2480,1983
+2026-01-04,Kottayam,Kottayam Market,Tapioca,Raw,1473,2506,1989
+2026-01-04,Alappuzha,Alappuzha Market,Coconut,Without Husk,2936,4016,3476
+2026-01-04,Kozhikode,Kozhikode Market,Coconut,Without Husk,3065,4042,3553
+2026-01-04,Ernakulam,Ernakulam Market,Coconut,Without Husk,2926,4036,3481
+2026-01-04,Palakkad,Palakkad Market,Coconut,Without Husk,3078,3926,3502
+2026-01-05,Kollam,Kollam Market,Tapioca,Raw,1409,2509,1959
+2026-01-05,Trivandrum,Trivandrum Market,Tapioca,Raw,1459,2497,1978
+2026-01-05,Ernakulam,Ernakulam Market,Tapioca,Raw,1401,2469,1935
+2026-01-05,Kottayam,Kottayam Market,Tapioca,Raw,1531,2508,2019
+2026-01-05,Alappuzha,Alappuzha Market,Coconut,Without Husk,3055,3925,3490
+2026-01-05,Kozhikode,Kozhikode Market,Coconut,Without Husk,2997,3989,3493
+2026-01-05,Ernakulam,Ernakulam Market,Coconut,Without Husk,2910,4054,3482
+2026-01-05,Palakkad,Palakkad Market,Coconut,Without Husk,2976,4058,3517
+2026-01-06,Kollam,Kollam Market,Tapioca,Raw,1576,2460,2018
+2026-01-06,Trivandrum,Trivandrum Market,Tapioca,Raw,1486,2577,2031
+2026-01-06,Ernakulam,Ernakulam Market,Tapioca,Raw,1501,2423,1962
+2026-01-06,Kottayam,Kottayam Market,Tapioca,Raw,1537,2409,1973
+2026-01-06,Alappuzha,Alappuzha Market,Coconut,Without Husk,2989,3927,3458
+2026-01-06,Kozhikode,Kozhikode Market,Coconut,Without Husk,2905,3983,3444
+2026-01-06,Ernakulam,Ernakulam Market,Coconut,Without Husk,3015,3900,3457
+2026-01-06,Palakkad,Palakkad Market,Coconut,Without Husk,2909,4027,3468
+2026-01-07,Kollam,Kollam Market,Tapioca,Raw,1533,2513,2023
+2026-01-07,Trivandrum,Trivandrum Market,Tapioca,Raw,1475,2550,2012
+2026-01-07,Ernakulam,Ernakulam Market,Tapioca,Raw,1568,2491,2029
+2026-01-07,Kottayam,Kottayam Market,Tapioca,Raw,1583,2525,2054
+2026-01-07,Alappuzha,Alappuzha Market,Coconut,Without Husk,3067,3987,3527
+2026-01-07,Kozhikode,Kozhikode Market,Coconut,Without Husk,2903,3930,3416
+2026-01-07,Ernakulam,Ernakulam Market,Coconut,Without Husk,3019,4007,3513
+2026-01-07,Palakkad,Palakkad Market,Coconut,Without Husk,3008,3934,3471
+2026-01-08,Kollam,Kollam Market,Tapioca,Raw,1504,2442,1973
+2026-01-08,Trivandrum,Trivandrum Market,Tapioca,Raw,1411,2591,2001
+2026-01-08,Ernakulam,Ernakulam Market,Tapioca,Raw,1442,2564,2003
+2026-01-08,Kottayam,Kottayam Market,Tapioca,Raw,1545,2436,1990
+2026-01-08,Alappuzha,Alappuzha Market,Coconut,Without Husk,2939,3922,3430
+2026-01-08,Kozhikode,Kozhikode Market,Coconut,Without Husk,3084,3919,3501
+2026-01-08,Ernakulam,Ernakulam Market,Coconut,Without Husk,2903,4072,3487
+2026-01-08,Palakkad,Palakkad Market,Coconut,Without Husk,2918,3979,3448
+2026-01-09,Kollam,Kollam Market,Tapioca,Raw,1460,2412,1936
+2026-01-09,Trivandrum,Trivandrum Market,Tapioca,Raw,1413,2465,1939
+2026-01-09,Ernakulam,Ernakulam Market,Tapioca,Raw,1520,2578,2049
+2026-01-09,Kottayam,Kottayam Market,Tapioca,Raw,1409,2564,1986
+2026-01-09,Alappuzha,Alappuzha Market,Coconut,Without Husk,2928,3922,3425
+2026-01-09,Kozhikode,Kozhikode Market,Coconut,Without Husk,3100,3919,3509
+2026-01-09,Ernakulam,Ernakulam Market,Coconut,Without Husk,2928,3991,3459
+2026-01-09,Palakkad,Palakkad Market,Coconut,Without Husk,3041,3938,3489
+2026-01-10,Kollam,Kollam Market,Tapioca,Raw,1473,2527,2000
+2026-01-10,Trivandrum,Trivandrum Market,Tapioca,Raw,1501,2432,1966
+2026-01-10,Ernakulam,Ernakulam Market,Tapioca,Raw,1444,2501,1972
+2026-01-10,Kottayam,Kottayam Market,Tapioca,Raw,1494,2508,2001
+2026-01-10,Alappuzha,Alappuzha Market,Coconut,Without Husk,2985,4061,3523
+2026-01-10,Kozhikode,Kozhikode Market,Coconut,Without Husk,2976,3985,3480
+2026-01-10,Ernakulam,Ernakulam Market,Coconut,Without Husk,2989,3929,3459
+2026-01-10,Palakkad,Palakkad Market,Coconut,Without Husk,3099,4068,3583
+2026-01-11,Kollam,Kollam Market,Tapioca,Raw,1567,2442,2004
+2026-01-11,Trivandrum,Trivandrum Market,Tapioca,Raw,1569,2496,2032
+2026-01-11,Ernakulam,Ernakulam Market,Tapioca,Raw,1577,2503,2040
+2026-01-11,Kottayam,Kottayam Market,Tapioca,Raw,1514,2519,2016
+2026-01-11,Alappuzha,Alappuzha Market,Coconut,Without Husk,2927,3965,3446
+2026-01-11,Kozhikode,Kozhikode Market,Coconut,Without Husk,3071,4044,3557
+2026-01-11,Ernakulam,Ernakulam Market,Coconut,Without Husk,2957,4005,3481
+2026-01-11,Palakkad,Palakkad Market,Coconut,Without Husk,3073,3970,3521
+2026-01-12,Kollam,Kollam Market,Tapioca,Raw,1598,2563,2080
+2026-01-12,Trivandrum,Trivandrum Market,Tapioca,Raw,1525,2445,1985
+2026-01-12,Ernakulam,Ernakulam Market,Tapioca,Raw,1449,2420,1934
+2026-01-12,Kottayam,Kottayam Market,Tapioca,Raw,1554,2566,2060
+2026-01-12,Alappuzha,Alappuzha Market,Coconut,Without Husk,3021,4077,3549
+2026-01-12,Kozhikode,Kozhikode Market,Coconut,Without Husk,2959,4051,3505
+2026-01-12,Ernakulam,Ernakulam Market,Coconut,Without Husk,2994,3947,3470
+2026-01-12,Palakkad,Palakkad Market,Coconut,Without Husk,3069,4028,3548
+2026-01-13,Kollam,Kollam Market,Tapioca,Raw,1585,2592,2088
+2026-01-13,Trivandrum,Trivandrum Market,Tapioca,Raw,1596,2401,1998
+2026-01-13,Ernakulam,Ernakulam Market,Tapioca,Raw,1487,2413,1950
+2026-01-13,Kottayam,Kottayam Market,Tapioca,Raw,1412,2598,2005
+2026-01-13,Alappuzha,Alappuzha Market,Coconut,Without Husk,2968,3973,3470
+2026-01-13,Kozhikode,Kozhikode Market,Coconut,Without Husk,2940,3950,3445
+2026-01-13,Ernakulam,Ernakulam Market,Coconut,Without Husk,2957,3937,3447
+2026-01-13,Palakkad,Palakkad Market,Coconut,Without Husk,2995,3981,3488
+2026-01-14,Kollam,Kollam Market,Tapioca,Raw,1550,2567,2058
+2026-01-14,Trivandrum,Trivandrum Market,Tapioca,Raw,1512,2478,1995
+2026-01-14,Ernakulam,Ernakulam Market,Tapioca,Raw,1424,2407,1915
+2026-01-14,Kottayam,Kottayam Market,Tapioca,Raw,1581,2412,1996
+2026-01-14,Alappuzha,Alappuzha Market,Coconut,Without Husk,2982,4080,3531
+2026-01-14,Kozhikode,Kozhikode Market,Coconut,Without Husk,2919,4037,3478
+2026-01-14,Ernakulam,Ernakulam Market,Coconut,Without Husk,2976,3986,3481
+2026-01-14,Palakkad,Palakkad Market,Coconut,Without Husk,2930,3997,3463
+2026-01-15,Kollam,Kollam Market,Tapioca,Raw,1451,2543,1997
+2026-01-15,Trivandrum,Trivandrum Market,Tapioca,Raw,1495,2575,2035
+2026-01-15,Ernakulam,Ernakulam Market,Tapioca,Raw,1522,2505,2013
+2026-01-15,Kottayam,Kottayam Market,Tapioca,Raw,1404,2401,1902
+2026-01-15,Alappuzha,Alappuzha Market,Coconut,Without Husk,3082,3988,3535
+2026-01-15,Kozhikode,Kozhikode Market,Coconut,Without Husk,3038,3954,3496
+2026-01-15,Ernakulam,Ernakulam Market,Coconut,Without Husk,2911,4007,3459
+2026-01-15,Palakkad,Palakkad Market,Coconut,Without Husk,2987,3942,3464
+2026-01-16,Kollam,Kollam Market,Tapioca,Raw,1497,2408,1952
+2026-01-16,Trivandrum,Trivandrum Market,Tapioca,Raw,1496,2535,2015
+2026-01-16,Ernakulam,Ernakulam Market,Tapioca,Raw,1577,2482,2029
+2026-01-16,Kottayam,Kottayam Market,Tapioca,Raw,1514,2411,1962
+2026-01-16,Alappuzha,Alappuzha Market,Coconut,Without Husk,2937,3916,3426
+2026-01-16,Kozhikode,Kozhikode Market,Coconut,Without Husk,3043,3943,3493
+2026-01-16,Ernakulam,Ernakulam Market,Coconut,Without Husk,3034,4054,3544
+2026-01-16,Palakkad,Palakkad Market,Coconut,Without Husk,3087,3908,3497
+2026-01-17,Kollam,Kollam Market,Tapioca,Raw,1578,2590,2084
+2026-01-17,Trivandrum,Trivandrum Market,Tapioca,Raw,1592,2466,2029
+2026-01-17,Ernakulam,Ernakulam Market,Tapioca,Raw,1573,2416,1994
+2026-01-17,Kottayam,Kottayam Market,Tapioca,Raw,1573,2591,2082
+2026-01-17,Alappuzha,Alappuzha Market,Coconut,Without Husk,2978,4063,3520
+2026-01-17,Kozhikode,Kozhikode Market,Coconut,Without Husk,2930,4055,3492
+2026-01-17,Ernakulam,Ernakulam Market,Coconut,Without Husk,3048,3994,3521
+2026-01-17,Palakkad,Palakkad Market,Coconut,Without Husk,3016,4071,3543
+2026-01-18,Kollam,Kollam Market,Tapioca,Raw,1402,2537,1969
+2026-01-18,Trivandrum,Trivandrum Market,Tapioca,Raw,1560,2594,2077
+2026-01-18,Ernakulam,Ernakulam Market,Tapioca,Raw,1441,2459,1950
+2026-01-18,Kottayam,Kottayam Market,Tapioca,Raw,1411,2569,1990
+2026-01-18,Alappuzha,Alappuzha Market,Coconut,Without Husk,2910,4015,3462
+2026-01-18,Kozhikode,Kozhikode Market,Coconut,Without Husk,3025,3959,3492
+2026-01-18,Ernakulam,Ernakulam Market,Coconut,Without Husk,2962,4091,3526
+2026-01-18,Palakkad,Palakkad Market,Coconut,Without Husk,2922,3940,3431
+2026-01-19,Kollam,Kollam Market,Tapioca,Raw,1459,2473,1966
+2026-01-19,Trivandrum,Trivandrum Market,Tapioca,Raw,1543,2508,2025
+2026-01-19,Ernakulam,Ernakulam Market,Tapioca,Raw,1569,2596,2082
+2026-01-19,Kottayam,Kottayam Market,Tapioca,Raw,1599,2468,2033
+2026-01-19,Alappuzha,Alappuzha Market,Coconut,Without Husk,2916,4046,3481
+2026-01-19,Kozhikode,Kozhikode Market,Coconut,Without Husk,2908,3982,3445
+2026-01-19,Ernakulam,Ernakulam Market,Coconut,Without Husk,3099,3959,3529
+2026-01-19,Palakkad,Palakkad Market,Coconut,Without Husk,3084,4078,3581
+2026-01-20,Kollam,Kollam Market,Tapioca,Raw,1439,2568,2003
+2026-01-20,Trivandrum,Trivandrum Market,Tapioca,Raw,1578,2579,2078
+2026-01-20,Ernakulam,Ernakulam Market,Tapioca,Raw,1420,2566,1993
+2026-01-20,Kottayam,Kottayam Market,Tapioca,Raw,1547,2416,1981
+2026-01-20,Alappuzha,Alappuzha Market,Coconut,Without Husk,3092,3940,3516
+2026-01-20,Kozhikode,Kozhikode Market,Coconut,Without Husk,3058,4026,3542
+2026-01-20,Ernakulam,Ernakulam Market,Coconut,Without Husk,2966,3975,3470
+2026-01-20,Palakkad,Palakkad Market,Coconut,Without Husk,3015,4093,3554
+2026-01-21,Kollam,Kollam Market,Tapioca,Raw,1475,2590,2032
+2026-01-21,Trivandrum,Trivandrum Market,Tapioca,Raw,1506,2585,2045
+2026-01-21,Ernakulam,Ernakulam Market,Tapioca,Raw,1522,2566,2044
+2026-01-21,Kottayam,Kottayam Market,Tapioca,Raw,1555,2554,2054
+2026-01-21,Alappuzha,Alappuzha Market,Coconut,Without Husk,3080,3943,3511
+2026-01-21,Kozhikode,Kozhikode Market,Coconut,Without Husk,2966,4019,3492
+2026-01-21,Ernakulam,Ernakulam Market,Coconut,Without Husk,3095,3996,3545
+2026-01-21,Palakkad,Palakkad Market,Coconut,Without Husk,2996,4043,3519
+2026-01-22,Kollam,Kollam Market,Tapioca,Raw,1417,2476,1946
+2026-01-22,Trivandrum,Trivandrum Market,Tapioca,Raw,1422,2416,1919
+2026-01-22,Ernakulam,Ernakulam Market,Tapioca,Raw,1508,2443,1975
+2026-01-22,Kottayam,Kottayam Market,Tapioca,Raw,1422,2490,1956
+2026-01-22,Alappuzha,Alappuzha Market,Coconut,Without Husk,3017,3951,3484
+2026-01-22,Kozhikode,Kozhikode Market,Coconut,Without Husk,3076,3968,3522
+2026-01-22,Ernakulam,Ernakulam Market,Coconut,Without Husk,2943,4007,3475
+2026-01-22,Palakkad,Palakkad Market,Coconut,Without Husk,2927,3927,3427
+2026-01-23,Kollam,Kollam Market,Tapioca,Raw,1437,2586,2011
+2026-01-23,Trivandrum,Trivandrum Market,Tapioca,Raw,1590,2533,2061
+2026-01-23,Ernakulam,Ernakulam Market,Tapioca,Raw,1582,2491,2036
+2026-01-23,Kottayam,Kottayam Market,Tapioca,Raw,1401,2520,1960
+2026-01-23,Alappuzha,Alappuzha Market,Coconut,Without Husk,2907,3911,3409
+2026-01-23,Kozhikode,Kozhikode Market,Coconut,Without Husk,3048,3909,3478
+2026-01-23,Ernakulam,Ernakulam Market,Coconut,Without Husk,2958,3927,3442
+2026-01-23,Palakkad,Palakkad Market,Coconut,Without Husk,3022,3954,3488
+2026-01-24,Kollam,Kollam Market,Tapioca,Raw,1470,2457,1963
+2026-01-24,Trivandrum,Trivandrum Market,Tapioca,Raw,1455,2430,1942
+2026-01-24,Ernakulam,Ernakulam Market,Tapioca,Raw,1499,2598,2048
+2026-01-24,Kottayam,Kottayam Market,Tapioca,Raw,1444,2593,2018
+2026-01-24,Alappuzha,Alappuzha Market,Coconut,Without Husk,3084,4092,3588
+2026-01-24,Kozhikode,Kozhikode Market,Coconut,Without Husk,2971,4041,3506
+2026-01-24,Ernakulam,Ernakulam Market,Coconut,Without Husk,2975,4058,3516
+2026-01-24,Palakkad,Palakkad Market,Coconut,Without Husk,2984,4051,3517
+2026-01-25,Kollam,Kollam Market,Tapioca,Raw,1535,2454,1994
+2026-01-25,Trivandrum,Trivandrum Market,Tapioca,Raw,1476,2557,2016
+2026-01-25,Ernakulam,Ernakulam Market,Tapioca,Raw,1586,2498,2042
+2026-01-25,Kottayam,Kottayam Market,Tapioca,Raw,1434,2497,1965
+2026-01-25,Alappuzha,Alappuzha Market,Coconut,Without Husk,3096,3949,3522
+2026-01-25,Kozhikode,Kozhikode Market,Coconut,Without Husk,3029,4030,3529
+2026-01-25,Ernakulam,Ernakulam Market,Coconut,Without Husk,3056,4032,3544
+2026-01-25,Palakkad,Palakkad Market,Coconut,Without Husk,3054,4089,3571
+2026-01-26,Kollam,Kollam Market,Tapioca,Raw,1593,2490,2041
+2026-01-26,Trivandrum,Trivandrum Market,Tapioca,Raw,1494,2405,1949
+2026-01-26,Ernakulam,Ernakulam Market,Tapioca,Raw,1467,2571,2019
+2026-01-26,Kottayam,Kottayam Market,Tapioca,Raw,1566,2564,2065
+2026-01-26,Alappuzha,Alappuzha Market,Coconut,Without Husk,3012,3964,3488
+2026-01-26,Kozhikode,Kozhikode Market,Coconut,Without Husk,2919,4020,3469
+2026-01-26,Ernakulam,Ernakulam Market,Coconut,Without Husk,2971,3902,3436
+2026-01-26,Palakkad,Palakkad Market,Coconut,Without Husk,3013,3991,3502
+2026-01-27,Kollam,Kollam Market,Tapioca,Raw,1579,2456,2017
+2026-01-27,Trivandrum,Trivandrum Market,Tapioca,Raw,1458,2437,1947
+2026-01-27,Ernakulam,Ernakulam Market,Tapioca,Raw,1438,2534,1986
+2026-01-27,Kottayam,Kottayam Market,Tapioca,Raw,1577,2583,2080
+2026-01-27,Alappuzha,Alappuzha Market,Coconut,Without Husk,2924,3999,3461
+2026-01-27,Kozhikode,Kozhikode Market,Coconut,Without Husk,3074,3938,3506
+2026-01-27,Ernakulam,Ernakulam Market,Coconut,Without Husk,2906,3915,3410
+2026-01-27,Palakkad,Palakkad Market,Coconut,Without Husk,2966,3975,3470
+2026-01-28,Kollam,Kollam Market,Tapioca,Raw,1467,2441,1954
+2026-01-28,Trivandrum,Trivandrum Market,Tapioca,Raw,1490,2530,2010
+2026-01-28,Ernakulam,Ernakulam Market,Tapioca,Raw,1542,2439,1990
+2026-01-28,Kottayam,Kottayam Market,Tapioca,Raw,1553,2458,2005
+2026-01-28,Alappuzha,Alappuzha Market,Coconut,Without Husk,2953,4024,3488
+2026-01-28,Kozhikode,Kozhikode Market,Coconut,Without Husk,2931,3930,3430
+2026-01-28,Ernakulam,Ernakulam Market,Coconut,Without Husk,2902,3950,3426
+2026-01-28,Palakkad,Palakkad Market,Coconut,Without Husk,2932,4100,3516
+2026-01-29,Kollam,Kollam Market,Tapioca,Raw,1469,2530,1999
+2026-01-29,Trivandrum,Trivandrum Market,Tapioca,Raw,1501,2490,1995
+2026-01-29,Ernakulam,Ernakulam Market,Tapioca,Raw,1573,2438,2005
+2026-01-29,Kottayam,Kottayam Market,Tapioca,Raw,1582,2544,2063
+2026-01-29,Alappuzha,Alappuzha Market,Coconut,Without Husk,3031,4001,3516
+2026-01-29,Kozhikode,Kozhikode Market,Coconut,Without Husk,2952,4093,3522
+2026-01-29,Ernakulam,Ernakulam Market,Coconut,Without Husk,2906,4092,3499
+2026-01-29,Palakkad,Palakkad Market,Coconut,Without Husk,3067,4011,3539
+2026-01-30,Kollam,Kollam Market,Tapioca,Raw,1586,2404,1995
+2026-01-30,Trivandrum,Trivandrum Market,Tapioca,Raw,1494,2588,2041
+2026-01-30,Ernakulam,Ernakulam Market,Tapioca,Raw,1589,2487,2038
+2026-01-30,Kottayam,Kottayam Market,Tapioca,Raw,1562,2426,1994
+2026-01-30,Alappuzha,Alappuzha Market,Coconut,Without Husk,3004,4038,3521
+2026-01-30,Kozhikode,Kozhikode Market,Coconut,Without Husk,3004,3986,3495
+2026-01-30,Ernakulam,Ernakulam Market,Coconut,Without Husk,3060,3988,3524
+2026-01-30,Palakkad,Palakkad Market,Coconut,Without Husk,3001,3902,3451
+2026-01-31,Kollam,Kollam Market,Tapioca,Raw,1594,2477,2035
+2026-01-31,Trivandrum,Trivandrum Market,Tapioca,Raw,1533,2441,1987
+2026-01-31,Ernakulam,Ernakulam Market,Tapioca,Raw,1508,2574,2041
+2026-01-31,Kottayam,Kottayam Market,Tapioca,Raw,1525,2470,1997
+2026-01-31,Alappuzha,Alappuzha Market,Coconut,Without Husk,2970,3945,3457
+2026-01-31,Kozhikode,Kozhikode Market,Coconut,Without Husk,3082,3934,3508
+2026-01-31,Ernakulam,Ernakulam Market,Coconut,Without Husk,3088,3960,3524
+2026-01-31,Palakkad,Palakkad Market,Coconut,Without Husk,2999,3975,3487
+2026-02-01,Kollam,Kollam Market,Tapioca,Raw,1443,2467,1955
+2026-02-01,Trivandrum,Trivandrum Market,Tapioca,Raw,1433,2552,1992
+2026-02-01,Ernakulam,Ernakulam Market,Tapioca,Raw,1465,2404,1934
+2026-02-01,Kottayam,Kottayam Market,Tapioca,Raw,1492,2440,1966
+2026-02-01,Alappuzha,Alappuzha Market,Coconut,Without Husk,2984,4023,3503
+2026-02-01,Kozhikode,Kozhikode Market,Coconut,Without Husk,3058,4023,3540
+2026-02-01,Ernakulam,Ernakulam Market,Coconut,Without Husk,3053,3987,3520
+2026-02-01,Palakkad,Palakkad Market,Coconut,Without Husk,3003,4017,3510
+2026-02-02,Kollam,Kollam Market,Tapioca,Raw,1567,2530,2048
+2026-02-02,Trivandrum,Trivandrum Market,Tapioca,Raw,1406,2535,1970
+2026-02-02,Ernakulam,Ernakulam Market,Tapioca,Raw,1423,2587,2005
+2026-02-02,Kottayam,Kottayam Market,Tapioca,Raw,1548,2594,2071
+2026-02-02,Alappuzha,Alappuzha Market,Coconut,Without Husk,3074,4069,3571
+2026-02-02,Kozhikode,Kozhikode Market,Coconut,Without Husk,2992,3952,3472
+2026-02-02,Ernakulam,Ernakulam Market,Coconut,Without Husk,2996,3929,3462
+2026-02-02,Palakkad,Palakkad Market,Coconut,Without Husk,2974,4065,3519
+2026-02-03,Kollam,Kollam Market,Tapioca,Raw,1562,2428,1995
+2026-02-03,Trivandrum,Trivandrum Market,Tapioca,Raw,1507,2488,1997
+2026-02-03,Ernakulam,Ernakulam Market,Tapioca,Raw,1496,2502,1999
+2026-02-03,Kottayam,Kottayam Market,Tapioca,Raw,1527,2450,1988
+2026-02-03,Alappuzha,Alappuzha Market,Coconut,Without Husk,2948,3968,3458
+2026-02-03,Kozhikode,Kozhikode Market,Coconut,Without Husk,3064,3923,3493
+2026-02-03,Ernakulam,Ernakulam Market,Coconut,Without Husk,3030,3966,3498
+2026-02-03,Palakkad,Palakkad Market,Coconut,Without Husk,2982,3940,3461
+2026-02-04,Kollam,Kollam Market,Tapioca,Raw,1486,2450,1968
+2026-02-04,Trivandrum,Trivandrum Market,Tapioca,Raw,1428,2554,1991
+2026-02-04,Ernakulam,Ernakulam Market,Tapioca,Raw,1467,2421,1944
+2026-02-04,Kottayam,Kottayam Market,Tapioca,Raw,1553,2452,2002
+2026-02-04,Alappuzha,Alappuzha Market,Coconut,Without Husk,3085,3923,3504
+2026-02-04,Kozhikode,Kozhikode Market,Coconut,Without Husk,2925,4004,3464
+2026-02-04,Ernakulam,Ernakulam Market,Coconut,Without Husk,3081,4063,3572
+2026-02-04,Palakkad,Palakkad Market,Coconut,Without Husk,2952,4007,3479
+2026-02-05,Kollam,Kollam Market,Tapioca,Raw,1493,2496,1994
+2026-02-05,Trivandrum,Trivandrum Market,Tapioca,Raw,1445,2425,1935
+2026-02-05,Ernakulam,Ernakulam Market,Tapioca,Raw,1413,2596,2004
+2026-02-05,Kottayam,Kottayam Market,Tapioca,Raw,1551,2499,2025
+2026-02-05,Alappuzha,Alappuzha Market,Coconut,Without Husk,3057,3942,3499
+2026-02-05,Kozhikode,Kozhikode Market,Coconut,Without Husk,2984,4046,3515
+2026-02-05,Ernakulam,Ernakulam Market,Coconut,Without Husk,3095,4017,3556
+2026-02-05,Palakkad,Palakkad Market,Coconut,Without Husk,3026,3982,3504
+2026-02-06,Kollam,Kollam Market,Tapioca,Raw,1424,2493,1958
+2026-02-06,Trivandrum,Trivandrum Market,Tapioca,Raw,1469,2437,1953
+2026-02-06,Ernakulam,Ernakulam Market,Tapioca,Raw,1593,2600,2096
+2026-02-06,Kottayam,Kottayam Market,Tapioca,Raw,1417,2427,1922
+2026-02-06,Alappuzha,Alappuzha Market,Coconut,Without Husk,2909,3940,3424
+2026-02-06,Kozhikode,Kozhikode Market,Coconut,Without Husk,2900,3970,3435
+2026-02-06,Ernakulam,Ernakulam Market,Coconut,Without Husk,3040,3921,3480
+2026-02-06,Palakkad,Palakkad Market,Coconut,Without Husk,3000,4025,3512
+2026-02-07,Kollam,Kollam Market,Tapioca,Raw,1514,2487,2000
+2026-02-07,Trivandrum,Trivandrum Market,Tapioca,Raw,1412,2472,1942
+2026-02-07,Ernakulam,Ernakulam Market,Tapioca,Raw,1556,2484,2020
+2026-02-07,Kottayam,Kottayam Market,Tapioca,Raw,1420,2500,1960
+2026-02-07,Alappuzha,Alappuzha Market,Coconut,Without Husk,2924,3919,3421
+2026-02-07,Kozhikode,Kozhikode Market,Coconut,Without Husk,3001,3927,3464
+2026-02-07,Ernakulam,Ernakulam Market,Coconut,Without Husk,3035,3933,3484
+2026-02-07,Palakkad,Palakkad Market,Coconut,Without Husk,2983,4039,3511
+2026-02-08,Kollam,Kollam Market,Tapioca,Raw,1483,2485,1984
+2026-02-08,Trivandrum,Trivandrum Market,Tapioca,Raw,1501,2597,2049
+2026-02-08,Ernakulam,Ernakulam Market,Tapioca,Raw,1437,2425,1931
+2026-02-08,Kottayam,Kottayam Market,Tapioca,Raw,1416,2503,1959
+2026-02-08,Alappuzha,Alappuzha Market,Coconut,Without Husk,2930,3962,3446
+2026-02-08,Kozhikode,Kozhikode Market,Coconut,Without Husk,3012,4018,3515
+2026-02-08,Ernakulam,Ernakulam Market,Coconut,Without Husk,2972,4078,3525
+2026-02-08,Palakkad,Palakkad Market,Coconut,Without Husk,2996,4008,3502
+2026-02-09,Kollam,Kollam Market,Tapioca,Raw,1554,2542,2048
+2026-02-09,Trivandrum,Trivandrum Market,Tapioca,Raw,1414,2589,2001
+2026-02-09,Ernakulam,Ernakulam Market,Tapioca,Raw,1470,2548,2009
+2026-02-09,Kottayam,Kottayam Market,Tapioca,Raw,1528,2584,2056
+2026-02-09,Alappuzha,Alappuzha Market,Coconut,Without Husk,2906,4089,3497
+2026-02-09,Kozhikode,Kozhikode Market,Coconut,Without Husk,2985,3925,3455
+2026-02-09,Ernakulam,Ernakulam Market,Coconut,Without Husk,3078,4044,3561
+2026-02-09,Palakkad,Palakkad Market,Coconut,Without Husk,2955,4026,3490
+2026-02-10,Kollam,Kollam Market,Tapioca,Raw,1455,2537,1996
+2026-02-10,Trivandrum,Trivandrum Market,Tapioca,Raw,1553,2553,2053
+2026-02-10,Ernakulam,Ernakulam Market,Tapioca,Raw,1509,2515,2012
+2026-02-10,Kottayam,Kottayam Market,Tapioca,Raw,1539,2598,2068
+2026-02-10,Alappuzha,Alappuzha Market,Coconut,Without Husk,3019,3925,3472
+2026-02-10,Kozhikode,Kozhikode Market,Coconut,Without Husk,2923,4086,3504
+2026-02-10,Ernakulam,Ernakulam Market,Coconut,Without Husk,2910,3970,3440
+2026-02-10,Palakkad,Palakkad Market,Coconut,Without Husk,2927,3950,3438
+2026-02-11,Kollam,Kollam Market,Tapioca,Raw,1422,2480,1951
+2026-02-11,Trivandrum,Trivandrum Market,Tapioca,Raw,1407,2449,1928
+2026-02-11,Ernakulam,Ernakulam Market,Tapioca,Raw,1559,2443,2001
+2026-02-11,Kottayam,Kottayam Market,Tapioca,Raw,1505,2497,2001
+2026-02-11,Alappuzha,Alappuzha Market,Coconut,Without Husk,3045,4056,3550
+2026-02-11,Kozhikode,Kozhikode Market,Coconut,Without Husk,2911,4018,3464
+2026-02-11,Ernakulam,Ernakulam Market,Coconut,Without Husk,2900,3931,3415
+2026-02-11,Palakkad,Palakkad Market,Coconut,Without Husk,3049,3987,3518
+2026-02-12,Kollam,Kollam Market,Tapioca,Raw,1566,2561,2063
+2026-02-12,Trivandrum,Trivandrum Market,Tapioca,Raw,1549,2503,2026
+2026-02-12,Ernakulam,Ernakulam Market,Tapioca,Raw,1576,2431,2003
+2026-02-12,Kottayam,Kottayam Market,Tapioca,Raw,1457,2429,1943
+2026-02-12,Alappuzha,Alappuzha Market,Coconut,Without Husk,2939,4087,3513
+2026-02-12,Kozhikode,Kozhikode Market,Coconut,Without Husk,2972,4085,3528
+2026-02-12,Ernakulam,Ernakulam Market,Coconut,Without Husk,2958,4027,3492
+2026-02-12,Palakkad,Palakkad Market,Coconut,Without Husk,3094,3960,3527
+2026-02-13,Kollam,Kollam Market,Tapioca,Raw,1571,2575,2073
+2026-02-13,Trivandrum,Trivandrum Market,Tapioca,Raw,1579,2523,2051
+2026-02-13,Ernakulam,Ernakulam Market,Tapioca,Raw,1478,2433,1955
+2026-02-13,Kottayam,Kottayam Market,Tapioca,Raw,1513,2592,2052
+2026-02-13,Alappuzha,Alappuzha Market,Coconut,Without Husk,2980,3966,3473
+2026-02-13,Kozhikode,Kozhikode Market,Coconut,Without Husk,3042,4007,3524
+2026-02-13,Ernakulam,Ernakulam Market,Coconut,Without Husk,3022,3924,3473
+2026-02-13,Palakkad,Palakkad Market,Coconut,Without Husk,3010,4032,3521
+2026-02-14,Kollam,Kollam Market,Tapioca,Raw,1500,2440,1970
+2026-02-14,Trivandrum,Trivandrum Market,Tapioca,Raw,1535,2456,1995
+2026-02-14,Ernakulam,Ernakulam Market,Tapioca,Raw,1546,2492,2019
+2026-02-14,Kottayam,Kottayam Market,Tapioca,Raw,1598,2596,2097
+2026-02-14,Alappuzha,Alappuzha Market,Coconut,Without Husk,3083,3951,3517
+2026-02-14,Kozhikode,Kozhikode Market,Coconut,Without Husk,2953,3903,3428
+2026-02-14,Ernakulam,Ernakulam Market,Coconut,Without Husk,3026,4097,3561
+2026-02-14,Palakkad,Palakkad Market,Coconut,Without Husk,3047,3951,3499
+2026-02-15,Kollam,Kollam Market,Tapioca,Raw,1423,2584,2003
+2026-02-15,Trivandrum,Trivandrum Market,Tapioca,Raw,1468,2567,2017
+2026-02-15,Ernakulam,Ernakulam Market,Tapioca,Raw,1447,2465,1956
+2026-02-15,Kottayam,Kottayam Market,Tapioca,Raw,1576,2462,2019
+2026-02-15,Alappuzha,Alappuzha Market,Coconut,Without Husk,3070,3968,3519
+2026-02-15,Kozhikode,Kozhikode Market,Coconut,Without Husk,3006,3952,3479
+2026-02-15,Ernakulam,Ernakulam Market,Coconut,Without Husk,3100,4100,3600
+2026-02-15,Palakkad,Palakkad Market,Coconut,Without Husk,3007,3903,3455
+2026-02-16,Kollam,Kollam Market,Tapioca,Raw,1532,2543,2037
+2026-02-16,Trivandrum,Trivandrum Market,Tapioca,Raw,1419,2589,2004
+2026-02-16,Ernakulam,Ernakulam Market,Tapioca,Raw,1478,2403,1940
+2026-02-16,Kottayam,Kottayam Market,Tapioca,Raw,1567,2453,2010
+2026-02-16,Alappuzha,Alappuzha Market,Coconut,Without Husk,3021,4078,3549
+2026-02-16,Kozhikode,Kozhikode Market,Coconut,Without Husk,2900,3968,3434
+2026-02-16,Ernakulam,Ernakulam Market,Coconut,Without Husk,3067,4046,3556
+2026-02-16,Palakkad,Palakkad Market,Coconut,Without Husk,3033,4057,3545
+2026-02-17,Kollam,Kollam Market,Tapioca,Raw,1411,2522,1966
+2026-02-17,Trivandrum,Trivandrum Market,Tapioca,Raw,1585,2550,2067
+2026-02-17,Ernakulam,Ernakulam Market,Tapioca,Raw,1581,2455,2018
+2026-02-17,Kottayam,Kottayam Market,Tapioca,Raw,1502,2478,1990
+2026-02-17,Alappuzha,Alappuzha Market,Coconut,Without Husk,3087,4092,3589
+2026-02-17,Kozhikode,Kozhikode Market,Coconut,Without Husk,3084,3954,3519
+2026-02-17,Ernakulam,Ernakulam Market,Coconut,Without Husk,2967,4017,3492
+2026-02-17,Palakkad,Palakkad Market,Coconut,Without Husk,2932,4035,3483
+2026-02-18,Kollam,Kollam Market,Tapioca,Raw,1418,2456,1937
+2026-02-18,Trivandrum,Trivandrum Market,Tapioca,Raw,1402,2401,1901
+2026-02-18,Ernakulam,Ernakulam Market,Tapioca,Raw,1453,2500,1976
+2026-02-18,Kottayam,Kottayam Market,Tapioca,Raw,1484,2539,2011
+2026-02-18,Alappuzha,Alappuzha Market,Coconut,Without Husk,2919,3985,3452
+2026-02-18,Kozhikode,Kozhikode Market,Coconut,Without Husk,2901,4016,3458
+2026-02-18,Ernakulam,Ernakulam Market,Coconut,Without Husk,3084,4011,3547
+2026-02-18,Palakkad,Palakkad Market,Coconut,Without Husk,2911,3962,3436
+2026-02-19,Kollam,Kollam Market,Tapioca,Raw,1459,2481,1970
+2026-02-19,Trivandrum,Trivandrum Market,Tapioca,Raw,1481,2479,1980
+2026-02-19,Ernakulam,Ernakulam Market,Tapioca,Raw,1498,2481,1989
+2026-02-19,Kottayam,Kottayam Market,Tapioca,Raw,1482,2429,1955
+2026-02-19,Alappuzha,Alappuzha Market,Coconut,Without Husk,3074,3920,3497
+2026-02-19,Kozhikode,Kozhikode Market,Coconut,Without Husk,3078,3976,3527
+2026-02-19,Ernakulam,Ernakulam Market,Coconut,Without Husk,3029,4034,3531
+2026-02-19,Palakkad,Palakkad Market,Coconut,Without Husk,2929,3977,3453
+2026-02-20,Kollam,Kollam Market,Tapioca,Raw,1486,2514,2000
+2026-02-20,Trivandrum,Trivandrum Market,Tapioca,Raw,1464,2597,2030
+2026-02-20,Ernakulam,Ernakulam Market,Tapioca,Raw,1565,2596,2080
+2026-02-20,Kottayam,Kottayam Market,Tapioca,Raw,1538,2419,1978
+2026-02-20,Alappuzha,Alappuzha Market,Coconut,Without Husk,2988,3978,3483
+2026-02-20,Kozhikode,Kozhikode Market,Coconut,Without Husk,3082,4050,3566
+2026-02-20,Ernakulam,Ernakulam Market,Coconut,Without Husk,3021,3931,3476
+2026-02-20,Palakkad,Palakkad Market,Coconut,Without Husk,2985,4065,3525
+2026-02-21,Kollam,Kollam Market,Tapioca,Raw,1540,2466,2003
+2026-02-21,Trivandrum,Trivandrum Market,Tapioca,Raw,1521,2409,1965
+2026-02-21,Ernakulam,Ernakulam Market,Tapioca,Raw,1583,2467,2025
+2026-02-21,Kottayam,Kottayam Market,Tapioca,Raw,1446,2454,1950
+2026-02-21,Alappuzha,Alappuzha Market,Coconut,Without Husk,2925,3991,3458
+2026-02-21,Kozhikode,Kozhikode Market,Coconut,Without Husk,3100,4059,3579
+2026-02-21,Ernakulam,Ernakulam Market,Coconut,Without Husk,3096,4023,3559
+2026-02-21,Palakkad,Palakkad Market,Coconut,Without Husk,3044,4091,3567
+2026-02-22,Kollam,Kollam Market,Tapioca,Raw,1506,2597,2051
+2026-02-22,Trivandrum,Trivandrum Market,Tapioca,Raw,1438,2481,1959
+2026-02-22,Ernakulam,Ernakulam Market,Tapioca,Raw,1508,2512,2010
+2026-02-22,Kottayam,Kottayam Market,Tapioca,Raw,1468,2402,1935
+2026-02-22,Alappuzha,Alappuzha Market,Coconut,Without Husk,3008,3976,3492
+2026-02-22,Kozhikode,Kozhikode Market,Coconut,Without Husk,2957,4069,3513
+2026-02-22,Ernakulam,Ernakulam Market,Coconut,Without Husk,2944,3903,3423
+2026-02-22,Palakkad,Palakkad Market,Coconut,Without Husk,3051,4040,3545
+2026-02-23,Kollam,Kollam Market,Tapioca,Raw,1462,2575,2018
+2026-02-23,Trivandrum,Trivandrum Market,Tapioca,Raw,1426,2473,1949
+2026-02-23,Ernakulam,Ernakulam Market,Tapioca,Raw,1484,2416,1950
+2026-02-23,Kottayam,Kottayam Market,Tapioca,Raw,1441,2583,2012
+2026-02-23,Alappuzha,Alappuzha Market,Coconut,Without Husk,2974,4029,3501
+2026-02-23,Kozhikode,Kozhikode Market,Coconut,Without Husk,3087,3997,3542
+2026-02-23,Ernakulam,Ernakulam Market,Coconut,Without Husk,3000,3908,3454
+2026-02-23,Palakkad,Palakkad Market,Coconut,Without Husk,2900,4030,3465
+2026-02-24,Kollam,Kollam Market,Tapioca,Raw,1411,2457,1934
+2026-02-24,Trivandrum,Trivandrum Market,Tapioca,Raw,1509,2536,2022
+2026-02-24,Ernakulam,Ernakulam Market,Tapioca,Raw,1487,2417,1952
+2026-02-24,Kottayam,Kottayam Market,Tapioca,Raw,1419,2600,2009
+2026-02-24,Alappuzha,Alappuzha Market,Coconut,Without Husk,3040,3939,3489
+2026-02-24,Kozhikode,Kozhikode Market,Coconut,Without Husk,2966,3910,3438
+2026-02-24,Ernakulam,Ernakulam Market,Coconut,Without Husk,2995,4064,3529
+2026-02-24,Palakkad,Palakkad Market,Coconut,Without Husk,3085,4011,3548
+2026-02-25,Kollam,Kollam Market,Tapioca,Raw,1558,2493,2025
+2026-02-25,Trivandrum,Trivandrum Market,Tapioca,Raw,1572,2425,1998
+2026-02-25,Ernakulam,Ernakulam Market,Tapioca,Raw,1573,2410,1991
+2026-02-25,Kottayam,Kottayam Market,Tapioca,Raw,1431,2562,1996
+2026-02-25,Alappuzha,Alappuzha Market,Coconut,Without Husk,2982,4090,3536
+2026-02-25,Kozhikode,Kozhikode Market,Coconut,Without Husk,3037,3976,3506
+2026-02-25,Ernakulam,Ernakulam Market,Coconut,Without Husk,3036,3982,3509
+2026-02-25,Palakkad,Palakkad Market,Coconut,Without Husk,2983,3918,3450
+2026-02-26,Kollam,Kollam Market,Tapioca,Raw,1590,2425,2007
+2026-02-26,Trivandrum,Trivandrum Market,Tapioca,Raw,1401,2585,1993
+2026-02-26,Ernakulam,Ernakulam Market,Tapioca,Raw,1592,2561,2076
+2026-02-26,Kottayam,Kottayam Market,Tapioca,Raw,1530,2552,2041
+2026-02-26,Alappuzha,Alappuzha Market,Coconut,Without Husk,3021,4083,3552
+2026-02-26,Kozhikode,Kozhikode Market,Coconut,Without Husk,2942,4004,3473
+2026-02-26,Ernakulam,Ernakulam Market,Coconut,Without Husk,2908,3900,3404
+2026-02-26,Palakkad,Palakkad Market,Coconut,Without Husk,2933,3998,3465
+2026-02-27,Kollam,Kollam Market,Tapioca,Raw,1546,2537,2041
+2026-02-27,Trivandrum,Trivandrum Market,Tapioca,Raw,1408,2592,2000
+2026-02-27,Ernakulam,Ernakulam Market,Tapioca,Raw,1547,2441,1994
+2026-02-27,Kottayam,Kottayam Market,Tapioca,Raw,1407,2468,1937
+2026-02-27,Alappuzha,Alappuzha Market,Coconut,Without Husk,2925,4014,3469
+2026-02-27,Kozhikode,Kozhikode Market,Coconut,Without Husk,3042,3900,3471
+2026-02-27,Ernakulam,Ernakulam Market,Coconut,Without Husk,3031,3936,3483
+2026-02-27,Palakkad,Palakkad Market,Coconut,Without Husk,2952,4014,3483
+2026-02-28,Kollam,Kollam Market,Tapioca,Raw,1585,2522,2053
+2026-02-28,Trivandrum,Trivandrum Market,Tapioca,Raw,1439,2449,1944
+2026-02-28,Ernakulam,Ernakulam Market,Tapioca,Raw,1469,2498,1983
+2026-02-28,Kottayam,Kottayam Market,Tapioca,Raw,1406,2571,1988
+2026-02-28,Alappuzha,Alappuzha Market,Coconut,Without Husk,2954,4025,3489
+2026-02-28,Kozhikode,Kozhikode Market,Coconut,Without Husk,3018,4043,3530
+2026-02-28,Ernakulam,Ernakulam Market,Coconut,Without Husk,2988,3972,3480
+2026-02-28,Palakkad,Palakkad Market,Coconut,Without Husk,3093,4036,3564
+2026-03-01,Kollam,Kollam Market,Tapioca,Raw,1588,2407,1997
+2026-03-01,Trivandrum,Trivandrum Market,Tapioca,Raw,1507,2498,2002
+2026-03-01,Ernakulam,Ernakulam Market,Tapioca,Raw,1483,2504,1993
+2026-03-01,Kottayam,Kottayam Market,Tapioca,Raw,1558,2560,2059
+2026-03-01,Alappuzha,Alappuzha Market,Coconut,Without Husk,3092,3916,3504
+2026-03-01,Kozhikode,Kozhikode Market,Coconut,Without Husk,3020,4059,3539
+2026-03-01,Ernakulam,Ernakulam Market,Coconut,Without Husk,2986,3946,3466
+2026-03-01,Palakkad,Palakkad Market,Coconut,Without Husk,3029,3918,3473
+2026-03-02,Kollam,Kollam Market,Tapioca,Raw,1526,2519,2022
+2026-03-02,Trivandrum,Trivandrum Market,Tapioca,Raw,1431,2415,1923
+2026-03-02,Ernakulam,Ernakulam Market,Tapioca,Raw,1551,2518,2034
+2026-03-02,Kottayam,Kottayam Market,Tapioca,Raw,1474,2578,2026
+2026-03-02,Alappuzha,Alappuzha Market,Coconut,Without Husk,3028,3974,3501
+2026-03-02,Kozhikode,Kozhikode Market,Coconut,Without Husk,2963,3989,3476
+2026-03-02,Ernakulam,Ernakulam Market,Coconut,Without Husk,3081,3923,3502
+2026-03-02,Palakkad,Palakkad Market,Coconut,Without Husk,3025,4000,3512
+2026-03-03,Kollam,Kollam Market,Tapioca,Raw,1471,2589,2030
+2026-03-03,Trivandrum,Trivandrum Market,Tapioca,Raw,1476,2410,1943
+2026-03-03,Ernakulam,Ernakulam Market,Tapioca,Raw,1592,2469,2030
+2026-03-03,Kottayam,Kottayam Market,Tapioca,Raw,1576,2517,2046
+2026-03-03,Alappuzha,Alappuzha Market,Coconut,Without Husk,3033,3935,3484
+2026-03-03,Kozhikode,Kozhikode Market,Coconut,Without Husk,2967,4028,3497
+2026-03-03,Ernakulam,Ernakulam Market,Coconut,Without Husk,3031,4024,3527
+2026-03-03,Palakkad,Palakkad Market,Coconut,Without Husk,2916,3988,3452
+2026-03-04,Kollam,Kollam Market,Tapioca,Raw,1538,2460,1999
+2026-03-04,Trivandrum,Trivandrum Market,Tapioca,Raw,1595,2423,2009
+2026-03-04,Ernakulam,Ernakulam Market,Tapioca,Raw,1443,2471,1957
+2026-03-04,Kottayam,Kottayam Market,Tapioca,Raw,1435,2419,1927
+2026-03-04,Alappuzha,Alappuzha Market,Coconut,Without Husk,2957,4046,3501
+2026-03-04,Kozhikode,Kozhikode Market,Coconut,Without Husk,3070,3923,3496
+2026-03-04,Ernakulam,Ernakulam Market,Coconut,Without Husk,2983,3994,3488
+2026-03-04,Palakkad,Palakkad Market,Coconut,Without Husk,3001,4002,3501
+2026-03-05,Kollam,Kollam Market,Tapioca,Raw,1433,2529,1981
+2026-03-05,Trivandrum,Trivandrum Market,Tapioca,Raw,1519,2559,2039
+2026-03-05,Ernakulam,Ernakulam Market,Tapioca,Raw,1486,2562,2024
+2026-03-05,Kottayam,Kottayam Market,Tapioca,Raw,1524,2483,2003
+2026-03-05,Alappuzha,Alappuzha Market,Coconut,Without Husk,3069,3969,3519
+2026-03-05,Kozhikode,Kozhikode Market,Coconut,Without Husk,3019,3939,3479
+2026-03-05,Ernakulam,Ernakulam Market,Coconut,Without Husk,3009,3938,3473
+2026-03-05,Palakkad,Palakkad Market,Coconut,Without Husk,3092,3948,3520
+2026-03-06,Kollam,Kollam Market,Tapioca,Raw,1530,2524,2027
+2026-03-06,Trivandrum,Trivandrum Market,Tapioca,Raw,1401,2550,1975
+2026-03-06,Ernakulam,Ernakulam Market,Tapioca,Raw,1403,2540,1971
+2026-03-06,Kottayam,Kottayam Market,Tapioca,Raw,1558,2496,2027
+2026-03-06,Alappuzha,Alappuzha Market,Coconut,Without Husk,3038,3978,3508
+2026-03-06,Kozhikode,Kozhikode Market,Coconut,Without Husk,3027,3945,3486
+2026-03-06,Ernakulam,Ernakulam Market,Coconut,Without Husk,3044,4041,3542
+2026-03-06,Palakkad,Palakkad Market,Coconut,Without Husk,3001,3974,3487
+2026-03-07,Kollam,Kollam Market,Tapioca,Raw,1517,2502,2009
+2026-03-07,Trivandrum,Trivandrum Market,Tapioca,Raw,1413,2535,1974
+2026-03-07,Ernakulam,Ernakulam Market,Tapioca,Raw,1432,2422,1927
+2026-03-07,Kottayam,Kottayam Market,Tapioca,Raw,1568,2530,2049
+2026-03-07,Alappuzha,Alappuzha Market,Coconut,Without Husk,2969,4094,3531
+2026-03-07,Kozhikode,Kozhikode Market,Coconut,Without Husk,3062,4048,3555
+2026-03-07,Ernakulam,Ernakulam Market,Coconut,Without Husk,3015,4010,3512
+2026-03-07,Palakkad,Palakkad Market,Coconut,Without Husk,3057,4086,3571
+2026-03-08,Kollam,Kollam Market,Tapioca,Raw,1510,2544,2027
+2026-03-08,Trivandrum,Trivandrum Market,Tapioca,Raw,1515,2411,1963
+2026-03-08,Ernakulam,Ernakulam Market,Tapioca,Raw,1579,2584,2081
+2026-03-08,Kottayam,Kottayam Market,Tapioca,Raw,1430,2416,1923
+2026-03-08,Alappuzha,Alappuzha Market,Coconut,Without Husk,3064,4055,3559
+2026-03-08,Kozhikode,Kozhikode Market,Coconut,Without Husk,3092,4071,3581
+2026-03-08,Ernakulam,Ernakulam Market,Coconut,Without Husk,3096,4075,3585
+2026-03-08,Palakkad,Palakkad Market,Coconut,Without Husk,2906,3921,3413
+2026-03-09,Kollam,Kollam Market,Tapioca,Raw,1580,2553,2066
+2026-03-09,Trivandrum,Trivandrum Market,Tapioca,Raw,1481,2572,2026
+2026-03-09,Ernakulam,Ernakulam Market,Tapioca,Raw,1414,2561,1987
+2026-03-09,Kottayam,Kottayam Market,Tapioca,Raw,1538,2506,2022
+2026-03-09,Alappuzha,Alappuzha Market,Coconut,Without Husk,3025,4067,3546
+2026-03-09,Kozhikode,Kozhikode Market,Coconut,Without Husk,3026,4035,3530
+2026-03-09,Ernakulam,Ernakulam Market,Coconut,Without Husk,2966,3941,3453
+2026-03-09,Palakkad,Palakkad Market,Coconut,Without Husk,3000,3921,3460
+2026-03-10,Kollam,Kollam Market,Tapioca,Raw,1592,2403,1997
+2026-03-10,Trivandrum,Trivandrum Market,Tapioca,Raw,1508,2508,2008
+2026-03-10,Ernakulam,Ernakulam Market,Tapioca,Raw,1540,2569,2054
+2026-03-10,Kottayam,Kottayam Market,Tapioca,Raw,1510,2590,2050
+2026-03-10,Alappuzha,Alappuzha Market,Coconut,Without Husk,3008,3919,3463
+2026-03-10,Kozhikode,Kozhikode Market,Coconut,Without Husk,2913,4001,3457
+2026-03-10,Ernakulam,Ernakulam Market,Coconut,Without Husk,3076,3982,3529
+2026-03-10,Palakkad,Palakkad Market,Coconut,Without Husk,2965,3930,3447
+2026-03-11,Kollam,Kollam Market,Tapioca,Raw,1590,2546,2068
+2026-03-11,Trivandrum,Trivandrum Market,Tapioca,Raw,1537,2489,2013
+2026-03-11,Ernakulam,Ernakulam Market,Tapioca,Raw,1504,2460,1982
+2026-03-11,Kottayam,Kottayam Market,Tapioca,Raw,1556,2487,2021
+2026-03-11,Alappuzha,Alappuzha Market,Coconut,Without Husk,2919,4053,3486
+2026-03-11,Kozhikode,Kozhikode Market,Coconut,Without Husk,2962,3992,3477
+2026-03-11,Ernakulam,Ernakulam Market,Coconut,Without Husk,2933,3925,3429
+2026-03-11,Palakkad,Palakkad Market,Coconut,Without Husk,3031,4000,3515
+2026-03-12,Kollam,Kollam Market,Tapioca,Raw,1430,2481,1955
+2026-03-12,Trivandrum,Trivandrum Market,Tapioca,Raw,1559,2554,2056
+2026-03-12,Ernakulam,Ernakulam Market,Tapioca,Raw,1504,2446,1975
+2026-03-12,Kottayam,Kottayam Market,Tapioca,Raw,1520,2456,1988
+2026-03-12,Alappuzha,Alappuzha Market,Coconut,Without Husk,3038,3913,3475
+2026-03-12,Kozhikode,Kozhikode Market,Coconut,Without Husk,3003,3911,3457
+2026-03-12,Ernakulam,Ernakulam Market,Coconut,Without Husk,3013,3931,3472
+2026-03-12,Palakkad,Palakkad Market,Coconut,Without Husk,3027,3911,3469
+2026-03-13,Kollam,Kollam Market,Tapioca,Raw,1492,2553,2022
+2026-03-13,Trivandrum,Trivandrum Market,Tapioca,Raw,1424,2518,1971
+2026-03-13,Ernakulam,Ernakulam Market,Tapioca,Raw,1448,2435,1941
+2026-03-13,Kottayam,Kottayam Market,Tapioca,Raw,1514,2596,2055
+2026-03-13,Alappuzha,Alappuzha Market,Coconut,Without Husk,2950,4015,3482
+2026-03-13,Kozhikode,Kozhikode Market,Coconut,Without Husk,2925,3962,3443
+2026-03-13,Ernakulam,Ernakulam Market,Coconut,Without Husk,3069,3977,3523
+2026-03-13,Palakkad,Palakkad Market,Coconut,Without Husk,2902,4013,3457
+2026-03-14,Kollam,Kollam Market,Tapioca,Raw,1447,2410,1928
+2026-03-14,Trivandrum,Trivandrum Market,Tapioca,Raw,1423,2568,1995
+2026-03-14,Ernakulam,Ernakulam Market,Tapioca,Raw,1445,2466,1955
+2026-03-14,Kottayam,Kottayam Market,Tapioca,Raw,1417,2490,1953
+2026-03-14,Alappuzha,Alappuzha Market,Coconut,Without Husk,2985,4070,3527
+2026-03-14,Kozhikode,Kozhikode Market,Coconut,Without Husk,2991,4030,3510
+2026-03-14,Ernakulam,Ernakulam Market,Coconut,Without Husk,3006,4085,3545
+2026-03-14,Palakkad,Palakkad Market,Coconut,Without Husk,2918,4051,3484
+2026-03-15,Kollam,Kollam Market,Tapioca,Raw,1479,2540,2009
+2026-03-15,Trivandrum,Trivandrum Market,Tapioca,Raw,1579,2510,2044
+2026-03-15,Ernakulam,Ernakulam Market,Tapioca,Raw,1584,2514,2049
+2026-03-15,Kottayam,Kottayam Market,Tapioca,Raw,1530,2403,1966
+2026-03-15,Alappuzha,Alappuzha Market,Coconut,Without Husk,3081,4050,3565
+2026-03-15,Kozhikode,Kozhikode Market,Coconut,Without Husk,3055,3996,3525
+2026-03-15,Ernakulam,Ernakulam Market,Coconut,Without Husk,3053,3903,3478
+2026-03-15,Palakkad,Palakkad Market,Coconut,Without Husk,3065,3945,3505
+2026-03-16,Kollam,Kollam Market,Tapioca,Raw,1579,2415,1997
+2026-03-16,Trivandrum,Trivandrum Market,Tapioca,Raw,1443,2563,2003
+2026-03-16,Ernakulam,Ernakulam Market,Tapioca,Raw,1534,2483,2008
+2026-03-16,Kottayam,Kottayam Market,Tapioca,Raw,1464,2468,1966
+2026-03-16,Alappuzha,Alappuzha Market,Coconut,Without Husk,3066,4083,3574
+2026-03-16,Kozhikode,Kozhikode Market,Coconut,Without Husk,3040,4025,3532
+2026-03-16,Ernakulam,Ernakulam Market,Coconut,Without Husk,2968,3952,3460
+2026-03-16,Palakkad,Palakkad Market,Coconut,Without Husk,2950,4076,3513
+2026-03-17,Kollam,Kollam Market,Tapioca,Raw,1570,2528,2049
+2026-03-17,Trivandrum,Trivandrum Market,Tapioca,Raw,1455,2550,2002
+2026-03-17,Ernakulam,Ernakulam Market,Tapioca,Raw,1420,2423,1921
+2026-03-17,Kottayam,Kottayam Market,Tapioca,Raw,1575,2497,2036
+2026-03-17,Alappuzha,Alappuzha Market,Coconut,Without Husk,3026,4017,3521
+2026-03-17,Kozhikode,Kozhikode Market,Coconut,Without Husk,3008,3903,3455
+2026-03-17,Ernakulam,Ernakulam Market,Coconut,Without Husk,2975,3958,3466
+2026-03-17,Palakkad,Palakkad Market,Coconut,Without Husk,3089,4091,3590
+2026-03-18,Kollam,Kollam Market,Tapioca,Raw,1463,2447,1955
+2026-03-18,Trivandrum,Trivandrum Market,Tapioca,Raw,1438,2537,1987
+2026-03-18,Ernakulam,Ernakulam Market,Tapioca,Raw,1580,2518,2049
+2026-03-18,Kottayam,Kottayam Market,Tapioca,Raw,1550,2439,1994
+2026-03-18,Alappuzha,Alappuzha Market,Coconut,Without Husk,3008,3993,3500
+2026-03-18,Kozhikode,Kozhikode Market,Coconut,Without Husk,2926,4004,3465
+2026-03-18,Ernakulam,Ernakulam Market,Coconut,Without Husk,2912,4096,3504
+2026-03-18,Palakkad,Palakkad Market,Coconut,Without Husk,2976,3907,3441
+2026-03-19,Kollam,Kollam Market,Tapioca,Raw,1598,2514,2056
+2026-03-19,Trivandrum,Trivandrum Market,Tapioca,Raw,1479,2485,1982
+2026-03-19,Ernakulam,Ernakulam Market,Tapioca,Raw,1408,2449,1928
+2026-03-19,Kottayam,Kottayam Market,Tapioca,Raw,1513,2414,1963
+2026-03-19,Alappuzha,Alappuzha Market,Coconut,Without Husk,2953,4066,3509
+2026-03-19,Kozhikode,Kozhikode Market,Coconut,Without Husk,3054,3995,3524
+2026-03-19,Ernakulam,Ernakulam Market,Coconut,Without Husk,3035,3999,3517
+2026-03-19,Palakkad,Palakkad Market,Coconut,Without Husk,2943,4004,3473
+2026-03-20,Kollam,Kollam Market,Tapioca,Raw,1594,2440,2017
+2026-03-20,Trivandrum,Trivandrum Market,Tapioca,Raw,1576,2561,2068
+2026-03-20,Ernakulam,Ernakulam Market,Tapioca,Raw,1472,2444,1958
+2026-03-20,Kottayam,Kottayam Market,Tapioca,Raw,1568,2571,2069
+2026-03-20,Alappuzha,Alappuzha Market,Coconut,Without Husk,2940,4091,3515
+2026-03-20,Kozhikode,Kozhikode Market,Coconut,Without Husk,2960,3956,3458
+2026-03-20,Ernakulam,Ernakulam Market,Coconut,Without Husk,2994,4038,3516
+2026-03-20,Palakkad,Palakkad Market,Coconut,Without Husk,3074,3950,3512
+2026-03-21,Kollam,Kollam Market,Tapioca,Raw,1522,2427,1974
+2026-03-21,Trivandrum,Trivandrum Market,Tapioca,Raw,1451,2539,1995
+2026-03-21,Ernakulam,Ernakulam Market,Tapioca,Raw,1598,2576,2087
+2026-03-21,Kottayam,Kottayam Market,Tapioca,Raw,1468,2469,1968
+2026-03-21,Alappuzha,Alappuzha Market,Coconut,Without Husk,2997,3957,3477
+2026-03-21,Kozhikode,Kozhikode Market,Coconut,Without Husk,3091,3982,3536
+2026-03-21,Ernakulam,Ernakulam Market,Coconut,Without Husk,2908,4020,3464
+2026-03-21,Palakkad,Palakkad Market,Coconut,Without Husk,2955,3991,3473
+2026-03-22,Kollam,Kollam Market,Tapioca,Raw,1598,2450,2024
+2026-03-22,Trivandrum,Trivandrum Market,Tapioca,Raw,1517,2599,2058
+2026-03-22,Ernakulam,Ernakulam Market,Tapioca,Raw,1434,2477,1955
+2026-03-22,Kottayam,Kottayam Market,Tapioca,Raw,1556,2558,2057
+2026-03-22,Alappuzha,Alappuzha Market,Coconut,Without Husk,3071,3958,3514
+2026-03-22,Kozhikode,Kozhikode Market,Coconut,Without Husk,2980,3977,3478
+2026-03-22,Ernakulam,Ernakulam Market,Coconut,Without Husk,3042,4008,3525
+2026-03-22,Palakkad,Palakkad Market,Coconut,Without Husk,2917,4046,3481
+2026-03-23,Kollam,Kollam Market,Tapioca,Raw,1560,2447,2003
+2026-03-23,Trivandrum,Trivandrum Market,Tapioca,Raw,1497,2568,2032
+2026-03-23,Ernakulam,Ernakulam Market,Tapioca,Raw,1492,2441,1966
+2026-03-23,Kottayam,Kottayam Market,Tapioca,Raw,1404,2578,1991
+2026-03-23,Alappuzha,Alappuzha Market,Coconut,Without Husk,2947,3951,3449
+2026-03-23,Kozhikode,Kozhikode Market,Coconut,Without Husk,3033,3959,3496
+2026-03-23,Ernakulam,Ernakulam Market,Coconut,Without Husk,3057,3981,3519
+2026-03-23,Palakkad,Palakkad Market,Coconut,Without Husk,2923,3948,3435
+2026-03-24,Kollam,Kollam Market,Tapioca,Raw,1549,2551,2050
+2026-03-24,Trivandrum,Trivandrum Market,Tapioca,Raw,1560,2407,1983
+2026-03-24,Ernakulam,Ernakulam Market,Tapioca,Raw,1520,2576,2048
+2026-03-24,Kottayam,Kottayam Market,Tapioca,Raw,1529,2547,2038
+2026-03-24,Alappuzha,Alappuzha Market,Coconut,Without Husk,3016,4029,3522
+2026-03-24,Kozhikode,Kozhikode Market,Coconut,Without Husk,2936,3989,3462
+2026-03-24,Ernakulam,Ernakulam Market,Coconut,Without Husk,3049,3983,3516
+2026-03-24,Palakkad,Palakkad Market,Coconut,Without Husk,2960,3998,3479
+2026-03-25,Kollam,Kollam Market,Tapioca,Raw,1555,2514,2034
+2026-03-25,Trivandrum,Trivandrum Market,Tapioca,Raw,1590,2586,2088
+2026-03-25,Ernakulam,Ernakulam Market,Tapioca,Raw,1422,2532,1977
+2026-03-25,Kottayam,Kottayam Market,Tapioca,Raw,1446,2517,1981
+2026-03-25,Alappuzha,Alappuzha Market,Coconut,Without Husk,3037,3952,3494
+2026-03-25,Kozhikode,Kozhikode Market,Coconut,Without Husk,3027,4060,3543
+2026-03-25,Ernakulam,Ernakulam Market,Coconut,Without Husk,2956,3924,3440
+2026-03-25,Palakkad,Palakkad Market,Coconut,Without Husk,2974,4086,3530
+2026-03-26,Kollam,Kollam Market,Tapioca,Raw,1471,2524,1997
+2026-03-26,Trivandrum,Trivandrum Market,Tapioca,Raw,1529,2493,2011
+2026-03-26,Ernakulam,Ernakulam Market,Tapioca,Raw,1539,2448,1993
+2026-03-26,Kottayam,Kottayam Market,Tapioca,Raw,1580,2486,2033
+2026-03-26,Alappuzha,Alappuzha Market,Coconut,Without Husk,2997,4100,3548
+2026-03-26,Kozhikode,Kozhikode Market,Coconut,Without Husk,3047,4056,3551
+2026-03-26,Ernakulam,Ernakulam Market,Coconut,Without Husk,2996,4027,3511
+2026-03-26,Palakkad,Palakkad Market,Coconut,Without Husk,2975,3901,3438
+2026-03-27,Kollam,Kollam Market,Tapioca,Raw,1524,2496,2010
+2026-03-27,Trivandrum,Trivandrum Market,Tapioca,Raw,1527,2568,2047
+2026-03-27,Ernakulam,Ernakulam Market,Tapioca,Raw,1575,2462,2018
+2026-03-27,Kottayam,Kottayam Market,Tapioca,Raw,1496,2441,1968
+2026-03-27,Alappuzha,Alappuzha Market,Coconut,Without Husk,3078,4002,3540
+2026-03-27,Kozhikode,Kozhikode Market,Coconut,Without Husk,3066,4028,3547
+2026-03-27,Ernakulam,Ernakulam Market,Coconut,Without Husk,2949,3977,3463
+2026-03-27,Palakkad,Palakkad Market,Coconut,Without Husk,2990,4080,3535
+2026-03-28,Kollam,Kollam Market,Tapioca,Raw,1500,2578,2039
+2026-03-28,Trivandrum,Trivandrum Market,Tapioca,Raw,1428,2454,1941
+2026-03-28,Ernakulam,Ernakulam Market,Tapioca,Raw,1439,2598,2018
+2026-03-28,Kottayam,Kottayam Market,Tapioca,Raw,1573,2459,2016
+2026-03-28,Alappuzha,Alappuzha Market,Coconut,Without Husk,3026,4008,3517
+2026-03-28,Kozhikode,Kozhikode Market,Coconut,Without Husk,3038,4005,3521
+2026-03-28,Ernakulam,Ernakulam Market,Coconut,Without Husk,3031,4064,3547
+2026-03-28,Palakkad,Palakkad Market,Coconut,Without Husk,3024,3923,3473
+2026-03-29,Kollam,Kollam Market,Tapioca,Raw,1476,2437,1956
+2026-03-29,Trivandrum,Trivandrum Market,Tapioca,Raw,1505,2444,1974
+2026-03-29,Ernakulam,Ernakulam Market,Tapioca,Raw,1538,2463,2000
+2026-03-29,Kottayam,Kottayam Market,Tapioca,Raw,1455,2577,2016
+2026-03-29,Alappuzha,Alappuzha Market,Coconut,Without Husk,3074,4044,3559
+2026-03-29,Kozhikode,Kozhikode Market,Coconut,Without Husk,3053,4040,3546
+2026-03-29,Ernakulam,Ernakulam Market,Coconut,Without Husk,3011,4052,3531
+2026-03-29,Palakkad,Palakkad Market,Coconut,Without Husk,2951,4078,3514
+2026-03-30,Kollam,Kollam Market,Tapioca,Raw,1491,2572,2031
+2026-03-30,Trivandrum,Trivandrum Market,Tapioca,Raw,1464,2493,1978
+2026-03-30,Ernakulam,Ernakulam Market,Tapioca,Raw,1521,2473,1997
+2026-03-30,Kottayam,Kottayam Market,Tapioca,Raw,1482,2511,1996
+2026-03-30,Alappuzha,Alappuzha Market,Coconut,Without Husk,2993,3969,3481
+2026-03-30,Kozhikode,Kozhikode Market,Coconut,Without Husk,3032,4100,3566
+2026-03-30,Ernakulam,Ernakulam Market,Coconut,Without Husk,2957,4078,3517
+2026-03-30,Palakkad,Palakkad Market,Coconut,Without Husk,2996,3969,3482
+2026-03-31,Kollam,Kollam Market,Tapioca,Raw,1576,2512,2044
+2026-03-31,Trivandrum,Trivandrum Market,Tapioca,Raw,1491,2413,1952
+2026-03-31,Ernakulam,Ernakulam Market,Tapioca,Raw,1476,2400,1938
+2026-03-31,Kottayam,Kottayam Market,Tapioca,Raw,1568,2569,2068
+2026-03-31,Alappuzha,Alappuzha Market,Coconut,Without Husk,3024,4095,3559
+2026-03-31,Kozhikode,Kozhikode Market,Coconut,Without Husk,3017,4071,3544
+2026-03-31,Ernakulam,Ernakulam Market,Coconut,Without Husk,3095,3909,3502
+2026-03-31,Palakkad,Palakkad Market,Coconut,Without Husk,3003,3933,3468
+2026-04-01,Kottayam,Kottayam Market,Rubber,RSS-4,14998,17959,16478
+2026-04-01,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14910,18019,16464
+2026-04-01,Idukki,Idukki Market,Rubber,RSS-4,14921,18002,16461
+2026-04-01,Palakkad,Palakkad Market,Paddy,Jyothi,2455,3218,2836
+2026-04-01,Alappuzha,Alappuzha Market,Paddy,Jyothi,2452,3256,2854
+2026-04-02,Kottayam,Kottayam Market,Rubber,RSS-4,14982,18046,16514
+2026-04-02,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15057,17997,16527
+2026-04-02,Idukki,Idukki Market,Rubber,RSS-4,15010,17913,16461
+2026-04-02,Palakkad,Palakkad Market,Paddy,Jyothi,2428,3149,2788
+2026-04-02,Alappuzha,Alappuzha Market,Paddy,Jyothi,2470,3210,2840
+2026-04-03,Kottayam,Kottayam Market,Rubber,RSS-4,14979,17904,16441
+2026-04-03,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15099,17961,16530
+2026-04-03,Idukki,Idukki Market,Rubber,RSS-4,14997,18011,16504
+2026-04-03,Palakkad,Palakkad Market,Paddy,Jyothi,2427,3264,2845
+2026-04-03,Alappuzha,Alappuzha Market,Paddy,Jyothi,2526,3208,2867
+2026-04-04,Kottayam,Kottayam Market,Rubber,RSS-4,14960,17947,16453
+2026-04-04,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15079,17951,16515
+2026-04-04,Idukki,Idukki Market,Rubber,RSS-4,15061,18003,16532
+2026-04-04,Palakkad,Palakkad Market,Paddy,Jyothi,2405,3178,2791
+2026-04-04,Alappuzha,Alappuzha Market,Paddy,Jyothi,2446,3111,2778
+2026-04-05,Kottayam,Kottayam Market,Rubber,RSS-4,14957,18088,16522
+2026-04-05,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15005,18069,16537
+2026-04-05,Idukki,Idukki Market,Rubber,RSS-4,15024,17922,16473
+2026-04-05,Palakkad,Palakkad Market,Paddy,Jyothi,2541,3228,2884
+2026-04-05,Alappuzha,Alappuzha Market,Paddy,Jyothi,2578,3271,2924
+2026-04-06,Kottayam,Kottayam Market,Rubber,RSS-4,14934,18035,16484
+2026-04-06,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15017,17994,16505
+2026-04-06,Idukki,Idukki Market,Rubber,RSS-4,14909,17903,16406
+2026-04-06,Palakkad,Palakkad Market,Paddy,Jyothi,2479,3233,2856
+2026-04-06,Alappuzha,Alappuzha Market,Paddy,Jyothi,2505,3273,2889
+2026-04-07,Kottayam,Kottayam Market,Rubber,RSS-4,15009,17956,16482
+2026-04-07,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14999,17927,16463
+2026-04-07,Idukki,Idukki Market,Rubber,RSS-4,14934,18063,16498
+2026-04-07,Palakkad,Palakkad Market,Paddy,Jyothi,2414,3184,2799
+2026-04-07,Alappuzha,Alappuzha Market,Paddy,Jyothi,2554,3267,2910
+2026-04-08,Kottayam,Kottayam Market,Rubber,RSS-4,14943,18017,16480
+2026-04-08,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14949,18023,16486
+2026-04-08,Idukki,Idukki Market,Rubber,RSS-4,15024,18044,16534
+2026-04-08,Palakkad,Palakkad Market,Paddy,Jyothi,2510,3237,2873
+2026-04-08,Alappuzha,Alappuzha Market,Paddy,Jyothi,2510,3119,2814
+2026-04-09,Kottayam,Kottayam Market,Rubber,RSS-4,14917,18037,16477
+2026-04-09,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14978,17969,16473
+2026-04-09,Idukki,Idukki Market,Rubber,RSS-4,14983,18097,16540
+2026-04-09,Palakkad,Palakkad Market,Paddy,Jyothi,2561,3205,2883
+2026-04-09,Alappuzha,Alappuzha Market,Paddy,Jyothi,2532,3259,2895
+2026-04-10,Kottayam,Kottayam Market,Rubber,RSS-4,14963,18062,16512
+2026-04-10,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15017,18036,16526
+2026-04-10,Idukki,Idukki Market,Rubber,RSS-4,14931,17917,16424
+2026-04-10,Palakkad,Palakkad Market,Paddy,Jyothi,2421,3158,2789
+2026-04-10,Alappuzha,Alappuzha Market,Paddy,Jyothi,2525,3199,2862
+2026-04-11,Kottayam,Kottayam Market,Rubber,RSS-4,15099,18034,16566
+2026-04-11,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14960,17905,16432
+2026-04-11,Idukki,Idukki Market,Rubber,RSS-4,14912,17941,16426
+2026-04-11,Palakkad,Palakkad Market,Paddy,Jyothi,2437,3139,2788
+2026-04-11,Alappuzha,Alappuzha Market,Paddy,Jyothi,2476,3226,2851
+2026-04-12,Kottayam,Kottayam Market,Rubber,RSS-4,15002,17962,16482
+2026-04-12,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14943,18034,16488
+2026-04-12,Idukki,Idukki Market,Rubber,RSS-4,14917,18037,16477
+2026-04-12,Palakkad,Palakkad Market,Paddy,Jyothi,2572,3173,2872
+2026-04-12,Alappuzha,Alappuzha Market,Paddy,Jyothi,2435,3154,2794
+2026-04-13,Kottayam,Kottayam Market,Rubber,RSS-4,15051,17992,16521
+2026-04-13,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15054,17957,16505
+2026-04-13,Idukki,Idukki Market,Rubber,RSS-4,14956,18018,16487
+2026-04-13,Palakkad,Palakkad Market,Paddy,Jyothi,2491,3297,2894
+2026-04-13,Alappuzha,Alappuzha Market,Paddy,Jyothi,2478,3215,2846
+2026-04-14,Kottayam,Kottayam Market,Rubber,RSS-4,15078,18007,16542
+2026-04-14,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15064,18064,16564
+2026-04-14,Idukki,Idukki Market,Rubber,RSS-4,14994,17907,16450
+2026-04-14,Palakkad,Palakkad Market,Paddy,Jyothi,2511,3239,2875
+2026-04-14,Alappuzha,Alappuzha Market,Paddy,Jyothi,2536,3158,2847
+2026-04-15,Kottayam,Kottayam Market,Rubber,RSS-4,14929,17976,16452
+2026-04-15,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14924,18045,16484
+2026-04-15,Idukki,Idukki Market,Rubber,RSS-4,14975,18011,16493
+2026-04-15,Palakkad,Palakkad Market,Paddy,Jyothi,2416,3150,2783
+2026-04-15,Alappuzha,Alappuzha Market,Paddy,Jyothi,2526,3298,2912
+2026-04-16,Kottayam,Kottayam Market,Rubber,RSS-4,15079,18098,16588
+2026-04-16,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14955,17993,16474
+2026-04-16,Idukki,Idukki Market,Rubber,RSS-4,14933,17981,16457
+2026-04-16,Palakkad,Palakkad Market,Paddy,Jyothi,2506,3198,2852
+2026-04-16,Alappuzha,Alappuzha Market,Paddy,Jyothi,2541,3168,2854
+2026-04-17,Kottayam,Kottayam Market,Rubber,RSS-4,15069,18098,16583
+2026-04-17,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14946,17990,16468
+2026-04-17,Idukki,Idukki Market,Rubber,RSS-4,14911,17982,16446
+2026-04-17,Palakkad,Palakkad Market,Paddy,Jyothi,2474,3105,2789
+2026-04-17,Alappuzha,Alappuzha Market,Paddy,Jyothi,2512,3261,2886
+2026-04-18,Kottayam,Kottayam Market,Rubber,RSS-4,15010,17959,16484
+2026-04-18,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14925,18084,16504
+2026-04-18,Idukki,Idukki Market,Rubber,RSS-4,15018,17950,16484
+2026-04-18,Palakkad,Palakkad Market,Paddy,Jyothi,2462,3245,2853
+2026-04-18,Alappuzha,Alappuzha Market,Paddy,Jyothi,2413,3246,2829
+2026-04-19,Kottayam,Kottayam Market,Rubber,RSS-4,14979,17993,16486
+2026-04-19,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15048,17952,16500
+2026-04-19,Idukki,Idukki Market,Rubber,RSS-4,14925,17995,16460
+2026-04-19,Palakkad,Palakkad Market,Paddy,Jyothi,2557,3254,2905
+2026-04-19,Alappuzha,Alappuzha Market,Paddy,Jyothi,2429,3208,2818
+2026-04-20,Kottayam,Kottayam Market,Rubber,RSS-4,14995,18079,16537
+2026-04-20,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15068,17914,16491
+2026-04-20,Idukki,Idukki Market,Rubber,RSS-4,15064,18082,16573
+2026-04-20,Palakkad,Palakkad Market,Paddy,Jyothi,2432,3132,2782
+2026-04-20,Alappuzha,Alappuzha Market,Paddy,Jyothi,2482,3264,2873
+2026-04-21,Kottayam,Kottayam Market,Rubber,RSS-4,14985,17939,16462
+2026-04-21,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14913,18013,16463
+2026-04-21,Idukki,Idukki Market,Rubber,RSS-4,15020,18012,16516
+2026-04-21,Palakkad,Palakkad Market,Paddy,Jyothi,2463,3288,2875
+2026-04-21,Alappuzha,Alappuzha Market,Paddy,Jyothi,2569,3122,2845
+2026-04-22,Kottayam,Kottayam Market,Rubber,RSS-4,14944,18031,16487
+2026-04-22,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15100,18038,16569
+2026-04-22,Idukki,Idukki Market,Rubber,RSS-4,15046,17981,16513
+2026-04-22,Palakkad,Palakkad Market,Paddy,Jyothi,2506,3114,2810
+2026-04-22,Alappuzha,Alappuzha Market,Paddy,Jyothi,2492,3242,2867
+2026-04-23,Kottayam,Kottayam Market,Rubber,RSS-4,15073,18027,16550
+2026-04-23,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15012,18030,16521
+2026-04-23,Idukki,Idukki Market,Rubber,RSS-4,15001,18045,16523
+2026-04-23,Palakkad,Palakkad Market,Paddy,Jyothi,2467,3124,2795
+2026-04-23,Alappuzha,Alappuzha Market,Paddy,Jyothi,2538,3220,2879
+2026-04-24,Kottayam,Kottayam Market,Rubber,RSS-4,15088,17980,16534
+2026-04-24,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15092,17904,16498
+2026-04-24,Idukki,Idukki Market,Rubber,RSS-4,14965,17922,16443
+2026-04-24,Palakkad,Palakkad Market,Paddy,Jyothi,2573,3116,2844
+2026-04-24,Alappuzha,Alappuzha Market,Paddy,Jyothi,2509,3195,2852
+2026-04-25,Kottayam,Kottayam Market,Rubber,RSS-4,14919,18099,16509
+2026-04-25,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15033,18027,16530
+2026-04-25,Idukki,Idukki Market,Rubber,RSS-4,14981,18016,16498
+2026-04-25,Palakkad,Palakkad Market,Paddy,Jyothi,2486,3230,2858
+2026-04-25,Alappuzha,Alappuzha Market,Paddy,Jyothi,2430,3247,2838
+2026-04-26,Kottayam,Kottayam Market,Rubber,RSS-4,15059,17981,16520
+2026-04-26,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15050,18088,16569
+2026-04-26,Idukki,Idukki Market,Rubber,RSS-4,15072,17978,16525
+2026-04-26,Palakkad,Palakkad Market,Paddy,Jyothi,2404,3141,2772
+2026-04-26,Alappuzha,Alappuzha Market,Paddy,Jyothi,2451,3130,2790
+2026-04-27,Kottayam,Kottayam Market,Rubber,RSS-4,15059,18046,16552
+2026-04-27,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14943,18007,16475
+2026-04-27,Idukki,Idukki Market,Rubber,RSS-4,15082,17902,16492
+2026-04-27,Palakkad,Palakkad Market,Paddy,Jyothi,2567,3196,2881
+2026-04-27,Alappuzha,Alappuzha Market,Paddy,Jyothi,2446,3100,2773
+2026-04-28,Kottayam,Kottayam Market,Rubber,RSS-4,15035,17932,16483
+2026-04-28,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15067,17980,16523
+2026-04-28,Idukki,Idukki Market,Rubber,RSS-4,15060,17915,16487
+2026-04-28,Palakkad,Palakkad Market,Paddy,Jyothi,2490,3283,2886
+2026-04-28,Alappuzha,Alappuzha Market,Paddy,Jyothi,2408,3167,2787
+2026-04-29,Kottayam,Kottayam Market,Rubber,RSS-4,15097,17948,16522
+2026-04-29,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14969,18012,16490
+2026-04-29,Idukki,Idukki Market,Rubber,RSS-4,15070,17995,16532
+2026-04-29,Palakkad,Palakkad Market,Paddy,Jyothi,2522,3207,2864
+2026-04-29,Alappuzha,Alappuzha Market,Paddy,Jyothi,2552,3103,2827
+2026-04-30,Kottayam,Kottayam Market,Rubber,RSS-4,15022,18018,16520
+2026-04-30,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15095,18055,16575
+2026-04-30,Idukki,Idukki Market,Rubber,RSS-4,14941,18040,16490
+2026-04-30,Palakkad,Palakkad Market,Paddy,Jyothi,2587,3190,2888
+2026-04-30,Alappuzha,Alappuzha Market,Paddy,Jyothi,2407,3287,2847
+2026-05-01,Kottayam,Kottayam Market,Rubber,RSS-4,14977,17907,16442
+2026-05-01,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14931,17919,16425
+2026-05-01,Idukki,Idukki Market,Rubber,RSS-4,14920,18017,16468
+2026-05-01,Palakkad,Palakkad Market,Paddy,Jyothi,2426,3295,2860
+2026-05-01,Alappuzha,Alappuzha Market,Paddy,Jyothi,2577,3130,2853
+2026-05-02,Kottayam,Kottayam Market,Rubber,RSS-4,15094,17972,16533
+2026-05-02,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15092,18086,16589
+2026-05-02,Idukki,Idukki Market,Rubber,RSS-4,14945,18077,16511
+2026-05-02,Palakkad,Palakkad Market,Paddy,Jyothi,2560,3134,2847
+2026-05-02,Alappuzha,Alappuzha Market,Paddy,Jyothi,2459,3245,2852
+2026-05-03,Kottayam,Kottayam Market,Rubber,RSS-4,14955,18062,16508
+2026-05-03,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15024,17980,16502
+2026-05-03,Idukki,Idukki Market,Rubber,RSS-4,14985,18070,16527
+2026-05-03,Palakkad,Palakkad Market,Paddy,Jyothi,2490,3282,2886
+2026-05-03,Alappuzha,Alappuzha Market,Paddy,Jyothi,2575,3258,2916
+2026-05-04,Kottayam,Kottayam Market,Rubber,RSS-4,15029,17985,16507
+2026-05-04,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14931,17932,16431
+2026-05-04,Idukki,Idukki Market,Rubber,RSS-4,14936,17923,16429
+2026-05-04,Palakkad,Palakkad Market,Paddy,Jyothi,2562,3295,2928
+2026-05-04,Alappuzha,Alappuzha Market,Paddy,Jyothi,2537,3261,2899
+2026-05-05,Kottayam,Kottayam Market,Rubber,RSS-4,15057,17976,16516
+2026-05-05,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15001,18051,16526
+2026-05-05,Idukki,Idukki Market,Rubber,RSS-4,14980,17962,16471
+2026-05-05,Palakkad,Palakkad Market,Paddy,Jyothi,2412,3197,2804
+2026-05-05,Alappuzha,Alappuzha Market,Paddy,Jyothi,2425,3103,2764
+2026-05-06,Kottayam,Kottayam Market,Rubber,RSS-4,14924,17987,16455
+2026-05-06,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14936,18059,16497
+2026-05-06,Idukki,Idukki Market,Rubber,RSS-4,15044,17998,16521
+2026-05-06,Palakkad,Palakkad Market,Paddy,Jyothi,2458,3284,2871
+2026-05-06,Alappuzha,Alappuzha Market,Paddy,Jyothi,2553,3256,2904
+2026-05-07,Kottayam,Kottayam Market,Rubber,RSS-4,15075,18076,16575
+2026-05-07,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15079,18040,16559
+2026-05-07,Idukki,Idukki Market,Rubber,RSS-4,15018,17961,16489
+2026-05-07,Palakkad,Palakkad Market,Paddy,Jyothi,2428,3142,2785
+2026-05-07,Alappuzha,Alappuzha Market,Paddy,Jyothi,2569,3248,2908
+2026-05-08,Kottayam,Kottayam Market,Rubber,RSS-4,15064,18092,16578
+2026-05-08,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15018,18089,16553
+2026-05-08,Idukki,Idukki Market,Rubber,RSS-4,14951,18045,16498
+2026-05-08,Palakkad,Palakkad Market,Paddy,Jyothi,2441,3264,2852
+2026-05-08,Alappuzha,Alappuzha Market,Paddy,Jyothi,2456,3194,2825
+2026-05-09,Kottayam,Kottayam Market,Rubber,RSS-4,15016,17981,16498
+2026-05-09,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14985,18012,16498
+2026-05-09,Idukki,Idukki Market,Rubber,RSS-4,15060,17994,16527
+2026-05-09,Palakkad,Palakkad Market,Paddy,Jyothi,2515,3254,2884
+2026-05-09,Alappuzha,Alappuzha Market,Paddy,Jyothi,2553,3170,2861
+2026-05-10,Kottayam,Kottayam Market,Rubber,RSS-4,14971,17950,16460
+2026-05-10,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15097,17931,16514
+2026-05-10,Idukki,Idukki Market,Rubber,RSS-4,14929,17926,16427
+2026-05-10,Palakkad,Palakkad Market,Paddy,Jyothi,2437,3167,2802
+2026-05-10,Alappuzha,Alappuzha Market,Paddy,Jyothi,2571,3273,2922
+2026-05-11,Kottayam,Kottayam Market,Rubber,RSS-4,15068,18000,16534
+2026-05-11,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14937,18081,16509
+2026-05-11,Idukki,Idukki Market,Rubber,RSS-4,15022,17914,16468
+2026-05-11,Palakkad,Palakkad Market,Paddy,Jyothi,2446,3114,2780
+2026-05-11,Alappuzha,Alappuzha Market,Paddy,Jyothi,2432,3143,2787
+2026-05-12,Kottayam,Kottayam Market,Rubber,RSS-4,15020,17979,16499
+2026-05-12,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14945,18084,16514
+2026-05-12,Idukki,Idukki Market,Rubber,RSS-4,15056,18083,16569
+2026-05-12,Palakkad,Palakkad Market,Paddy,Jyothi,2600,3100,2850
+2026-05-12,Alappuzha,Alappuzha Market,Paddy,Jyothi,2494,3167,2830
+2026-05-13,Kottayam,Kottayam Market,Rubber,RSS-4,15100,17909,16504
+2026-05-13,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14986,17958,16472
+2026-05-13,Idukki,Idukki Market,Rubber,RSS-4,14905,18000,16452
+2026-05-13,Palakkad,Palakkad Market,Paddy,Jyothi,2561,3172,2866
+2026-05-13,Alappuzha,Alappuzha Market,Paddy,Jyothi,2502,3200,2851
+2026-05-14,Kottayam,Kottayam Market,Rubber,RSS-4,14953,17942,16447
+2026-05-14,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14908,18096,16502
+2026-05-14,Idukki,Idukki Market,Rubber,RSS-4,14959,17958,16458
+2026-05-14,Palakkad,Palakkad Market,Paddy,Jyothi,2481,3142,2811
+2026-05-14,Alappuzha,Alappuzha Market,Paddy,Jyothi,2515,3222,2868
+2026-05-15,Kottayam,Kottayam Market,Rubber,RSS-4,14922,18014,16468
+2026-05-15,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15065,17969,16517
+2026-05-15,Idukki,Idukki Market,Rubber,RSS-4,15028,18083,16555
+2026-05-15,Palakkad,Palakkad Market,Paddy,Jyothi,2590,3239,2914
+2026-05-15,Alappuzha,Alappuzha Market,Paddy,Jyothi,2600,3255,2927
+2026-05-16,Kottayam,Kottayam Market,Rubber,RSS-4,15029,18037,16533
+2026-05-16,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15093,18077,16585
+2026-05-16,Idukki,Idukki Market,Rubber,RSS-4,14922,18064,16493
+2026-05-16,Palakkad,Palakkad Market,Paddy,Jyothi,2536,3131,2833
+2026-05-16,Alappuzha,Alappuzha Market,Paddy,Jyothi,2449,3135,2792
+2026-05-17,Kottayam,Kottayam Market,Rubber,RSS-4,14957,17928,16442
+2026-05-17,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14980,18056,16518
+2026-05-17,Idukki,Idukki Market,Rubber,RSS-4,14959,17900,16429
+2026-05-17,Palakkad,Palakkad Market,Paddy,Jyothi,2497,3129,2813
+2026-05-17,Alappuzha,Alappuzha Market,Paddy,Jyothi,2528,3230,2879
+2026-05-18,Kottayam,Kottayam Market,Rubber,RSS-4,14973,18058,16515
+2026-05-18,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15094,17997,16545
+2026-05-18,Idukki,Idukki Market,Rubber,RSS-4,14903,18072,16487
+2026-05-18,Palakkad,Palakkad Market,Paddy,Jyothi,2459,3100,2779
+2026-05-18,Alappuzha,Alappuzha Market,Paddy,Jyothi,2493,3127,2810
+2026-05-19,Kottayam,Kottayam Market,Rubber,RSS-4,15077,18069,16573
+2026-05-19,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15046,18031,16538
+2026-05-19,Idukki,Idukki Market,Rubber,RSS-4,15056,17984,16520
+2026-05-19,Palakkad,Palakkad Market,Paddy,Jyothi,2413,3254,2833
+2026-05-19,Alappuzha,Alappuzha Market,Paddy,Jyothi,2504,3288,2896
+2026-05-20,Kottayam,Kottayam Market,Rubber,RSS-4,14948,17922,16435
+2026-05-20,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14947,18064,16505
+2026-05-20,Idukki,Idukki Market,Rubber,RSS-4,14946,17903,16424
+2026-05-20,Palakkad,Palakkad Market,Paddy,Jyothi,2410,3216,2813
+2026-05-20,Alappuzha,Alappuzha Market,Paddy,Jyothi,2440,3269,2854
+2026-05-21,Kottayam,Kottayam Market,Rubber,RSS-4,15077,18028,16552
+2026-05-21,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15076,18078,16577
+2026-05-21,Idukki,Idukki Market,Rubber,RSS-4,14918,18015,16466
+2026-05-21,Palakkad,Palakkad Market,Paddy,Jyothi,2443,3103,2773
+2026-05-21,Alappuzha,Alappuzha Market,Paddy,Jyothi,2429,3211,2820
+2026-05-22,Kottayam,Kottayam Market,Rubber,RSS-4,14972,18082,16527
+2026-05-22,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14932,17929,16430
+2026-05-22,Idukki,Idukki Market,Rubber,RSS-4,14905,17992,16448
+2026-05-22,Palakkad,Palakkad Market,Paddy,Jyothi,2484,3186,2835
+2026-05-22,Alappuzha,Alappuzha Market,Paddy,Jyothi,2585,3149,2867
+2026-05-23,Kottayam,Kottayam Market,Rubber,RSS-4,14917,18073,16495
+2026-05-23,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15099,18078,16588
+2026-05-23,Idukki,Idukki Market,Rubber,RSS-4,14933,17969,16451
+2026-05-23,Palakkad,Palakkad Market,Paddy,Jyothi,2541,3252,2896
+2026-05-23,Alappuzha,Alappuzha Market,Paddy,Jyothi,2569,3238,2903
+2026-05-24,Kottayam,Kottayam Market,Rubber,RSS-4,14999,17928,16463
+2026-05-24,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15096,17965,16530
+2026-05-24,Idukki,Idukki Market,Rubber,RSS-4,14990,18028,16509
+2026-05-24,Palakkad,Palakkad Market,Paddy,Jyothi,2533,3102,2817
+2026-05-24,Alappuzha,Alappuzha Market,Paddy,Jyothi,2490,3213,2851
+2026-05-25,Kottayam,Kottayam Market,Rubber,RSS-4,15035,17993,16514
+2026-05-25,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15042,17940,16491
+2026-05-25,Idukki,Idukki Market,Rubber,RSS-4,15084,17974,16529
+2026-05-25,Palakkad,Palakkad Market,Paddy,Jyothi,2561,3293,2927
+2026-05-25,Alappuzha,Alappuzha Market,Paddy,Jyothi,2499,3240,2869
+2026-05-26,Kottayam,Kottayam Market,Rubber,RSS-4,14979,17983,16481
+2026-05-26,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14962,18042,16502
+2026-05-26,Idukki,Idukki Market,Rubber,RSS-4,14948,17909,16428
+2026-05-26,Palakkad,Palakkad Market,Paddy,Jyothi,2536,3109,2822
+2026-05-26,Alappuzha,Alappuzha Market,Paddy,Jyothi,2569,3144,2856
+2026-05-27,Kottayam,Kottayam Market,Rubber,RSS-4,15078,18005,16541
+2026-05-27,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14923,18039,16481
+2026-05-27,Idukki,Idukki Market,Rubber,RSS-4,14966,17913,16439
+2026-05-27,Palakkad,Palakkad Market,Paddy,Jyothi,2521,3167,2844
+2026-05-27,Alappuzha,Alappuzha Market,Paddy,Jyothi,2488,3107,2797
+2026-05-28,Kottayam,Kottayam Market,Rubber,RSS-4,15019,17985,16502
+2026-05-28,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14975,17939,16457
+2026-05-28,Idukki,Idukki Market,Rubber,RSS-4,14956,17905,16430
+2026-05-28,Palakkad,Palakkad Market,Paddy,Jyothi,2453,3278,2865
+2026-05-28,Alappuzha,Alappuzha Market,Paddy,Jyothi,2477,3192,2834
+2026-05-29,Kottayam,Kottayam Market,Rubber,RSS-4,15062,18089,16575
+2026-05-29,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14968,17913,16440
+2026-05-29,Idukki,Idukki Market,Rubber,RSS-4,14973,17992,16482
+2026-05-29,Palakkad,Palakkad Market,Paddy,Jyothi,2464,3193,2828
+2026-05-29,Alappuzha,Alappuzha Market,Paddy,Jyothi,2424,3213,2818
+2026-05-30,Kottayam,Kottayam Market,Rubber,RSS-4,14935,17991,16463
+2026-05-30,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15027,17911,16469
+2026-05-30,Idukki,Idukki Market,Rubber,RSS-4,14989,18026,16507
+2026-05-30,Palakkad,Palakkad Market,Paddy,Jyothi,2580,3110,2845
+2026-05-30,Alappuzha,Alappuzha Market,Paddy,Jyothi,2533,3240,2886
+2026-05-31,Kottayam,Kottayam Market,Rubber,RSS-4,15037,17989,16513
+2026-05-31,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15026,18038,16532
+2026-05-31,Idukki,Idukki Market,Rubber,RSS-4,15082,18015,16548
+2026-05-31,Palakkad,Palakkad Market,Paddy,Jyothi,2564,3210,2887
+2026-05-31,Alappuzha,Alappuzha Market,Paddy,Jyothi,2437,3292,2864
+2026-06-01,Kottayam,Kottayam Market,Rubber,RSS-4,15031,18062,16546
+2026-06-01,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15064,18087,16575
+2026-06-01,Idukki,Idukki Market,Rubber,RSS-4,15031,18025,16528
+2026-06-01,Palakkad,Palakkad Market,Paddy,Jyothi,2502,3296,2899
+2026-06-01,Alappuzha,Alappuzha Market,Paddy,Jyothi,2421,3238,2829
+2026-06-02,Kottayam,Kottayam Market,Rubber,RSS-4,15088,17978,16533
+2026-06-02,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15017,17932,16474
+2026-06-02,Idukki,Idukki Market,Rubber,RSS-4,14942,17931,16436
+2026-06-02,Palakkad,Palakkad Market,Paddy,Jyothi,2562,3240,2901
+2026-06-02,Alappuzha,Alappuzha Market,Paddy,Jyothi,2550,3291,2920
+2026-06-03,Kottayam,Kottayam Market,Rubber,RSS-4,14919,17910,16414
+2026-06-03,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15030,18086,16558
+2026-06-03,Idukki,Idukki Market,Rubber,RSS-4,14945,17912,16428
+2026-06-03,Palakkad,Palakkad Market,Paddy,Jyothi,2560,3268,2914
+2026-06-03,Alappuzha,Alappuzha Market,Paddy,Jyothi,2483,3169,2826
+2026-06-04,Kottayam,Kottayam Market,Rubber,RSS-4,15026,17911,16468
+2026-06-04,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14919,18014,16466
+2026-06-04,Idukki,Idukki Market,Rubber,RSS-4,14939,18007,16473
+2026-06-04,Palakkad,Palakkad Market,Paddy,Jyothi,2478,3164,2821
+2026-06-04,Alappuzha,Alappuzha Market,Paddy,Jyothi,2439,3238,2838
+2026-06-05,Kottayam,Kottayam Market,Rubber,RSS-4,14993,18081,16537
+2026-06-05,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14903,17993,16448
+2026-06-05,Idukki,Idukki Market,Rubber,RSS-4,15089,18036,16562
+2026-06-05,Palakkad,Palakkad Market,Paddy,Jyothi,2502,3121,2811
+2026-06-05,Alappuzha,Alappuzha Market,Paddy,Jyothi,2405,3130,2767
+2026-06-06,Kottayam,Kottayam Market,Rubber,RSS-4,15091,17981,16536
+2026-06-06,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14950,17962,16456
+2026-06-06,Idukki,Idukki Market,Rubber,RSS-4,15036,17903,16469
+2026-06-06,Palakkad,Palakkad Market,Paddy,Jyothi,2584,3207,2895
+2026-06-06,Alappuzha,Alappuzha Market,Paddy,Jyothi,2429,3274,2851
+2026-06-07,Kottayam,Kottayam Market,Rubber,RSS-4,15091,18055,16573
+2026-06-07,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14923,18091,16507
+2026-06-07,Idukki,Idukki Market,Rubber,RSS-4,14909,17905,16407
+2026-06-07,Palakkad,Palakkad Market,Paddy,Jyothi,2437,3231,2834
+2026-06-07,Alappuzha,Alappuzha Market,Paddy,Jyothi,2594,3212,2903
+2026-06-08,Kottayam,Kottayam Market,Rubber,RSS-4,15088,17992,16540
+2026-06-08,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14979,17970,16474
+2026-06-08,Idukki,Idukki Market,Rubber,RSS-4,14927,17944,16435
+2026-06-08,Palakkad,Palakkad Market,Paddy,Jyothi,2418,3262,2840
+2026-06-08,Alappuzha,Alappuzha Market,Paddy,Jyothi,2437,3127,2782
+2026-06-09,Kottayam,Kottayam Market,Rubber,RSS-4,15018,18020,16519
+2026-06-09,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14994,18040,16517
+2026-06-09,Idukki,Idukki Market,Rubber,RSS-4,14958,18079,16518
+2026-06-09,Palakkad,Palakkad Market,Paddy,Jyothi,2594,3174,2884
+2026-06-09,Alappuzha,Alappuzha Market,Paddy,Jyothi,2443,3261,2852
+2026-06-10,Kottayam,Kottayam Market,Rubber,RSS-4,14919,18073,16496
+2026-06-10,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15057,17993,16525
+2026-06-10,Idukki,Idukki Market,Rubber,RSS-4,14959,18054,16506
+2026-06-10,Palakkad,Palakkad Market,Paddy,Jyothi,2460,3186,2823
+2026-06-10,Alappuzha,Alappuzha Market,Paddy,Jyothi,2441,3255,2848
+2026-06-11,Kottayam,Kottayam Market,Rubber,RSS-4,15089,18035,16562
+2026-06-11,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15083,17937,16510
+2026-06-11,Idukki,Idukki Market,Rubber,RSS-4,14912,18066,16489
+2026-06-11,Palakkad,Palakkad Market,Paddy,Jyothi,2402,3269,2835
+2026-06-11,Alappuzha,Alappuzha Market,Paddy,Jyothi,2552,3281,2916
+2026-06-12,Kottayam,Kottayam Market,Rubber,RSS-4,15017,17952,16484
+2026-06-12,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14930,18056,16493
+2026-06-12,Idukki,Idukki Market,Rubber,RSS-4,15080,18096,16588
+2026-06-12,Palakkad,Palakkad Market,Paddy,Jyothi,2562,3245,2903
+2026-06-12,Alappuzha,Alappuzha Market,Paddy,Jyothi,2413,3244,2828
+2026-06-13,Kottayam,Kottayam Market,Rubber,RSS-4,14998,18073,16535
+2026-06-13,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14997,18081,16539
+2026-06-13,Idukki,Idukki Market,Rubber,RSS-4,15046,17928,16487
+2026-06-13,Palakkad,Palakkad Market,Paddy,Jyothi,2597,3251,2924
+2026-06-13,Alappuzha,Alappuzha Market,Paddy,Jyothi,2520,3226,2873
+2026-06-14,Kottayam,Kottayam Market,Rubber,RSS-4,15045,17987,16516
+2026-06-14,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14961,18067,16514
+2026-06-14,Idukki,Idukki Market,Rubber,RSS-4,15079,18077,16578
+2026-06-14,Palakkad,Palakkad Market,Paddy,Jyothi,2442,3111,2776
+2026-06-14,Alappuzha,Alappuzha Market,Paddy,Jyothi,2586,3171,2878
+2026-06-15,Kottayam,Kottayam Market,Rubber,RSS-4,14997,18047,16522
+2026-06-15,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14950,17945,16447
+2026-06-15,Idukki,Idukki Market,Rubber,RSS-4,14981,17946,16463
+2026-06-15,Palakkad,Palakkad Market,Paddy,Jyothi,2432,3216,2824
+2026-06-15,Alappuzha,Alappuzha Market,Paddy,Jyothi,2499,3238,2868
+2026-06-16,Kottayam,Kottayam Market,Rubber,RSS-4,14918,17927,16422
+2026-06-16,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15032,18064,16548
+2026-06-16,Idukki,Idukki Market,Rubber,RSS-4,15057,18071,16564
+2026-06-16,Palakkad,Palakkad Market,Paddy,Jyothi,2583,3152,2867
+2026-06-16,Alappuzha,Alappuzha Market,Paddy,Jyothi,2560,3151,2855
+2026-06-17,Kottayam,Kottayam Market,Rubber,RSS-4,14958,18076,16517
+2026-06-17,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15044,17997,16520
+2026-06-17,Idukki,Idukki Market,Rubber,RSS-4,15097,18058,16577
+2026-06-17,Palakkad,Palakkad Market,Paddy,Jyothi,2446,3107,2776
+2026-06-17,Alappuzha,Alappuzha Market,Paddy,Jyothi,2476,3186,2831
+2026-06-18,Kottayam,Kottayam Market,Rubber,RSS-4,14915,18056,16485
+2026-06-18,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14917,18052,16484
+2026-06-18,Idukki,Idukki Market,Rubber,RSS-4,14999,18000,16499
+2026-06-18,Palakkad,Palakkad Market,Paddy,Jyothi,2422,3175,2798
+2026-06-18,Alappuzha,Alappuzha Market,Paddy,Jyothi,2403,3107,2755
+2026-06-19,Kottayam,Kottayam Market,Rubber,RSS-4,14968,17917,16442
+2026-06-19,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14986,18017,16501
+2026-06-19,Idukki,Idukki Market,Rubber,RSS-4,14942,18095,16518
+2026-06-19,Palakkad,Palakkad Market,Paddy,Jyothi,2412,3160,2786
+2026-06-19,Alappuzha,Alappuzha Market,Paddy,Jyothi,2475,3233,2854
+2026-06-20,Kottayam,Kottayam Market,Rubber,RSS-4,14923,17907,16415
+2026-06-20,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15093,17973,16533
+2026-06-20,Idukki,Idukki Market,Rubber,RSS-4,14914,17950,16432
+2026-06-20,Palakkad,Palakkad Market,Paddy,Jyothi,2470,3172,2821
+2026-06-20,Alappuzha,Alappuzha Market,Paddy,Jyothi,2457,3271,2864
+2026-06-21,Kottayam,Kottayam Market,Rubber,RSS-4,15059,18081,16570
+2026-06-21,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14990,18100,16545
+2026-06-21,Idukki,Idukki Market,Rubber,RSS-4,15049,18059,16554
+2026-06-21,Palakkad,Palakkad Market,Paddy,Jyothi,2434,3257,2845
+2026-06-21,Alappuzha,Alappuzha Market,Paddy,Jyothi,2409,3152,2780
+2026-06-22,Kottayam,Kottayam Market,Rubber,RSS-4,15033,17915,16474
+2026-06-22,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14952,18008,16480
+2026-06-22,Idukki,Idukki Market,Rubber,RSS-4,15094,18093,16593
+2026-06-22,Palakkad,Palakkad Market,Paddy,Jyothi,2439,3132,2785
+2026-06-22,Alappuzha,Alappuzha Market,Paddy,Jyothi,2410,3222,2816
+2026-06-23,Kottayam,Kottayam Market,Rubber,RSS-4,14918,18071,16494
+2026-06-23,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15081,17901,16491
+2026-06-23,Idukki,Idukki Market,Rubber,RSS-4,15036,17929,16482
+2026-06-23,Palakkad,Palakkad Market,Paddy,Jyothi,2585,3203,2894
+2026-06-23,Alappuzha,Alappuzha Market,Paddy,Jyothi,2581,3112,2846
+2026-06-24,Kottayam,Kottayam Market,Rubber,RSS-4,15051,17950,16500
+2026-06-24,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14923,17955,16439
+2026-06-24,Idukki,Idukki Market,Rubber,RSS-4,15052,18048,16550
+2026-06-24,Palakkad,Palakkad Market,Paddy,Jyothi,2540,3212,2876
+2026-06-24,Alappuzha,Alappuzha Market,Paddy,Jyothi,2512,3271,2891
+2026-06-25,Kottayam,Kottayam Market,Rubber,RSS-4,14980,17994,16487
+2026-06-25,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15017,17935,16476
+2026-06-25,Idukki,Idukki Market,Rubber,RSS-4,15020,18017,16518
+2026-06-25,Palakkad,Palakkad Market,Paddy,Jyothi,2504,3269,2886
+2026-06-25,Alappuzha,Alappuzha Market,Paddy,Jyothi,2548,3220,2884
+2026-06-26,Kottayam,Kottayam Market,Rubber,RSS-4,14956,17903,16429
+2026-06-26,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,14974,17916,16445
+2026-06-26,Idukki,Idukki Market,Rubber,RSS-4,14952,17939,16445
+2026-06-26,Palakkad,Palakkad Market,Paddy,Jyothi,2564,3125,2844
+2026-06-26,Alappuzha,Alappuzha Market,Paddy,Jyothi,2498,3272,2885
+2026-06-27,Kottayam,Kottayam Market,Rubber,RSS-4,15015,18073,16544
+2026-06-27,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15087,18017,16552
+2026-06-27,Idukki,Idukki Market,Rubber,RSS-4,15047,18011,16529
+2026-06-27,Palakkad,Palakkad Market,Paddy,Jyothi,2448,3213,2830
+2026-06-27,Alappuzha,Alappuzha Market,Paddy,Jyothi,2513,3133,2823
+2026-06-28,Kottayam,Kottayam Market,Rubber,RSS-4,15016,18074,16545
+2026-06-28,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15071,18092,16581
+2026-06-28,Idukki,Idukki Market,Rubber,RSS-4,15092,18009,16550
+2026-06-28,Palakkad,Palakkad Market,Paddy,Jyothi,2484,3204,2844
+2026-06-28,Alappuzha,Alappuzha Market,Paddy,Jyothi,2415,3111,2763
+2026-06-29,Kottayam,Kottayam Market,Rubber,RSS-4,15012,18016,16514
+2026-06-29,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15018,17930,16474
+2026-06-29,Idukki,Idukki Market,Rubber,RSS-4,15026,18024,16525
+2026-06-29,Palakkad,Palakkad Market,Paddy,Jyothi,2533,3147,2840
+2026-06-29,Alappuzha,Alappuzha Market,Paddy,Jyothi,2496,3168,2832
+2026-06-30,Kottayam,Kottayam Market,Rubber,RSS-4,14962,18003,16482
+2026-06-30,Pathanamthitta,Pathanamthitta Market,Rubber,RSS-4,15070,18062,16566
+2026-06-30,Idukki,Idukki Market,Rubber,RSS-4,14994,17910,16452
+2026-06-30,Palakkad,Palakkad Market,Paddy,Jyothi,2540,3233,2886
+2026-06-30,Alappuzha,Alappuzha Market,Paddy,Jyothi,2586,3216,2901
+2026-07-01,Ernakulam,Ernakulam Market,Banana,Nendran,3503,5478,4490
+2026-07-01,Thrissur,Thrissur Market,Banana,Nendran,3532,5419,4475
+2026-07-01,Alappuzha,Alappuzha Market,Coconut,Without Husk,3028,3913,3470
+2026-07-01,Kozhikode,Kozhikode Market,Coconut,Without Husk,3020,3903,3461
+2026-07-01,Ernakulam,Ernakulam Market,Coconut,Without Husk,3053,3915,3484
+2026-07-01,Palakkad,Palakkad Market,Coconut,Without Husk,2912,4091,3501
+2026-07-02,Ernakulam,Ernakulam Market,Banana,Nendran,3575,5482,4528
+2026-07-02,Thrissur,Thrissur Market,Banana,Nendran,3414,5462,4438
+2026-07-02,Alappuzha,Alappuzha Market,Coconut,Without Husk,3079,3983,3531
+2026-07-02,Kozhikode,Kozhikode Market,Coconut,Without Husk,2915,4087,3501
+2026-07-02,Ernakulam,Ernakulam Market,Coconut,Without Husk,2910,3906,3408
+2026-07-02,Palakkad,Palakkad Market,Coconut,Without Husk,3076,4024,3550
+2026-07-03,Ernakulam,Ernakulam Market,Banana,Nendran,3467,5476,4471
+2026-07-03,Thrissur,Thrissur Market,Banana,Nendran,3455,5458,4456
+2026-07-03,Alappuzha,Alappuzha Market,Coconut,Without Husk,2958,3919,3438
+2026-07-03,Kozhikode,Kozhikode Market,Coconut,Without Husk,2949,3904,3426
+2026-07-03,Ernakulam,Ernakulam Market,Coconut,Without Husk,3087,4091,3589
+2026-07-03,Palakkad,Palakkad Market,Coconut,Without Husk,2976,3944,3460
+2026-07-04,Ernakulam,Ernakulam Market,Banana,Nendran,3450,5570,4510
+2026-07-04,Thrissur,Thrissur Market,Banana,Nendran,3546,5561,4553
+2026-07-04,Alappuzha,Alappuzha Market,Coconut,Without Husk,3088,4028,3558
+2026-07-04,Kozhikode,Kozhikode Market,Coconut,Without Husk,2998,3980,3489
+2026-07-04,Ernakulam,Ernakulam Market,Coconut,Without Husk,3088,4090,3589
+2026-07-04,Palakkad,Palakkad Market,Coconut,Without Husk,2900,3909,3404
+2026-07-05,Ernakulam,Ernakulam Market,Banana,Nendran,3434,5589,4511
+2026-07-05,Thrissur,Thrissur Market,Banana,Nendran,3569,5507,4538
+2026-07-05,Alappuzha,Alappuzha Market,Coconut,Without Husk,3087,4021,3554
+2026-07-05,Kozhikode,Kozhikode Market,Coconut,Without Husk,3041,4067,3554
+2026-07-05,Ernakulam,Ernakulam Market,Coconut,Without Husk,3036,3937,3486
+2026-07-05,Palakkad,Palakkad Market,Coconut,Without Husk,2989,4080,3534
+2026-07-06,Ernakulam,Ernakulam Market,Banana,Nendran,3543,5552,4547
+2026-07-06,Thrissur,Thrissur Market,Banana,Nendran,3524,5565,4544
+2026-07-06,Alappuzha,Alappuzha Market,Coconut,Without Husk,3004,3931,3467
+2026-07-06,Kozhikode,Kozhikode Market,Coconut,Without Husk,2961,3952,3456
+2026-07-06,Ernakulam,Ernakulam Market,Coconut,Without Husk,3031,4011,3521
+2026-07-06,Palakkad,Palakkad Market,Coconut,Without Husk,3090,4001,3545
+2026-07-07,Ernakulam,Ernakulam Market,Banana,Nendran,3469,5550,4509
+2026-07-07,Thrissur,Thrissur Market,Banana,Nendran,3568,5537,4552
+2026-07-07,Alappuzha,Alappuzha Market,Coconut,Without Husk,3008,4003,3505
+2026-07-07,Kozhikode,Kozhikode Market,Coconut,Without Husk,2916,3914,3415
+2026-07-07,Ernakulam,Ernakulam Market,Coconut,Without Husk,2974,4096,3535
+2026-07-07,Palakkad,Palakkad Market,Coconut,Without Husk,3052,3909,3480
+2026-07-08,Ernakulam,Ernakulam Market,Banana,Nendran,3584,5458,4521
+2026-07-08,Thrissur,Thrissur Market,Banana,Nendran,3506,5564,4535
+2026-07-08,Alappuzha,Alappuzha Market,Coconut,Without Husk,3068,4072,3570
+2026-07-08,Kozhikode,Kozhikode Market,Coconut,Without Husk,3017,4082,3549
+2026-07-08,Ernakulam,Ernakulam Market,Coconut,Without Husk,3064,3921,3492
+2026-07-08,Palakkad,Palakkad Market,Coconut,Without Husk,2960,4053,3506
+2026-07-09,Ernakulam,Ernakulam Market,Banana,Nendran,3409,5463,4436
+2026-07-09,Thrissur,Thrissur Market,Banana,Nendran,3544,5514,4529
+2026-07-09,Alappuzha,Alappuzha Market,Coconut,Without Husk,2906,4098,3502
+2026-07-09,Kozhikode,Kozhikode Market,Coconut,Without Husk,3077,4097,3587
+2026-07-09,Ernakulam,Ernakulam Market,Coconut,Without Husk,3008,4024,3516
+2026-07-09,Palakkad,Palakkad Market,Coconut,Without Husk,3082,4033,3557
+2026-07-10,Ernakulam,Ernakulam Market,Banana,Nendran,3535,5526,4530
+2026-07-10,Thrissur,Thrissur Market,Banana,Nendran,3526,5564,4545
+2026-07-10,Alappuzha,Alappuzha Market,Coconut,Without Husk,3004,3964,3484
+2026-07-10,Kozhikode,Kozhikode Market,Coconut,Without Husk,3053,3917,3485
+2026-07-10,Ernakulam,Ernakulam Market,Coconut,Without Husk,3051,3903,3477
+2026-07-10,Palakkad,Palakkad Market,Coconut,Without Husk,2911,4075,3493
+2026-07-11,Ernakulam,Ernakulam Market,Banana,Nendran,3455,5547,4501
+2026-07-11,Thrissur,Thrissur Market,Banana,Nendran,3516,5470,4493
+2026-07-11,Alappuzha,Alappuzha Market,Coconut,Without Husk,2924,3999,3461
+2026-07-11,Kozhikode,Kozhikode Market,Coconut,Without Husk,2990,3927,3458
+2026-07-11,Ernakulam,Ernakulam Market,Coconut,Without Husk,3100,4020,3560
+2026-07-11,Palakkad,Palakkad Market,Coconut,Without Husk,2931,3980,3455
+2026-07-12,Ernakulam,Ernakulam Market,Banana,Nendran,3411,5427,4419
+2026-07-12,Thrissur,Thrissur Market,Banana,Nendran,3474,5462,4468
+2026-07-12,Alappuzha,Alappuzha Market,Coconut,Without Husk,3004,3975,3489
+2026-07-12,Kozhikode,Kozhikode Market,Coconut,Without Husk,2924,4087,3505
+2026-07-12,Ernakulam,Ernakulam Market,Coconut,Without Husk,3097,3989,3543
+2026-07-12,Palakkad,Palakkad Market,Coconut,Without Husk,3090,3990,3540
+2026-07-13,Ernakulam,Ernakulam Market,Banana,Nendran,3444,5402,4423
+2026-07-13,Thrissur,Thrissur Market,Banana,Nendran,3478,5418,4448
+2026-07-13,Alappuzha,Alappuzha Market,Coconut,Without Husk,3010,3954,3482
+2026-07-13,Kozhikode,Kozhikode Market,Coconut,Without Husk,3023,4056,3539
+2026-07-13,Ernakulam,Ernakulam Market,Coconut,Without Husk,3022,4078,3550
+2026-07-13,Palakkad,Palakkad Market,Coconut,Without Husk,3080,3965,3522
+2026-07-14,Ernakulam,Ernakulam Market,Banana,Nendran,3567,5582,4574
+2026-07-14,Thrissur,Thrissur Market,Banana,Nendran,3513,5486,4499
+2026-07-14,Alappuzha,Alappuzha Market,Coconut,Without Husk,2916,3983,3449
+2026-07-14,Kozhikode,Kozhikode Market,Coconut,Without Husk,3095,4032,3563
+2026-07-14,Ernakulam,Ernakulam Market,Coconut,Without Husk,2958,3949,3453
+2026-07-14,Palakkad,Palakkad Market,Coconut,Without Husk,2913,3987,3450
+2026-07-15,Ernakulam,Ernakulam Market,Banana,Nendran,3439,5412,4425
+2026-07-15,Thrissur,Thrissur Market,Banana,Nendran,3551,5475,4513
+2026-07-15,Alappuzha,Alappuzha Market,Coconut,Without Husk,3010,3944,3477
+2026-07-15,Kozhikode,Kozhikode Market,Coconut,Without Husk,3009,3942,3475
+2026-07-15,Ernakulam,Ernakulam Market,Coconut,Without Husk,2912,3944,3428
+2026-07-15,Palakkad,Palakkad Market,Coconut,Without Husk,2955,3916,3435
+2026-07-16,Ernakulam,Ernakulam Market,Banana,Nendran,3501,5493,4497
+2026-07-16,Thrissur,Thrissur Market,Banana,Nendran,3523,5525,4524
+2026-07-16,Alappuzha,Alappuzha Market,Coconut,Without Husk,3002,3983,3492
+2026-07-16,Kozhikode,Kozhikode Market,Coconut,Without Husk,3050,3968,3509
+2026-07-16,Ernakulam,Ernakulam Market,Coconut,Without Husk,3090,3910,3500
+2026-07-16,Palakkad,Palakkad Market,Coconut,Without Husk,2932,4100,3516
+2026-07-17,Ernakulam,Ernakulam Market,Banana,Nendran,3484,5517,4500
+2026-07-17,Thrissur,Thrissur Market,Banana,Nendran,3436,5550,4493
+2026-07-17,Alappuzha,Alappuzha Market,Coconut,Without Husk,3090,4010,3550
+2026-07-17,Kozhikode,Kozhikode Market,Coconut,Without Husk,2955,4043,3499
+2026-07-17,Ernakulam,Ernakulam Market,Coconut,Without Husk,3024,3905,3464
+2026-07-17,Palakkad,Palakkad Market,Coconut,Without Husk,2943,4077,3510
+2026-07-18,Ernakulam,Ernakulam Market,Banana,Nendran,3576,5488,4532
+2026-07-18,Thrissur,Thrissur Market,Banana,Nendran,3512,5495,4503
+2026-07-18,Alappuzha,Alappuzha Market,Coconut,Without Husk,2951,3910,3430
+2026-07-18,Kozhikode,Kozhikode Market,Coconut,Without Husk,2923,4070,3496
+2026-07-18,Ernakulam,Ernakulam Market,Coconut,Without Husk,2903,4100,3501
+2026-07-18,Palakkad,Palakkad Market,Coconut,Without Husk,2986,4097,3541
+2026-07-19,Ernakulam,Ernakulam Market,Banana,Nendran,3500,5526,4513
+2026-07-19,Thrissur,Thrissur Market,Banana,Nendran,3410,5502,4456
+2026-07-19,Alappuzha,Alappuzha Market,Coconut,Without Husk,2949,3939,3444
+2026-07-19,Kozhikode,Kozhikode Market,Coconut,Without Husk,3062,4096,3579
+2026-07-19,Ernakulam,Ernakulam Market,Coconut,Without Husk,2961,3989,3475
+2026-07-19,Palakkad,Palakkad Market,Coconut,Without Husk,2965,4022,3493
+2026-07-20,Ernakulam,Ernakulam Market,Banana,Nendran,3537,5452,4494
+2026-07-20,Thrissur,Thrissur Market,Banana,Nendran,3412,5491,4451
+2026-07-20,Alappuzha,Alappuzha Market,Coconut,Without Husk,2914,4027,3470
+2026-07-20,Kozhikode,Kozhikode Market,Coconut,Without Husk,3013,4059,3536
+2026-07-20,Ernakulam,Ernakulam Market,Coconut,Without Husk,3034,4055,3544
+2026-07-20,Palakkad,Palakkad Market,Coconut,Without Husk,2958,4070,3514
+2026-07-21,Ernakulam,Ernakulam Market,Banana,Nendran,3403,5435,4419
+2026-07-21,Thrissur,Thrissur Market,Banana,Nendran,3455,5523,4489
+2026-07-21,Alappuzha,Alappuzha Market,Coconut,Without Husk,3018,3921,3469
+2026-07-21,Kozhikode,Kozhikode Market,Coconut,Without Husk,3041,4003,3522
+2026-07-21,Ernakulam,Ernakulam Market,Coconut,Without Husk,2988,4017,3502
+2026-07-21,Palakkad,Palakkad Market,Coconut,Without Husk,2975,3998,3486
+2026-07-22,Ernakulam,Ernakulam Market,Banana,Nendran,3558,5476,4517
+2026-07-22,Thrissur,Thrissur Market,Banana,Nendran,3415,5491,4453
+2026-07-22,Alappuzha,Alappuzha Market,Coconut,Without Husk,3011,4023,3517
+2026-07-22,Kozhikode,Kozhikode Market,Coconut,Without Husk,2900,4066,3483
+2026-07-22,Ernakulam,Ernakulam Market,Coconut,Without Husk,2968,4061,3514
+2026-07-22,Palakkad,Palakkad Market,Coconut,Without Husk,3036,3936,3486
+2026-07-23,Ernakulam,Ernakulam Market,Banana,Nendran,3519,5595,4557
+2026-07-23,Thrissur,Thrissur Market,Banana,Nendran,3443,5470,4456
+2026-07-23,Alappuzha,Alappuzha Market,Coconut,Without Husk,3018,3932,3475
+2026-07-23,Kozhikode,Kozhikode Market,Coconut,Without Husk,2965,3933,3449
+2026-07-23,Ernakulam,Ernakulam Market,Coconut,Without Husk,2907,4053,3480
+2026-07-23,Palakkad,Palakkad Market,Coconut,Without Husk,2990,3968,3479
+2026-07-24,Ernakulam,Ernakulam Market,Banana,Nendran,3531,5490,4510
+2026-07-24,Thrissur,Thrissur Market,Banana,Nendran,3527,5520,4523
+2026-07-24,Alappuzha,Alappuzha Market,Coconut,Without Husk,2909,3954,3431
+2026-07-24,Kozhikode,Kozhikode Market,Coconut,Without Husk,3048,4007,3527
+2026-07-24,Ernakulam,Ernakulam Market,Coconut,Without Husk,3031,3947,3489
+2026-07-24,Palakkad,Palakkad Market,Coconut,Without Husk,2964,3942,3453
+2026-07-25,Ernakulam,Ernakulam Market,Banana,Nendran,3547,5558,4552
+2026-07-25,Thrissur,Thrissur Market,Banana,Nendran,3445,5460,4452
+2026-07-25,Alappuzha,Alappuzha Market,Coconut,Without Husk,2930,3933,3431
+2026-07-25,Kozhikode,Kozhikode Market,Coconut,Without Husk,2981,4077,3529
+2026-07-25,Ernakulam,Ernakulam Market,Coconut,Without Husk,2970,3900,3435
+2026-07-25,Palakkad,Palakkad Market,Coconut,Without Husk,3066,3983,3524
+2026-07-26,Ernakulam,Ernakulam Market,Banana,Nendran,3460,5598,4529
+2026-07-26,Thrissur,Thrissur Market,Banana,Nendran,3540,5444,4492
+2026-07-26,Alappuzha,Alappuzha Market,Coconut,Without Husk,3097,4062,3579
+2026-07-26,Kozhikode,Kozhikode Market,Coconut,Without Husk,2922,3987,3454
+2026-07-26,Ernakulam,Ernakulam Market,Coconut,Without Husk,3099,4018,3558
+2026-07-26,Palakkad,Palakkad Market,Coconut,Without Husk,3065,4021,3543
+2026-07-27,Ernakulam,Ernakulam Market,Banana,Nendran,3457,5494,4475
+2026-07-27,Thrissur,Thrissur Market,Banana,Nendran,3551,5510,4530
+2026-07-27,Alappuzha,Alappuzha Market,Coconut,Without Husk,2901,3975,3438
+2026-07-27,Kozhikode,Kozhikode Market,Coconut,Without Husk,3019,3924,3471
+2026-07-27,Ernakulam,Ernakulam Market,Coconut,Without Husk,2982,4061,3521
+2026-07-27,Palakkad,Palakkad Market,Coconut,Without Husk,2939,3972,3455
+2026-07-28,Ernakulam,Ernakulam Market,Banana,Nendran,3496,5554,4525
+2026-07-28,Thrissur,Thrissur Market,Banana,Nendran,3542,5598,4570
+2026-07-28,Alappuzha,Alappuzha Market,Coconut,Without Husk,2976,3953,3464
+2026-07-28,Kozhikode,Kozhikode Market,Coconut,Without Husk,2965,4046,3505
+2026-07-28,Ernakulam,Ernakulam Market,Coconut,Without Husk,2985,4082,3533
+2026-07-28,Palakkad,Palakkad Market,Coconut,Without Husk,3060,3905,3482
+2026-07-29,Ernakulam,Ernakulam Market,Banana,Nendran,3474,5430,4452
+2026-07-29,Thrissur,Thrissur Market,Banana,Nendran,3519,5449,4484
+2026-07-29,Alappuzha,Alappuzha Market,Coconut,Without Husk,3037,4046,3541
+2026-07-29,Kozhikode,Kozhikode Market,Coconut,Without Husk,3025,4065,3545
+2026-07-29,Ernakulam,Ernakulam Market,Coconut,Without Husk,2978,4015,3496
+2026-07-29,Palakkad,Palakkad Market,Coconut,Without Husk,2949,3909,3429
+2026-07-30,Ernakulam,Ernakulam Market,Banana,Nendran,3470,5446,4458
+2026-07-30,Thrissur,Thrissur Market,Banana,Nendran,3449,5412,4430
+2026-07-30,Alappuzha,Alappuzha Market,Coconut,Without Husk,2993,4049,3521
+2026-07-30,Kozhikode,Kozhikode Market,Coconut,Without Husk,3028,4040,3534
+2026-07-30,Ernakulam,Ernakulam Market,Coconut,Without Husk,3057,3975,3516
+2026-07-30,Palakkad,Palakkad Market,Coconut,Without Husk,3011,3968,3489
+2026-07-31,Ernakulam,Ernakulam Market,Banana,Nendran,3435,5554,4494
+2026-07-31,Thrissur,Thrissur Market,Banana,Nendran,3514,5455,4484
+2026-07-31,Alappuzha,Alappuzha Market,Coconut,Without Husk,3100,4054,3577
+2026-07-31,Kozhikode,Kozhikode Market,Coconut,Without Husk,3030,3925,3477
+2026-07-31,Ernakulam,Ernakulam Market,Coconut,Without Husk,3050,4077,3563
+2026-07-31,Palakkad,Palakkad Market,Coconut,Without Husk,3098,3942,3520
+2026-08-01,Ernakulam,Ernakulam Market,Banana,Nendran,3579,5582,4580
+2026-08-01,Thrissur,Thrissur Market,Banana,Nendran,3539,5549,4544
+2026-08-01,Alappuzha,Alappuzha Market,Coconut,Without Husk,2902,4100,3501
+2026-08-01,Kozhikode,Kozhikode Market,Coconut,Without Husk,3072,3904,3488
+2026-08-01,Ernakulam,Ernakulam Market,Coconut,Without Husk,2999,3980,3489
+2026-08-01,Palakkad,Palakkad Market,Coconut,Without Husk,3099,3936,3517
+2026-08-02,Ernakulam,Ernakulam Market,Banana,Nendran,3579,5595,4587
+2026-08-02,Thrissur,Thrissur Market,Banana,Nendran,3420,5413,4416
+2026-08-02,Alappuzha,Alappuzha Market,Coconut,Without Husk,3091,4067,3579
+2026-08-02,Kozhikode,Kozhikode Market,Coconut,Without Husk,2972,4079,3525
+2026-08-02,Ernakulam,Ernakulam Market,Coconut,Without Husk,2958,4099,3528
+2026-08-02,Palakkad,Palakkad Market,Coconut,Without Husk,2911,4082,3496
+2026-08-03,Ernakulam,Ernakulam Market,Banana,Nendran,3445,5454,4449
+2026-08-03,Thrissur,Thrissur Market,Banana,Nendran,3477,5593,4535
+2026-08-03,Alappuzha,Alappuzha Market,Coconut,Without Husk,3029,4021,3525
+2026-08-03,Kozhikode,Kozhikode Market,Coconut,Without Husk,2937,3949,3443
+2026-08-03,Ernakulam,Ernakulam Market,Coconut,Without Husk,2966,3976,3471
+2026-08-03,Palakkad,Palakkad Market,Coconut,Without Husk,2923,3957,3440
+2026-08-04,Ernakulam,Ernakulam Market,Banana,Nendran,3596,5426,4511
+2026-08-04,Thrissur,Thrissur Market,Banana,Nendran,3425,5549,4487
+2026-08-04,Alappuzha,Alappuzha Market,Coconut,Without Husk,3040,4080,3560
+2026-08-04,Kozhikode,Kozhikode Market,Coconut,Without Husk,3056,3929,3492
+2026-08-04,Ernakulam,Ernakulam Market,Coconut,Without Husk,2973,4097,3535
+2026-08-04,Palakkad,Palakkad Market,Coconut,Without Husk,2953,4062,3507
+2026-08-05,Ernakulam,Ernakulam Market,Banana,Nendran,3531,5416,4473
+2026-08-05,Thrissur,Thrissur Market,Banana,Nendran,3518,5502,4510
+2026-08-05,Alappuzha,Alappuzha Market,Coconut,Without Husk,3052,4052,3552
+2026-08-05,Kozhikode,Kozhikode Market,Coconut,Without Husk,3053,3970,3511
+2026-08-05,Ernakulam,Ernakulam Market,Coconut,Without Husk,3081,4021,3551
+2026-08-05,Palakkad,Palakkad Market,Coconut,Without Husk,2901,4083,3492
+2026-08-06,Ernakulam,Ernakulam Market,Banana,Nendran,3438,5569,4503
+2026-08-06,Thrissur,Thrissur Market,Banana,Nendran,3539,5541,4540
+2026-08-06,Alappuzha,Alappuzha Market,Coconut,Without Husk,3087,3986,3536
+2026-08-06,Kozhikode,Kozhikode Market,Coconut,Without Husk,2963,3978,3470
+2026-08-06,Ernakulam,Ernakulam Market,Coconut,Without Husk,3010,3914,3462
+2026-08-06,Palakkad,Palakkad Market,Coconut,Without Husk,3066,3968,3517
+2026-08-07,Ernakulam,Ernakulam Market,Banana,Nendran,3403,5578,4490
+2026-08-07,Thrissur,Thrissur Market,Banana,Nendran,3431,5487,4459
+2026-08-07,Alappuzha,Alappuzha Market,Coconut,Without Husk,2991,4053,3522
+2026-08-07,Kozhikode,Kozhikode Market,Coconut,Without Husk,3090,3962,3526
+2026-08-07,Ernakulam,Ernakulam Market,Coconut,Without Husk,2978,4048,3513
+2026-08-07,Palakkad,Palakkad Market,Coconut,Without Husk,3069,3932,3500
+2026-08-08,Ernakulam,Ernakulam Market,Banana,Nendran,3480,5543,4511
+2026-08-08,Thrissur,Thrissur Market,Banana,Nendran,3571,5440,4505
+2026-08-08,Alappuzha,Alappuzha Market,Coconut,Without Husk,2935,4045,3490
+2026-08-08,Kozhikode,Kozhikode Market,Coconut,Without Husk,2955,4021,3488
+2026-08-08,Ernakulam,Ernakulam Market,Coconut,Without Husk,2971,4013,3492
+2026-08-08,Palakkad,Palakkad Market,Coconut,Without Husk,3030,4081,3555
+2026-08-09,Ernakulam,Ernakulam Market,Banana,Nendran,3509,5403,4456
+2026-08-09,Thrissur,Thrissur Market,Banana,Nendran,3589,5555,4572
+2026-08-09,Alappuzha,Alappuzha Market,Coconut,Without Husk,3005,4012,3508
+2026-08-09,Kozhikode,Kozhikode Market,Coconut,Without Husk,2966,3947,3456
+2026-08-09,Ernakulam,Ernakulam Market,Coconut,Without Husk,2941,3956,3448
+2026-08-09,Palakkad,Palakkad Market,Coconut,Without Husk,3082,4096,3589
+2026-08-10,Ernakulam,Ernakulam Market,Banana,Nendran,3475,5556,4515
+2026-08-10,Thrissur,Thrissur Market,Banana,Nendran,3424,5452,4438
+2026-08-10,Alappuzha,Alappuzha Market,Coconut,Without Husk,2990,4033,3511
+2026-08-10,Kozhikode,Kozhikode Market,Coconut,Without Husk,3099,4083,3591
+2026-08-10,Ernakulam,Ernakulam Market,Coconut,Without Husk,3035,4035,3535
+2026-08-10,Palakkad,Palakkad Market,Coconut,Without Husk,2995,3920,3457
+2026-08-11,Ernakulam,Ernakulam Market,Banana,Nendran,3481,5402,4441
+2026-08-11,Thrissur,Thrissur Market,Banana,Nendran,3433,5558,4495
+2026-08-11,Alappuzha,Alappuzha Market,Coconut,Without Husk,3024,3960,3492
+2026-08-11,Kozhikode,Kozhikode Market,Coconut,Without Husk,2970,4063,3516
+2026-08-11,Ernakulam,Ernakulam Market,Coconut,Without Husk,3014,3983,3498
+2026-08-11,Palakkad,Palakkad Market,Coconut,Without Husk,2967,3946,3456
+2026-08-12,Ernakulam,Ernakulam Market,Banana,Nendran,3533,5590,4561
+2026-08-12,Thrissur,Thrissur Market,Banana,Nendran,3409,5567,4488
+2026-08-12,Alappuzha,Alappuzha Market,Coconut,Without Husk,3034,3916,3475
+2026-08-12,Kozhikode,Kozhikode Market,Coconut,Without Husk,3085,3945,3515
+2026-08-12,Ernakulam,Ernakulam Market,Coconut,Without Husk,3053,4051,3552
+2026-08-12,Palakkad,Palakkad Market,Coconut,Without Husk,2973,3962,3467
+2026-08-13,Ernakulam,Ernakulam Market,Banana,Nendran,3523,5493,4508
+2026-08-13,Thrissur,Thrissur Market,Banana,Nendran,3418,5446,4432
+2026-08-13,Alappuzha,Alappuzha Market,Coconut,Without Husk,3099,3989,3544
+2026-08-13,Kozhikode,Kozhikode Market,Coconut,Without Husk,2965,4053,3509
+2026-08-13,Ernakulam,Ernakulam Market,Coconut,Without Husk,2955,3902,3428
+2026-08-13,Palakkad,Palakkad Market,Coconut,Without Husk,3039,3982,3510
+2026-08-14,Ernakulam,Ernakulam Market,Banana,Nendran,3548,5518,4533
+2026-08-14,Thrissur,Thrissur Market,Banana,Nendran,3481,5475,4478
+2026-08-14,Alappuzha,Alappuzha Market,Coconut,Without Husk,2966,3923,3444
+2026-08-14,Kozhikode,Kozhikode Market,Coconut,Without Husk,3003,4042,3522
+2026-08-14,Ernakulam,Ernakulam Market,Coconut,Without Husk,3091,4011,3551
+2026-08-14,Palakkad,Palakkad Market,Coconut,Without Husk,2943,3930,3436
+2026-08-15,Ernakulam,Ernakulam Market,Banana,Nendran,3554,5455,4504
+2026-08-15,Thrissur,Thrissur Market,Banana,Nendran,3590,5447,4518
+2026-08-15,Alappuzha,Alappuzha Market,Coconut,Without Husk,2916,3961,3438
+2026-08-15,Kozhikode,Kozhikode Market,Coconut,Without Husk,2920,3984,3452
+2026-08-15,Ernakulam,Ernakulam Market,Coconut,Without Husk,2982,4015,3498
+2026-08-15,Palakkad,Palakkad Market,Coconut,Without Husk,2926,4044,3485
+2026-08-16,Ernakulam,Ernakulam Market,Banana,Nendran,3580,5498,4539
+2026-08-16,Thrissur,Thrissur Market,Banana,Nendran,3475,5526,4500
+2026-08-16,Alappuzha,Alappuzha Market,Coconut,Without Husk,2928,4015,3471
+2026-08-16,Kozhikode,Kozhikode Market,Coconut,Without Husk,2954,3917,3435
+2026-08-16,Ernakulam,Ernakulam Market,Coconut,Without Husk,2948,3987,3467
+2026-08-16,Palakkad,Palakkad Market,Coconut,Without Husk,2925,4074,3499
+2026-08-17,Ernakulam,Ernakulam Market,Banana,Nendran,3539,5482,4510
+2026-08-17,Thrissur,Thrissur Market,Banana,Nendran,3407,5488,4447
+2026-08-17,Alappuzha,Alappuzha Market,Coconut,Without Husk,2924,4004,3464
+2026-08-17,Kozhikode,Kozhikode Market,Coconut,Without Husk,3008,4029,3518
+2026-08-17,Ernakulam,Ernakulam Market,Coconut,Without Husk,3033,3992,3512
+2026-08-17,Palakkad,Palakkad Market,Coconut,Without Husk,2955,3997,3476
+2026-08-18,Ernakulam,Ernakulam Market,Banana,Nendran,3574,5435,4504
+2026-08-18,Thrissur,Thrissur Market,Banana,Nendran,3527,5581,4554
+2026-08-18,Alappuzha,Alappuzha Market,Coconut,Without Husk,2965,4000,3482
+2026-08-18,Kozhikode,Kozhikode Market,Coconut,Without Husk,3085,3988,3536
+2026-08-18,Ernakulam,Ernakulam Market,Coconut,Without Husk,2982,3973,3477
+2026-08-18,Palakkad,Palakkad Market,Coconut,Without Husk,2995,4029,3512
+2026-08-19,Ernakulam,Ernakulam Market,Banana,Nendran,3573,5541,4557
+2026-08-19,Thrissur,Thrissur Market,Banana,Nendran,3546,5545,4545
+2026-08-19,Alappuzha,Alappuzha Market,Coconut,Without Husk,2982,3996,3489
+2026-08-19,Kozhikode,Kozhikode Market,Coconut,Without Husk,3052,4021,3536
+2026-08-19,Ernakulam,Ernakulam Market,Coconut,Without Husk,2987,4011,3499
+2026-08-19,Palakkad,Palakkad Market,Coconut,Without Husk,3066,3939,3502
+2026-08-20,Ernakulam,Ernakulam Market,Banana,Nendran,3550,5459,4504
+2026-08-20,Thrissur,Thrissur Market,Banana,Nendran,3538,5535,4536
+2026-08-20,Alappuzha,Alappuzha Market,Coconut,Without Husk,3092,4074,3583
+2026-08-20,Kozhikode,Kozhikode Market,Coconut,Without Husk,3053,3932,3492
+2026-08-20,Ernakulam,Ernakulam Market,Coconut,Without Husk,2994,3909,3451
+2026-08-20,Palakkad,Palakkad Market,Coconut,Without Husk,3019,3999,3509
+2026-08-21,Ernakulam,Ernakulam Market,Banana,Nendran,3510,5531,4520
+2026-08-21,Thrissur,Thrissur Market,Banana,Nendran,3477,5462,4469
+2026-08-21,Alappuzha,Alappuzha Market,Coconut,Without Husk,2903,3919,3411
+2026-08-21,Kozhikode,Kozhikode Market,Coconut,Without Husk,3049,4016,3532
+2026-08-21,Ernakulam,Ernakulam Market,Coconut,Without Husk,3045,4061,3553
+2026-08-21,Palakkad,Palakkad Market,Coconut,Without Husk,2985,3981,3483
+2026-08-22,Ernakulam,Ernakulam Market,Banana,Nendran,3433,5563,4498
+2026-08-22,Thrissur,Thrissur Market,Banana,Nendran,3575,5515,4545
+2026-08-22,Alappuzha,Alappuzha Market,Coconut,Without Husk,2997,4058,3527
+2026-08-22,Kozhikode,Kozhikode Market,Coconut,Without Husk,2982,4097,3539
+2026-08-22,Ernakulam,Ernakulam Market,Coconut,Without Husk,3052,3924,3488
+2026-08-22,Palakkad,Palakkad Market,Coconut,Without Husk,2941,4036,3488
+2026-08-23,Ernakulam,Ernakulam Market,Banana,Nendran,3507,5540,4523
+2026-08-23,Thrissur,Thrissur Market,Banana,Nendran,3455,5520,4487
+2026-08-23,Alappuzha,Alappuzha Market,Coconut,Without Husk,3053,4022,3537
+2026-08-23,Kozhikode,Kozhikode Market,Coconut,Without Husk,2952,3982,3467
+2026-08-23,Ernakulam,Ernakulam Market,Coconut,Without Husk,3098,4028,3563
+2026-08-23,Palakkad,Palakkad Market,Coconut,Without Husk,3068,4044,3556
+2026-08-24,Ernakulam,Ernakulam Market,Banana,Nendran,3547,5464,4505
+2026-08-24,Thrissur,Thrissur Market,Banana,Nendran,3420,5572,4496
+2026-08-24,Alappuzha,Alappuzha Market,Coconut,Without Husk,3099,3951,3525
+2026-08-24,Kozhikode,Kozhikode Market,Coconut,Without Husk,2962,4004,3483
+2026-08-24,Ernakulam,Ernakulam Market,Coconut,Without Husk,3003,3950,3476
+2026-08-24,Palakkad,Palakkad Market,Coconut,Without Husk,3039,3982,3510
+2026-08-25,Ernakulam,Ernakulam Market,Banana,Nendran,3411,5534,4472
+2026-08-25,Thrissur,Thrissur Market,Banana,Nendran,3473,5483,4478
+2026-08-25,Alappuzha,Alappuzha Market,Coconut,Without Husk,2956,4094,3525
+2026-08-25,Kozhikode,Kozhikode Market,Coconut,Without Husk,3022,4100,3561
+2026-08-25,Ernakulam,Ernakulam Market,Coconut,Without Husk,2907,4060,3483
+2026-08-25,Palakkad,Palakkad Market,Coconut,Without Husk,3063,3961,3512
+2026-08-26,Ernakulam,Ernakulam Market,Banana,Nendran,3419,5528,4473
+2026-08-26,Thrissur,Thrissur Market,Banana,Nendran,3492,5472,4482
+2026-08-26,Alappuzha,Alappuzha Market,Coconut,Without Husk,3079,4071,3575
+2026-08-26,Kozhikode,Kozhikode Market,Coconut,Without Husk,2919,3945,3432
+2026-08-26,Ernakulam,Ernakulam Market,Coconut,Without Husk,3034,3963,3498
+2026-08-26,Palakkad,Palakkad Market,Coconut,Without Husk,3032,3942,3487
+2026-08-27,Ernakulam,Ernakulam Market,Banana,Nendran,3459,5406,4432
+2026-08-27,Thrissur,Thrissur Market,Banana,Nendran,3537,5534,4535
+2026-08-27,Alappuzha,Alappuzha Market,Coconut,Without Husk,3010,3992,3501
+2026-08-27,Kozhikode,Kozhikode Market,Coconut,Without Husk,3083,3974,3528
+2026-08-27,Ernakulam,Ernakulam Market,Coconut,Without Husk,3059,3952,3505
+2026-08-27,Palakkad,Palakkad Market,Coconut,Without Husk,2939,4082,3510
+2026-08-28,Ernakulam,Ernakulam Market,Banana,Nendran,3406,5547,4476
+2026-08-28,Thrissur,Thrissur Market,Banana,Nendran,3541,5497,4519
+2026-08-28,Alappuzha,Alappuzha Market,Coconut,Without Husk,2946,3996,3471
+2026-08-28,Kozhikode,Kozhikode Market,Coconut,Without Husk,2954,4035,3494
+2026-08-28,Ernakulam,Ernakulam Market,Coconut,Without Husk,3054,3987,3520
+2026-08-28,Palakkad,Palakkad Market,Coconut,Without Husk,3060,3969,3514
+2026-08-29,Ernakulam,Ernakulam Market,Banana,Nendran,3552,5593,4572
+2026-08-29,Thrissur,Thrissur Market,Banana,Nendran,3491,5559,4525
+2026-08-29,Alappuzha,Alappuzha Market,Coconut,Without Husk,3006,4027,3516
+2026-08-29,Kozhikode,Kozhikode Market,Coconut,Without Husk,2962,4096,3529
+2026-08-29,Ernakulam,Ernakulam Market,Coconut,Without Husk,2951,4064,3507
+2026-08-29,Palakkad,Palakkad Market,Coconut,Without Husk,3058,4013,3535
+2026-08-30,Ernakulam,Ernakulam Market,Banana,Nendran,3511,5478,4494
+2026-08-30,Thrissur,Thrissur Market,Banana,Nendran,3462,5432,4447
+2026-08-30,Alappuzha,Alappuzha Market,Coconut,Without Husk,2978,3974,3476
+2026-08-30,Kozhikode,Kozhikode Market,Coconut,Without Husk,2961,3911,3436
+2026-08-30,Ernakulam,Ernakulam Market,Coconut,Without Husk,2984,3981,3482
+2026-08-30,Palakkad,Palakkad Market,Coconut,Without Husk,3054,3967,3510
+2026-08-31,Ernakulam,Ernakulam Market,Banana,Nendran,3552,5436,4494
+2026-08-31,Thrissur,Thrissur Market,Banana,Nendran,3460,5598,4529
+2026-08-31,Alappuzha,Alappuzha Market,Coconut,Without Husk,2932,4076,3504
+2026-08-31,Kozhikode,Kozhikode Market,Coconut,Without Husk,3061,4061,3561
+2026-08-31,Ernakulam,Ernakulam Market,Coconut,Without Husk,2992,4064,3528
+2026-08-31,Palakkad,Palakkad Market,Coconut,Without Husk,2958,3916,3437
+2026-09-01,Ernakulam,Ernakulam Market,Banana,Nendran,3555,5527,4541
+2026-09-01,Thrissur,Thrissur Market,Banana,Nendran,3598,5498,4548
+2026-09-01,Alappuzha,Alappuzha Market,Coconut,Without Husk,2969,4098,3533
+2026-09-01,Kozhikode,Kozhikode Market,Coconut,Without Husk,3031,3924,3477
+2026-09-01,Ernakulam,Ernakulam Market,Coconut,Without Husk,3062,4020,3541
+2026-09-01,Palakkad,Palakkad Market,Coconut,Without Husk,2991,3980,3485
+2026-09-02,Ernakulam,Ernakulam Market,Banana,Nendran,3437,5410,4423
+2026-09-02,Thrissur,Thrissur Market,Banana,Nendran,3551,5594,4572
+2026-09-02,Alappuzha,Alappuzha Market,Coconut,Without Husk,2983,4066,3524
+2026-09-02,Kozhikode,Kozhikode Market,Coconut,Without Husk,3093,4063,3578
+2026-09-02,Ernakulam,Ernakulam Market,Coconut,Without Husk,3061,4085,3573
+2026-09-02,Palakkad,Palakkad Market,Coconut,Without Husk,3033,4003,3518
+2026-09-03,Ernakulam,Ernakulam Market,Banana,Nendran,3510,5477,4493
+2026-09-03,Thrissur,Thrissur Market,Banana,Nendran,3583,5493,4538
+2026-09-03,Alappuzha,Alappuzha Market,Coconut,Without Husk,3025,3944,3484
+2026-09-03,Kozhikode,Kozhikode Market,Coconut,Without Husk,2973,3943,3458
+2026-09-03,Ernakulam,Ernakulam Market,Coconut,Without Husk,2981,4020,3500
+2026-09-03,Palakkad,Palakkad Market,Coconut,Without Husk,2985,3978,3481
+2026-09-04,Ernakulam,Ernakulam Market,Banana,Nendran,3453,5416,4434
+2026-09-04,Thrissur,Thrissur Market,Banana,Nendran,3485,5498,4491
+2026-09-04,Alappuzha,Alappuzha Market,Coconut,Without Husk,2984,3941,3462
+2026-09-04,Kozhikode,Kozhikode Market,Coconut,Without Husk,3071,3986,3528
+2026-09-04,Ernakulam,Ernakulam Market,Coconut,Without Husk,3098,4051,3574
+2026-09-04,Palakkad,Palakkad Market,Coconut,Without Husk,3060,4081,3570
+2026-09-05,Ernakulam,Ernakulam Market,Banana,Nendran,3573,5450,4511
+2026-09-05,Thrissur,Thrissur Market,Banana,Nendran,3452,5576,4514
+2026-09-05,Alappuzha,Alappuzha Market,Coconut,Without Husk,3032,3936,3484
+2026-09-05,Kozhikode,Kozhikode Market,Coconut,Without Husk,2929,4087,3508
+2026-09-05,Ernakulam,Ernakulam Market,Coconut,Without Husk,2910,4047,3478
+2026-09-05,Palakkad,Palakkad Market,Coconut,Without Husk,2969,3975,3472
+2026-09-06,Ernakulam,Ernakulam Market,Banana,Nendran,3466,5548,4507
+2026-09-06,Thrissur,Thrissur Market,Banana,Nendran,3453,5518,4485
+2026-09-06,Alappuzha,Alappuzha Market,Coconut,Without Husk,3085,4070,3577
+2026-09-06,Kozhikode,Kozhikode Market,Coconut,Without Husk,3054,4046,3550
+2026-09-06,Ernakulam,Ernakulam Market,Coconut,Without Husk,3080,4067,3573
+2026-09-06,Palakkad,Palakkad Market,Coconut,Without Husk,2908,4091,3499
+2026-09-07,Ernakulam,Ernakulam Market,Banana,Nendran,3401,5542,4471
+2026-09-07,Thrissur,Thrissur Market,Banana,Nendran,3503,5454,4478
+2026-09-07,Alappuzha,Alappuzha Market,Coconut,Without Husk,2945,4049,3497
+2026-09-07,Kozhikode,Kozhikode Market,Coconut,Without Husk,3067,4075,3571
+2026-09-07,Ernakulam,Ernakulam Market,Coconut,Without Husk,2948,3904,3426
+2026-09-07,Palakkad,Palakkad Market,Coconut,Without Husk,3009,4051,3530
+2026-09-08,Ernakulam,Ernakulam Market,Banana,Nendran,3533,5560,4546
+2026-09-08,Thrissur,Thrissur Market,Banana,Nendran,3468,5404,4436
+2026-09-08,Alappuzha,Alappuzha Market,Coconut,Without Husk,3055,4041,3548
+2026-09-08,Kozhikode,Kozhikode Market,Coconut,Without Husk,3029,3946,3487
+2026-09-08,Ernakulam,Ernakulam Market,Coconut,Without Husk,3064,4089,3576
+2026-09-08,Palakkad,Palakkad Market,Coconut,Without Husk,2911,3990,3450
+2026-09-09,Ernakulam,Ernakulam Market,Banana,Nendran,3584,5455,4519
+2026-09-09,Thrissur,Thrissur Market,Banana,Nendran,3556,5435,4495
+2026-09-09,Alappuzha,Alappuzha Market,Coconut,Without Husk,2952,3922,3437
+2026-09-09,Kozhikode,Kozhikode Market,Coconut,Without Husk,3059,4056,3557
+2026-09-09,Ernakulam,Ernakulam Market,Coconut,Without Husk,2977,3929,3453
+2026-09-09,Palakkad,Palakkad Market,Coconut,Without Husk,3003,3974,3488
+2026-09-10,Ernakulam,Ernakulam Market,Banana,Nendran,3484,5459,4471
+2026-09-10,Thrissur,Thrissur Market,Banana,Nendran,3426,5434,4430
+2026-09-10,Alappuzha,Alappuzha Market,Coconut,Without Husk,2926,4034,3480
+2026-09-10,Kozhikode,Kozhikode Market,Coconut,Without Husk,2991,4074,3532
+2026-09-10,Ernakulam,Ernakulam Market,Coconut,Without Husk,2928,4004,3466
+2026-09-10,Palakkad,Palakkad Market,Coconut,Without Husk,3093,4000,3546
+2026-09-11,Ernakulam,Ernakulam Market,Banana,Nendran,3525,5545,4535
+2026-09-11,Thrissur,Thrissur Market,Banana,Nendran,3522,5498,4510
+2026-09-11,Alappuzha,Alappuzha Market,Coconut,Without Husk,2930,4004,3467
+2026-09-11,Kozhikode,Kozhikode Market,Coconut,Without Husk,2974,3914,3444
+2026-09-11,Ernakulam,Ernakulam Market,Coconut,Without Husk,2927,3952,3439
+2026-09-11,Palakkad,Palakkad Market,Coconut,Without Husk,2926,3937,3431
+2026-09-12,Ernakulam,Ernakulam Market,Banana,Nendran,3500,5506,4503
+2026-09-12,Thrissur,Thrissur Market,Banana,Nendran,3535,5432,4483
+2026-09-12,Alappuzha,Alappuzha Market,Coconut,Without Husk,3034,3904,3469
+2026-09-12,Kozhikode,Kozhikode Market,Coconut,Without Husk,2955,4097,3526
+2026-09-12,Ernakulam,Ernakulam Market,Coconut,Without Husk,2919,4028,3473
+2026-09-12,Palakkad,Palakkad Market,Coconut,Without Husk,2989,3971,3480
+2026-09-13,Ernakulam,Ernakulam Market,Banana,Nendran,3432,5587,4509
+2026-09-13,Thrissur,Thrissur Market,Banana,Nendran,3593,5407,4500
+2026-09-13,Alappuzha,Alappuzha Market,Coconut,Without Husk,2953,3920,3436
+2026-09-13,Kozhikode,Kozhikode Market,Coconut,Without Husk,3059,4017,3538
+2026-09-13,Ernakulam,Ernakulam Market,Coconut,Without Husk,2920,3947,3433
+2026-09-13,Palakkad,Palakkad Market,Coconut,Without Husk,2952,4028,3490
+2026-09-14,Ernakulam,Ernakulam Market,Banana,Nendran,3477,5435,4456
+2026-09-14,Thrissur,Thrissur Market,Banana,Nendran,3470,5419,4444
+2026-09-14,Alappuzha,Alappuzha Market,Coconut,Without Husk,2923,4052,3487
+2026-09-14,Kozhikode,Kozhikode Market,Coconut,Without Husk,3049,4094,3571
+2026-09-14,Ernakulam,Ernakulam Market,Coconut,Without Husk,2916,4061,3488
+2026-09-14,Palakkad,Palakkad Market,Coconut,Without Husk,3074,3976,3525
+2026-09-15,Ernakulam,Ernakulam Market,Banana,Nendran,3556,5570,4563
+2026-09-15,Thrissur,Thrissur Market,Banana,Nendran,3458,5488,4473
+2026-09-15,Alappuzha,Alappuzha Market,Coconut,Without Husk,2953,3952,3452
+2026-09-15,Kozhikode,Kozhikode Market,Coconut,Without Husk,2998,3915,3456
+2026-09-15,Ernakulam,Ernakulam Market,Coconut,Without Husk,2919,3937,3428
+2026-09-15,Palakkad,Palakkad Market,Coconut,Without Husk,3072,4096,3584
+2026-09-16,Ernakulam,Ernakulam Market,Banana,Nendran,3426,5572,4499
+2026-09-16,Thrissur,Thrissur Market,Banana,Nendran,3450,5555,4502
+2026-09-16,Alappuzha,Alappuzha Market,Coconut,Without Husk,2980,4088,3534
+2026-09-16,Kozhikode,Kozhikode Market,Coconut,Without Husk,2944,4021,3482
+2026-09-16,Ernakulam,Ernakulam Market,Coconut,Without Husk,3018,3987,3502
+2026-09-16,Palakkad,Palakkad Market,Coconut,Without Husk,3090,3982,3536
+2026-09-17,Ernakulam,Ernakulam Market,Banana,Nendran,3400,5432,4416
+2026-09-17,Thrissur,Thrissur Market,Banana,Nendran,3530,5599,4564
+2026-09-17,Alappuzha,Alappuzha Market,Coconut,Without Husk,2998,4085,3541
+2026-09-17,Kozhikode,Kozhikode Market,Coconut,Without Husk,2947,4067,3507
+2026-09-17,Ernakulam,Ernakulam Market,Coconut,Without Husk,3094,4016,3555
+2026-09-17,Palakkad,Palakkad Market,Coconut,Without Husk,2953,3996,3474
+2026-09-18,Ernakulam,Ernakulam Market,Banana,Nendran,3492,5519,4505
+2026-09-18,Thrissur,Thrissur Market,Banana,Nendran,3501,5594,4547
+2026-09-18,Alappuzha,Alappuzha Market,Coconut,Without Husk,3094,3972,3533
+2026-09-18,Kozhikode,Kozhikode Market,Coconut,Without Husk,3057,4031,3544
+2026-09-18,Ernakulam,Ernakulam Market,Coconut,Without Husk,3093,4015,3554
+2026-09-18,Palakkad,Palakkad Market,Coconut,Without Husk,2952,4066,3509
+2026-09-19,Ernakulam,Ernakulam Market,Banana,Nendran,3595,5471,4533
+2026-09-19,Thrissur,Thrissur Market,Banana,Nendran,3455,5460,4457
+2026-09-19,Alappuzha,Alappuzha Market,Coconut,Without Husk,2903,3948,3425
+2026-09-19,Kozhikode,Kozhikode Market,Coconut,Without Husk,2966,3931,3448
+2026-09-19,Ernakulam,Ernakulam Market,Coconut,Without Husk,2976,4083,3529
+2026-09-19,Palakkad,Palakkad Market,Coconut,Without Husk,3047,4089,3568
+2026-09-20,Ernakulam,Ernakulam Market,Banana,Nendran,3496,5401,4448
+2026-09-20,Thrissur,Thrissur Market,Banana,Nendran,3437,5582,4509
+2026-09-20,Alappuzha,Alappuzha Market,Coconut,Without Husk,3044,4005,3524
+2026-09-20,Kozhikode,Kozhikode Market,Coconut,Without Husk,3027,4052,3539
+2026-09-20,Ernakulam,Ernakulam Market,Coconut,Without Husk,2980,4054,3517
+2026-09-20,Palakkad,Palakkad Market,Coconut,Without Husk,2901,4000,3450
+2026-09-21,Ernakulam,Ernakulam Market,Banana,Nendran,3490,5476,4483
+2026-09-21,Thrissur,Thrissur Market,Banana,Nendran,3417,5434,4425
+2026-09-21,Alappuzha,Alappuzha Market,Coconut,Without Husk,3057,3920,3488
+2026-09-21,Kozhikode,Kozhikode Market,Coconut,Without Husk,3074,3989,3531
+2026-09-21,Ernakulam,Ernakulam Market,Coconut,Without Husk,2907,3944,3425
+2026-09-21,Palakkad,Palakkad Market,Coconut,Without Husk,3065,3935,3500
+2026-09-22,Ernakulam,Ernakulam Market,Banana,Nendran,3480,5578,4529
+2026-09-22,Thrissur,Thrissur Market,Banana,Nendran,3471,5526,4498
+2026-09-22,Alappuzha,Alappuzha Market,Coconut,Without Husk,3024,3922,3473
+2026-09-22,Kozhikode,Kozhikode Market,Coconut,Without Husk,3026,3914,3470
+2026-09-22,Ernakulam,Ernakulam Market,Coconut,Without Husk,2906,4034,3470
+2026-09-22,Palakkad,Palakkad Market,Coconut,Without Husk,3038,4042,3540
+2026-09-23,Ernakulam,Ernakulam Market,Banana,Nendran,3599,5435,4517
+2026-09-23,Thrissur,Thrissur Market,Banana,Nendran,3596,5458,4527
+2026-09-23,Alappuzha,Alappuzha Market,Coconut,Without Husk,3073,4045,3559
+2026-09-23,Kozhikode,Kozhikode Market,Coconut,Without Husk,3029,3928,3478
+2026-09-23,Ernakulam,Ernakulam Market,Coconut,Without Husk,2906,3975,3440
+2026-09-23,Palakkad,Palakkad Market,Coconut,Without Husk,3039,4046,3542
+2026-09-24,Ernakulam,Ernakulam Market,Banana,Nendran,3576,5454,4515
+2026-09-24,Thrissur,Thrissur Market,Banana,Nendran,3587,5599,4593
+2026-09-24,Alappuzha,Alappuzha Market,Coconut,Without Husk,3040,3965,3502
+2026-09-24,Kozhikode,Kozhikode Market,Coconut,Without Husk,3065,3947,3506
+2026-09-24,Ernakulam,Ernakulam Market,Coconut,Without Husk,2919,3959,3439
+2026-09-24,Palakkad,Palakkad Market,Coconut,Without Husk,2977,3999,3488
+2026-09-25,Ernakulam,Ernakulam Market,Banana,Nendran,3426,5571,4498
+2026-09-25,Thrissur,Thrissur Market,Banana,Nendran,3493,5414,4453
+2026-09-25,Alappuzha,Alappuzha Market,Coconut,Without Husk,3015,4079,3547
+2026-09-25,Kozhikode,Kozhikode Market,Coconut,Without Husk,3006,3983,3494
+2026-09-25,Ernakulam,Ernakulam Market,Coconut,Without Husk,3080,4075,3577
+2026-09-25,Palakkad,Palakkad Market,Coconut,Without Husk,3069,4063,3566
+2026-09-26,Ernakulam,Ernakulam Market,Banana,Nendran,3528,5599,4563
+2026-09-26,Thrissur,Thrissur Market,Banana,Nendran,3445,5575,4510
+2026-09-26,Alappuzha,Alappuzha Market,Coconut,Without Husk,3023,3973,3498
+2026-09-26,Kozhikode,Kozhikode Market,Coconut,Without Husk,3049,4042,3545
+2026-09-26,Ernakulam,Ernakulam Market,Coconut,Without Husk,3065,4050,3557
+2026-09-26,Palakkad,Palakkad Market,Coconut,Without Husk,2970,4022,3496
+2026-09-27,Ernakulam,Ernakulam Market,Banana,Nendran,3575,5467,4521
+2026-09-27,Thrissur,Thrissur Market,Banana,Nendran,3543,5558,4550
+2026-09-27,Alappuzha,Alappuzha Market,Coconut,Without Husk,2973,3965,3469
+2026-09-27,Kozhikode,Kozhikode Market,Coconut,Without Husk,2953,3979,3466
+2026-09-27,Ernakulam,Ernakulam Market,Coconut,Without Husk,2980,3998,3489
+2026-09-27,Palakkad,Palakkad Market,Coconut,Without Husk,3080,4077,3578
+2026-09-28,Ernakulam,Ernakulam Market,Banana,Nendran,3401,5540,4470
+2026-09-28,Thrissur,Thrissur Market,Banana,Nendran,3439,5596,4517
+2026-09-28,Alappuzha,Alappuzha Market,Coconut,Without Husk,2924,4011,3467
+2026-09-28,Kozhikode,Kozhikode Market,Coconut,Without Husk,2990,4009,3499
+2026-09-28,Ernakulam,Ernakulam Market,Coconut,Without Husk,3038,4035,3536
+2026-09-28,Palakkad,Palakkad Market,Coconut,Without Husk,3094,4061,3577
+2026-09-29,Ernakulam,Ernakulam Market,Banana,Nendran,3505,5401,4453
+2026-09-29,Thrissur,Thrissur Market,Banana,Nendran,3588,5514,4551
+2026-09-29,Alappuzha,Alappuzha Market,Coconut,Without Husk,2900,3962,3431
+2026-09-29,Kozhikode,Kozhikode Market,Coconut,Without Husk,2953,4017,3485
+2026-09-29,Ernakulam,Ernakulam Market,Coconut,Without Husk,2944,3928,3436
+2026-09-29,Palakkad,Palakkad Market,Coconut,Without Husk,2916,4007,3461
+2026-09-30,Ernakulam,Ernakulam Market,Banana,Nendran,3446,5431,4438
+2026-09-30,Thrissur,Thrissur Market,Banana,Nendran,3558,5599,4578
+2026-09-30,Alappuzha,Alappuzha Market,Coconut,Without Husk,2929,4100,3514
+2026-09-30,Kozhikode,Kozhikode Market,Coconut,Without Husk,2908,3992,3450
+2026-09-30,Ernakulam,Ernakulam Market,Coconut,Without Husk,3005,4001,3503
+2026-09-30,Palakkad,Palakkad Market,Coconut,Without Husk,2975,4031,3503
+2026-10-01,Idukki,Idukki Market,Black Pepper,Garbled,50055,64939,57497
+2026-10-01,Wayanad,Wayanad Market,Black Pepper,Garbled,50053,64917,57485
+2026-10-01,Idukki,Idukki Market,Cardamom,Small,170067,219928,194997
+2026-10-02,Idukki,Idukki Market,Black Pepper,Garbled,50075,64944,57509
+2026-10-02,Wayanad,Wayanad Market,Black Pepper,Garbled,49968,64926,57447
+2026-10-02,Idukki,Idukki Market,Cardamom,Small,169925,219956,194940
+2026-10-03,Idukki,Idukki Market,Black Pepper,Garbled,49993,65034,57513
+2026-10-03,Wayanad,Wayanad Market,Black Pepper,Garbled,50040,65100,57570
+2026-10-03,Idukki,Idukki Market,Cardamom,Small,169947,220030,194988
+2026-10-04,Idukki,Idukki Market,Black Pepper,Garbled,49993,65095,57544
+2026-10-04,Wayanad,Wayanad Market,Black Pepper,Garbled,50095,64986,57540
+2026-10-04,Idukki,Idukki Market,Cardamom,Small,169918,219930,194924
+2026-10-05,Idukki,Idukki Market,Black Pepper,Garbled,49901,65039,57470
+2026-10-05,Wayanad,Wayanad Market,Black Pepper,Garbled,49921,65074,57497
+2026-10-05,Idukki,Idukki Market,Cardamom,Small,170091,219960,195025
+2026-10-06,Idukki,Idukki Market,Black Pepper,Garbled,50071,65006,57538
+2026-10-06,Wayanad,Wayanad Market,Black Pepper,Garbled,49921,65037,57479
+2026-10-06,Idukki,Idukki Market,Cardamom,Small,170047,220078,195062
+2026-10-07,Idukki,Idukki Market,Black Pepper,Garbled,50039,65018,57528
+2026-10-07,Wayanad,Wayanad Market,Black Pepper,Garbled,49969,65015,57492
+2026-10-07,Idukki,Idukki Market,Cardamom,Small,169921,220017,194969
+2026-10-08,Idukki,Idukki Market,Black Pepper,Garbled,49902,64994,57448
+2026-10-08,Wayanad,Wayanad Market,Black Pepper,Garbled,49943,64903,57423
+2026-10-08,Idukki,Idukki Market,Cardamom,Small,169909,219977,194943
+2026-10-09,Idukki,Idukki Market,Black Pepper,Garbled,49904,65032,57468
+2026-10-09,Wayanad,Wayanad Market,Black Pepper,Garbled,50062,64996,57529
+2026-10-09,Idukki,Idukki Market,Cardamom,Small,170046,220028,195037
+2026-10-10,Idukki,Idukki Market,Black Pepper,Garbled,50035,64974,57504
+2026-10-10,Wayanad,Wayanad Market,Black Pepper,Garbled,50094,65081,57587
+2026-10-10,Idukki,Idukki Market,Cardamom,Small,169957,220099,195028
+2026-10-11,Idukki,Idukki Market,Black Pepper,Garbled,49920,64998,57459
+2026-10-11,Wayanad,Wayanad Market,Black Pepper,Garbled,50094,64973,57533
+2026-10-11,Idukki,Idukki Market,Cardamom,Small,170006,220050,195028
+2026-10-12,Idukki,Idukki Market,Black Pepper,Garbled,50015,64940,57477
+2026-10-12,Wayanad,Wayanad Market,Black Pepper,Garbled,49943,64984,57463
+2026-10-12,Idukki,Idukki Market,Cardamom,Small,169915,219968,194941
+2026-10-13,Idukki,Idukki Market,Black Pepper,Garbled,50005,64970,57487
+2026-10-13,Wayanad,Wayanad Market,Black Pepper,Garbled,49976,65069,57522
+2026-10-13,Idukki,Idukki Market,Cardamom,Small,170017,219944,194980
+2026-10-14,Idukki,Idukki Market,Black Pepper,Garbled,49913,65053,57483
+2026-10-14,Wayanad,Wayanad Market,Black Pepper,Garbled,49998,64932,57465
+2026-10-14,Idukki,Idukki Market,Cardamom,Small,170016,219936,194976
+2026-10-15,Idukki,Idukki Market,Black Pepper,Garbled,49974,65004,57489
+2026-10-15,Wayanad,Wayanad Market,Black Pepper,Garbled,50013,64939,57476
+2026-10-15,Idukki,Idukki Market,Cardamom,Small,170097,220056,195076
+2026-10-16,Idukki,Idukki Market,Black Pepper,Garbled,50021,64931,57476
+2026-10-16,Wayanad,Wayanad Market,Black Pepper,Garbled,50097,64984,57540
+2026-10-16,Idukki,Idukki Market,Cardamom,Small,170088,220070,195079
+2026-10-17,Idukki,Idukki Market,Black Pepper,Garbled,49915,64963,57439
+2026-10-17,Wayanad,Wayanad Market,Black Pepper,Garbled,49907,65028,57467
+2026-10-17,Idukki,Idukki Market,Cardamom,Small,170046,219928,194987
+2026-10-18,Idukki,Idukki Market,Black Pepper,Garbled,49976,64943,57459
+2026-10-18,Wayanad,Wayanad Market,Black Pepper,Garbled,49957,64941,57449
+2026-10-18,Idukki,Idukki Market,Cardamom,Small,169976,220038,195007
+2026-10-19,Idukki,Idukki Market,Black Pepper,Garbled,50097,64972,57534
+2026-10-19,Wayanad,Wayanad Market,Black Pepper,Garbled,49955,65074,57514
+2026-10-19,Idukki,Idukki Market,Cardamom,Small,170030,220083,195056
+2026-10-20,Idukki,Idukki Market,Black Pepper,Garbled,50000,64956,57478
+2026-10-20,Wayanad,Wayanad Market,Black Pepper,Garbled,49969,64990,57479
+2026-10-20,Idukki,Idukki Market,Cardamom,Small,169925,220062,194993
+2026-10-21,Idukki,Idukki Market,Black Pepper,Garbled,49992,65013,57502
+2026-10-21,Wayanad,Wayanad Market,Black Pepper,Garbled,49959,65023,57491
+2026-10-21,Idukki,Idukki Market,Cardamom,Small,169913,220054,194983
+2026-10-22,Idukki,Idukki Market,Black Pepper,Garbled,49952,65066,57509
+2026-10-22,Wayanad,Wayanad Market,Black Pepper,Garbled,50029,64982,57505
+2026-10-22,Idukki,Idukki Market,Cardamom,Small,169905,219904,194904
+2026-10-23,Idukki,Idukki Market,Black Pepper,Garbled,49956,65006,57481
+2026-10-23,Wayanad,Wayanad Market,Black Pepper,Garbled,50039,64969,57504
+2026-10-23,Idukki,Idukki Market,Cardamom,Small,169988,220059,195023
+2026-10-24,Idukki,Idukki Market,Black Pepper,Garbled,50000,64956,57478
+2026-10-24,Wayanad,Wayanad Market,Black Pepper,Garbled,50074,65074,57574
+2026-10-24,Idukki,Idukki Market,Cardamom,Small,170090,220064,195077
+2026-10-25,Idukki,Idukki Market,Black Pepper,Garbled,50041,64986,57513
+2026-10-25,Wayanad,Wayanad Market,Black Pepper,Garbled,50085,65017,57551
+2026-10-25,Idukki,Idukki Market,Cardamom,Small,170051,220044,195047
+2026-10-26,Idukki,Idukki Market,Black Pepper,Garbled,49909,65072,57490
+2026-10-26,Wayanad,Wayanad Market,Black Pepper,Garbled,49976,65078,57527
+2026-10-26,Idukki,Idukki Market,Cardamom,Small,169950,219966,194958
+2026-10-27,Idukki,Idukki Market,Black Pepper,Garbled,49998,64974,57486
+2026-10-27,Wayanad,Wayanad Market,Black Pepper,Garbled,49951,64983,57467
+2026-10-27,Idukki,Idukki Market,Cardamom,Small,169934,220067,195000
+2026-10-28,Idukki,Idukki Market,Black Pepper,Garbled,49969,65093,57531
+2026-10-28,Wayanad,Wayanad Market,Black Pepper,Garbled,49991,64986,57488
+2026-10-28,Idukki,Idukki Market,Cardamom,Small,169906,220033,194969
+2026-10-29,Idukki,Idukki Market,Black Pepper,Garbled,49934,65075,57504
+2026-10-29,Wayanad,Wayanad Market,Black Pepper,Garbled,49917,64983,57450
+2026-10-29,Idukki,Idukki Market,Cardamom,Small,170063,219958,195010
+2026-10-30,Idukki,Idukki Market,Black Pepper,Garbled,49930,65070,57500
+2026-10-30,Wayanad,Wayanad Market,Black Pepper,Garbled,49930,65090,57510
+2026-10-30,Idukki,Idukki Market,Cardamom,Small,169994,219994,194994
+2026-10-31,Idukki,Idukki Market,Black Pepper,Garbled,50079,65053,57566
+2026-10-31,Wayanad,Wayanad Market,Black Pepper,Garbled,49980,65038,57509
+2026-10-31,Idukki,Idukki Market,Cardamom,Small,169901,220005,194953
+2026-11-01,Idukki,Idukki Market,Black Pepper,Garbled,49946,65099,57522
+2026-11-01,Wayanad,Wayanad Market,Black Pepper,Garbled,49981,65014,57497
+2026-11-01,Idukki,Idukki Market,Cardamom,Small,170000,219994,194997
+2026-11-02,Idukki,Idukki Market,Black Pepper,Garbled,49932,65086,57509
+2026-11-02,Wayanad,Wayanad Market,Black Pepper,Garbled,50011,64986,57498
+2026-11-02,Idukki,Idukki Market,Cardamom,Small,170100,220057,195078
+2026-11-03,Idukki,Idukki Market,Black Pepper,Garbled,49942,65053,57497
+2026-11-03,Wayanad,Wayanad Market,Black Pepper,Garbled,49951,65028,57489
+2026-11-03,Idukki,Idukki Market,Cardamom,Small,169940,220038,194989
+2026-11-04,Idukki,Idukki Market,Black Pepper,Garbled,49963,64918,57440
+2026-11-04,Wayanad,Wayanad Market,Black Pepper,Garbled,49916,64915,57415
+2026-11-04,Idukki,Idukki Market,Cardamom,Small,169913,219930,194921
+2026-11-05,Idukki,Idukki Market,Black Pepper,Garbled,49945,65030,57487
+2026-11-05,Wayanad,Wayanad Market,Black Pepper,Garbled,50049,64955,57502
+2026-11-05,Idukki,Idukki Market,Cardamom,Small,169936,219938,194937
+2026-11-06,Idukki,Idukki Market,Black Pepper,Garbled,49915,65050,57482
+2026-11-06,Wayanad,Wayanad Market,Black Pepper,Garbled,50081,65090,57585
+2026-11-06,Idukki,Idukki Market,Cardamom,Small,169999,219934,194966
+2026-11-07,Idukki,Idukki Market,Black Pepper,Garbled,50043,64915,57479
+2026-11-07,Wayanad,Wayanad Market,Black Pepper,Garbled,50037,65038,57537
+2026-11-07,Idukki,Idukki Market,Cardamom,Small,169945,219947,194946
+2026-11-08,Idukki,Idukki Market,Black Pepper,Garbled,49950,65070,57510
+2026-11-08,Wayanad,Wayanad Market,Black Pepper,Garbled,49976,64920,57448
+2026-11-08,Idukki,Idukki Market,Cardamom,Small,169952,219961,194956
+2026-11-09,Idukki,Idukki Market,Black Pepper,Garbled,50092,65034,57563
+2026-11-09,Wayanad,Wayanad Market,Black Pepper,Garbled,50079,64956,57517
+2026-11-09,Idukki,Idukki Market,Cardamom,Small,169998,219915,194956
+2026-11-10,Idukki,Idukki Market,Black Pepper,Garbled,50006,65059,57532
+2026-11-10,Wayanad,Wayanad Market,Black Pepper,Garbled,49921,64943,57432
+2026-11-10,Idukki,Idukki Market,Cardamom,Small,170061,219907,194984
+2026-11-11,Idukki,Idukki Market,Black Pepper,Garbled,50052,64984,57518
+2026-11-11,Wayanad,Wayanad Market,Black Pepper,Garbled,50081,64927,57504
+2026-11-11,Idukki,Idukki Market,Cardamom,Small,169926,219993,194959
+2026-11-12,Idukki,Idukki Market,Black Pepper,Garbled,49930,64983,57456
+2026-11-12,Wayanad,Wayanad Market,Black Pepper,Garbled,50047,64939,57493
+2026-11-12,Idukki,Idukki Market,Cardamom,Small,170051,220007,195029
+2026-11-13,Idukki,Idukki Market,Black Pepper,Garbled,49930,65036,57483
+2026-11-13,Wayanad,Wayanad Market,Black Pepper,Garbled,50085,65042,57563
+2026-11-13,Idukki,Idukki Market,Cardamom,Small,170078,219900,194989
+2026-11-14,Idukki,Idukki Market,Black Pepper,Garbled,50031,64991,57511
+2026-11-14,Wayanad,Wayanad Market,Black Pepper,Garbled,50081,64953,57517
+2026-11-14,Idukki,Idukki Market,Cardamom,Small,169933,219946,194939
+2026-11-15,Idukki,Idukki Market,Black Pepper,Garbled,50097,64975,57536
+2026-11-15,Wayanad,Wayanad Market,Black Pepper,Garbled,50038,65088,57563
+2026-11-15,Idukki,Idukki Market,Cardamom,Small,169986,220094,195040
+2026-11-16,Idukki,Idukki Market,Black Pepper,Garbled,50067,64963,57515
+2026-11-16,Wayanad,Wayanad Market,Black Pepper,Garbled,50056,65007,57531
+2026-11-16,Idukki,Idukki Market,Cardamom,Small,170010,220094,195052
+2026-11-17,Idukki,Idukki Market,Black Pepper,Garbled,50098,65082,57590
+2026-11-17,Wayanad,Wayanad Market,Black Pepper,Garbled,50005,65006,57505
+2026-11-17,Idukki,Idukki Market,Cardamom,Small,169957,220076,195016
+2026-11-18,Idukki,Idukki Market,Black Pepper,Garbled,50029,64979,57504
+2026-11-18,Wayanad,Wayanad Market,Black Pepper,Garbled,49978,64960,57469
+2026-11-18,Idukki,Idukki Market,Cardamom,Small,169975,220098,195036
+2026-11-19,Idukki,Idukki Market,Black Pepper,Garbled,50034,65038,57536
+2026-11-19,Wayanad,Wayanad Market,Black Pepper,Garbled,49971,64957,57464
+2026-11-19,Idukki,Idukki Market,Cardamom,Small,170012,219984,194998
+2026-11-20,Idukki,Idukki Market,Black Pepper,Garbled,49940,65064,57502
+2026-11-20,Wayanad,Wayanad Market,Black Pepper,Garbled,50045,65092,57568
+2026-11-20,Idukki,Idukki Market,Cardamom,Small,170059,220036,195047
+2026-11-21,Idukki,Idukki Market,Black Pepper,Garbled,50018,64917,57467
+2026-11-21,Wayanad,Wayanad Market,Black Pepper,Garbled,50053,64939,57496
+2026-11-21,Idukki,Idukki Market,Cardamom,Small,170026,220079,195052
+2026-11-22,Idukki,Idukki Market,Black Pepper,Garbled,50037,64945,57491
+2026-11-22,Wayanad,Wayanad Market,Black Pepper,Garbled,49925,64980,57452
+2026-11-22,Idukki,Idukki Market,Cardamom,Small,169942,220052,194997
+2026-11-23,Idukki,Idukki Market,Black Pepper,Garbled,49973,64947,57460
+2026-11-23,Wayanad,Wayanad Market,Black Pepper,Garbled,50052,64923,57487
+2026-11-23,Idukki,Idukki Market,Cardamom,Small,170044,219977,195010
+2026-11-24,Idukki,Idukki Market,Black Pepper,Garbled,50049,65033,57541
+2026-11-24,Wayanad,Wayanad Market,Black Pepper,Garbled,49995,64938,57466
+2026-11-24,Idukki,Idukki Market,Cardamom,Small,169965,220054,195009
+2026-11-25,Idukki,Idukki Market,Black Pepper,Garbled,49915,64927,57421
+2026-11-25,Wayanad,Wayanad Market,Black Pepper,Garbled,49979,65014,57496
+2026-11-25,Idukki,Idukki Market,Cardamom,Small,170015,220073,195044
+2026-11-26,Idukki,Idukki Market,Black Pepper,Garbled,50039,64990,57514
+2026-11-26,Wayanad,Wayanad Market,Black Pepper,Garbled,50002,65039,57520
+2026-11-26,Idukki,Idukki Market,Cardamom,Small,169946,220027,194986
+2026-11-27,Idukki,Idukki Market,Black Pepper,Garbled,49904,64938,57421
+2026-11-27,Wayanad,Wayanad Market,Black Pepper,Garbled,49922,65005,57463
+2026-11-27,Idukki,Idukki Market,Cardamom,Small,169962,219950,194956
+2026-11-28,Idukki,Idukki Market,Black Pepper,Garbled,49903,65073,57488
+2026-11-28,Wayanad,Wayanad Market,Black Pepper,Garbled,49906,64938,57422
+2026-11-28,Idukki,Idukki Market,Cardamom,Small,170049,219907,194978
+2026-11-29,Idukki,Idukki Market,Black Pepper,Garbled,50073,64940,57506
+2026-11-29,Wayanad,Wayanad Market,Black Pepper,Garbled,49920,65014,57467
+2026-11-29,Idukki,Idukki Market,Cardamom,Small,170070,220024,195047
+2026-11-30,Idukki,Idukki Market,Black Pepper,Garbled,49951,65071,57511
+2026-11-30,Wayanad,Wayanad Market,Black Pepper,Garbled,49969,65084,57526
+2026-11-30,Idukki,Idukki Market,Cardamom,Small,170093,219941,195017
+2026-12-01,Idukki,Idukki Market,Black Pepper,Garbled,49988,65054,57521
+2026-12-01,Wayanad,Wayanad Market,Black Pepper,Garbled,49952,65083,57517
+2026-12-01,Idukki,Idukki Market,Cardamom,Small,169981,220013,194997
+2026-12-02,Idukki,Idukki Market,Black Pepper,Garbled,50009,64984,57496
+2026-12-02,Wayanad,Wayanad Market,Black Pepper,Garbled,49973,64901,57437
+2026-12-02,Idukki,Idukki Market,Cardamom,Small,169941,220004,194972
+2026-12-03,Idukki,Idukki Market,Black Pepper,Garbled,49980,64981,57480
+2026-12-03,Wayanad,Wayanad Market,Black Pepper,Garbled,50062,65022,57542
+2026-12-03,Idukki,Idukki Market,Cardamom,Small,170072,220097,195084
+2026-12-04,Idukki,Idukki Market,Black Pepper,Garbled,50072,64926,57499
+2026-12-04,Wayanad,Wayanad Market,Black Pepper,Garbled,49932,65040,57486
+2026-12-04,Idukki,Idukki Market,Cardamom,Small,169922,220027,194974
+2026-12-05,Idukki,Idukki Market,Black Pepper,Garbled,50098,65001,57549
+2026-12-05,Wayanad,Wayanad Market,Black Pepper,Garbled,49902,65064,57483
+2026-12-05,Idukki,Idukki Market,Cardamom,Small,169967,219995,194981
+2026-12-06,Idukki,Idukki Market,Black Pepper,Garbled,49968,65085,57526
+2026-12-06,Wayanad,Wayanad Market,Black Pepper,Garbled,49922,65042,57482
+2026-12-06,Idukki,Idukki Market,Cardamom,Small,170072,220091,195081
+2026-12-07,Idukki,Idukki Market,Black Pepper,Garbled,50003,65065,57534
+2026-12-07,Wayanad,Wayanad Market,Black Pepper,Garbled,50017,65043,57530
+2026-12-07,Idukki,Idukki Market,Cardamom,Small,170009,219996,195002
+2026-12-08,Idukki,Idukki Market,Black Pepper,Garbled,50006,64901,57453
+2026-12-08,Wayanad,Wayanad Market,Black Pepper,Garbled,50004,64932,57468
+2026-12-08,Idukki,Idukki Market,Cardamom,Small,169952,220027,194989
+2026-12-09,Idukki,Idukki Market,Black Pepper,Garbled,49963,64978,57470
+2026-12-09,Wayanad,Wayanad Market,Black Pepper,Garbled,49910,65001,57455
+2026-12-09,Idukki,Idukki Market,Cardamom,Small,170036,220057,195046
+2026-12-10,Idukki,Idukki Market,Black Pepper,Garbled,49948,65084,57516
+2026-12-10,Wayanad,Wayanad Market,Black Pepper,Garbled,50057,65029,57543
+2026-12-10,Idukki,Idukki Market,Cardamom,Small,170087,220087,195087
+2026-12-11,Idukki,Idukki Market,Black Pepper,Garbled,50027,64925,57476
+2026-12-11,Wayanad,Wayanad Market,Black Pepper,Garbled,50017,64933,57475
+2026-12-11,Idukki,Idukki Market,Cardamom,Small,170091,220000,195045
+2026-12-12,Idukki,Idukki Market,Black Pepper,Garbled,50047,65003,57525
+2026-12-12,Wayanad,Wayanad Market,Black Pepper,Garbled,50092,64972,57532
+2026-12-12,Idukki,Idukki Market,Cardamom,Small,170073,219989,195031
+2026-12-13,Idukki,Idukki Market,Black Pepper,Garbled,49920,65064,57492
+2026-12-13,Wayanad,Wayanad Market,Black Pepper,Garbled,50036,65051,57543
+2026-12-13,Idukki,Idukki Market,Cardamom,Small,170008,219916,194962
+2026-12-14,Idukki,Idukki Market,Black Pepper,Garbled,49929,64981,57455
+2026-12-14,Wayanad,Wayanad Market,Black Pepper,Garbled,49971,64910,57440
+2026-12-14,Idukki,Idukki Market,Cardamom,Small,169918,219903,194910
+2026-12-15,Idukki,Idukki Market,Black Pepper,Garbled,49970,65098,57534
+2026-12-15,Wayanad,Wayanad Market,Black Pepper,Garbled,50010,64951,57480
+2026-12-15,Idukki,Idukki Market,Cardamom,Small,170003,219997,195000
+2026-12-16,Idukki,Idukki Market,Black Pepper,Garbled,49980,65090,57535
+2026-12-16,Wayanad,Wayanad Market,Black Pepper,Garbled,49940,65010,57475
+2026-12-16,Idukki,Idukki Market,Cardamom,Small,170038,219922,194980
+2026-12-17,Idukki,Idukki Market,Black Pepper,Garbled,49917,65014,57465
+2026-12-17,Wayanad,Wayanad Market,Black Pepper,Garbled,50069,65057,57563
+2026-12-17,Idukki,Idukki Market,Cardamom,Small,169994,219989,194991
+2026-12-18,Idukki,Idukki Market,Black Pepper,Garbled,49928,65024,57476
+2026-12-18,Wayanad,Wayanad Market,Black Pepper,Garbled,50059,64938,57498
+2026-12-18,Idukki,Idukki Market,Cardamom,Small,169945,219997,194971
+2026-12-19,Idukki,Idukki Market,Black Pepper,Garbled,49947,65062,57504
+2026-12-19,Wayanad,Wayanad Market,Black Pepper,Garbled,50013,65073,57543
+2026-12-19,Idukki,Idukki Market,Cardamom,Small,169983,219906,194944
+2026-12-20,Idukki,Idukki Market,Black Pepper,Garbled,50072,65032,57552
+2026-12-20,Wayanad,Wayanad Market,Black Pepper,Garbled,50070,64944,57507
+2026-12-20,Idukki,Idukki Market,Cardamom,Small,170007,219953,194980
+2026-12-21,Idukki,Idukki Market,Black Pepper,Garbled,50053,64925,57489
+2026-12-21,Wayanad,Wayanad Market,Black Pepper,Garbled,49952,64992,57472
+2026-12-21,Idukki,Idukki Market,Cardamom,Small,169913,219999,194956
+2026-12-22,Idukki,Idukki Market,Black Pepper,Garbled,50063,64956,57509
+2026-12-22,Wayanad,Wayanad Market,Black Pepper,Garbled,50050,64953,57501
+2026-12-22,Idukki,Idukki Market,Cardamom,Small,170024,219914,194969
+2026-12-23,Idukki,Idukki Market,Black Pepper,Garbled,49913,65081,57497
+2026-12-23,Wayanad,Wayanad Market,Black Pepper,Garbled,50022,65082,57552
+2026-12-23,Idukki,Idukki Market,Cardamom,Small,169993,219980,194986
+2026-12-24,Idukki,Idukki Market,Black Pepper,Garbled,49973,64911,57442
+2026-12-24,Wayanad,Wayanad Market,Black Pepper,Garbled,49968,64920,57444
+2026-12-24,Idukki,Idukki Market,Cardamom,Small,170015,220005,195010
+2026-12-25,Idukki,Idukki Market,Black Pepper,Garbled,49903,65048,57475
+2026-12-25,Wayanad,Wayanad Market,Black Pepper,Garbled,50062,65092,57577
+2026-12-25,Idukki,Idukki Market,Cardamom,Small,170037,220071,195054
+2026-12-26,Idukki,Idukki Market,Black Pepper,Garbled,49986,64902,57444
+2026-12-26,Wayanad,Wayanad Market,Black Pepper,Garbled,50015,64949,57482
+2026-12-26,Idukki,Idukki Market,Cardamom,Small,170063,219986,195024
+2026-12-27,Idukki,Idukki Market,Black Pepper,Garbled,50085,65061,57573
+2026-12-27,Wayanad,Wayanad Market,Black Pepper,Garbled,49992,64928,57460
+2026-12-27,Idukki,Idukki Market,Cardamom,Small,170083,219983,195033
+2026-12-28,Idukki,Idukki Market,Black Pepper,Garbled,49980,64969,57474
+2026-12-28,Wayanad,Wayanad Market,Black Pepper,Garbled,49998,65046,57522
+2026-12-28,Idukki,Idukki Market,Cardamom,Small,169975,220042,195008
+2026-12-29,Idukki,Idukki Market,Black Pepper,Garbled,49959,64986,57472
+2026-12-29,Wayanad,Wayanad Market,Black Pepper,Garbled,50016,65062,57539
+2026-12-29,Idukki,Idukki Market,Cardamom,Small,169983,219947,194965
+2026-12-30,Idukki,Idukki Market,Black Pepper,Garbled,50082,65010,57546
+2026-12-30,Wayanad,Wayanad Market,Black Pepper,Garbled,49991,65011,57501
+2026-12-30,Idukki,Idukki Market,Cardamom,Small,169943,219956,194949
+2026-12-31,Idukki,Idukki Market,Black Pepper,Garbled,50070,64933,57501
+2026-12-31,Wayanad,Wayanad Market,Black Pepper,Garbled,49928,64980,57454
+2026-12-31,Idukki,Idukki Market,Cardamom,Small,169934,219981,194957
