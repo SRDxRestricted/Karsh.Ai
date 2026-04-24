@@ -15,15 +15,19 @@ def parse_income_limit(limit_str):
         return float(match.group(1))
     return float('inf')
 
+import os
+
 def load_schemes():
     schemes = []
-    with open('central_govt_schemes.json', 'r', encoding='utf-8') as f:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    with open(os.path.join(base_dir, 'central_govt_schemes.json'), 'r', encoding='utf-8') as f:
         central = json.load(f)
         for s in central:
             s['source'] = 'Central Government'
         schemes.extend(central)
         
-    with open('kerala_govt_schemes.json', 'r', encoding='utf-8') as f:
+    with open(os.path.join(base_dir, 'kerala_govt_schemes.json'), 'r', encoding='utf-8') as f:
         kerala = json.load(f)
         for s in kerala:
             s['source'] = 'Kerala Government'

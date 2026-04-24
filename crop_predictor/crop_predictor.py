@@ -91,8 +91,20 @@ def predict_top_crops(month, district, top_n=3):
                 
     return results
 
+def initialize_model():
+    global clf
+    if clf is not None:
+        return # Already initialized
+    import os
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    filepath = os.path.join(base_dir, "keralaCropDataset.txt")
+    df = load_market_data(filepath)
+    train_model(df)
+
 if __name__ == "__main__":
-    filepath = "keralaCropDataset.txt"
+    import os
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    filepath = os.path.join(base_dir, "keralaCropDataset.txt")
     print(f"Loading real market dataset from {filepath}...")
     try:
         df = load_market_data(filepath)
