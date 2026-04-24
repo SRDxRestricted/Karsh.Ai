@@ -1,0 +1,20 @@
+Date,District,Market,Commodity,Variety,Min_Price,Max_Price,Modal_Price
+2026-04-20,Idukki,Vandanmedu,Cardamom,Small,180000,210000,195000
+2026-04-20,Idukki,Kumily,Black Pepper,Garbled,55000,62000,58500
+2026-04-20,Ernakulam,Aluva,Banana,Nendran,4200,5500,4800
+2026-04-20,Alappuzha,Kayamkulam,Coconut,Without Husk,3200,3800,3500
+2026-04-20,Kottayam,Kottayam Market,Rubber,RSS-4,16500,17200,16800
+2026-04-20,Kollam,Kollam Market,Tapioca,Raw,1800,2400,2100
+2026-04-20,Palakkad,Palakkad Mandi,Paddy,Jyothi,2800,3100,2950
+2026-04-19,Idukki,Vandanmedu,Cardamom,Small,178000,208000,192000
+2026-04-19,Idukki,Kumily,Black Pepper,Garbled,54500,61000,58000
+2026-04-19,Ernakulam,Aluva,Banana,Nendran,4100,5400,4750
+2026-04-19,Alappuzha,Kayamkulam,Coconut,Without Husk,3150,3750,3450
+2026-04-19,Kottayam,Kottayam Market,Rubber,RSS-4,16400,17000,16700
+2026-04-19,Kollam,Kollam Market,Tapioca,Raw,1750,2300,2000
+2026-04-19,Palakkad,Palakkad Mandi,Paddy,Jyothi,2750,3050,2900
+2026-04-18,Wayanad,Kalpetta,Black Pepper,Un-garbled,52000,58000,55000
+2026-04-18,Thrissur,Thrissur Market,Banana,Nendran,4000,5200,4600
+2026-04-18,Kozhikode,Kozhikode Mandi,Coconut,Without Husk,3300,3900,3600
+2026-04-18,Pathanamthitta,Adoor,Rubber,RSS-4,16300,16900,16600
+2026-04-18,Trivandrum,Chalai,Tapioca,Raw,1900,2500,2200
