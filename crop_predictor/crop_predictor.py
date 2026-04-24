@@ -99,9 +99,10 @@ def predict_top_crops(month, district, land_area, top_n=3):
             # Transform integer class back to original string name
             crop_name = encoders['Commodity'].inverse_transform([classes[idx]])[0]
             
-            avg_price = average_prices.get(crop_name, 100) # Default to 100 if unknown
+            avg_price = average_prices.get(crop_name, 100) 
             est_yield = YIELD_PER_HA.get(crop_name, 1000) * land_area
-            est_revenue = est_yield * avg_price
+            # Divide by 100 as market prices in the dataset are typically per quintal (100kg)
+            est_revenue = (est_yield * avg_price) / 100
             
             results.append({
                 "crop": crop_name,
