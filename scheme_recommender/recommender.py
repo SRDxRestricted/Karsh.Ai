@@ -16,6 +16,8 @@ def parse_income_limit(limit_str):
         return float(match.group(1))
     return float('inf')
 
+import os
+
 def load_schemes():
     schemes = []
     base_dir = os.path.dirname(os.path.abspath(__file__))
