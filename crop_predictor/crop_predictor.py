@@ -1,11 +1,24 @@
 import pandas as pd
 import numpy as np
+import os
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 
 # Global variables to store our trained model and encoders
 clf = None
 encoders = {}
+average_prices = {}
+
+# Average yield per hectare in standard units (kg or nuts)
+YIELD_PER_HA = {
+    "Coconut": 10000,       # nuts
+    "Banana": 25000,        # kg
+    "Rubber": 1500,         # kg
+    "Black Pepper": 500,    # kg
+    "Tapioca": 35000,       # kg
+    "Cardamom": 250,        # kg
+    "Paddy": 3500,          # kg
+}
 
 def load_market_data(filepath):
     """
@@ -20,8 +33,13 @@ def load_market_data(filepath):
 def train_model(df):
     """
     Preprocesses categorical data using OrdinalEncoder and trains a RandomForestClassifier.
+    Also calculates the average market price for each crop.
     """
-    global clf, encoders
+    global clf, encoders, average_prices
+    
+    # Calculate average historical price per crop to estimate future revenue
+    if 'Modal_Price' in df.columns:
+        average_prices = df.groupby('Commodity')['Modal_Price'].mean().to_dict()
     
     # Categorical features to encode
     cat_features = ['District']
@@ -46,12 +64,12 @@ def train_model(df):
     clf = RandomForestClassifier(n_estimators=100, random_state=42)
     clf.fit(X, y)
 
-def predict_top_crops(month, district, top_n=3):
+def predict_top_crops(month, district, land_area, top_n=3):
     """
     Core prediction engine. Transforms string inputs, predicts probabilities, 
-    and returns top matching crops.
+    calculates estimated revenue, and returns top matching crops.
     """
-    global clf, encoders
+    global clf, encoders, average_prices
     
     if clf is None:
         raise ValueError("Model has not been trained yet.")
@@ -80,9 +98,34 @@ def predict_top_crops(month, district, top_n=3):
         if prob > 0:
             # Transform integer class back to original string name
             crop_name = encoders['Commodity'].inverse_transform([classes[idx]])[0]
+            
+            avg_price = average_prices.get(crop_name, 100) 
+            est_yield = YIELD_PER_HA.get(crop_name, 1000) * land_area
+            # Divide by 100 as market prices in the dataset are typically per quintal (100kg)
+            est_revenue = (est_yield * avg_price) / 100
+            
+            # --- Advanced Analysis from Dataset ---
+            # Filter the raw data for this specific crop and month to find best market
+            crop_data = df[(df['Commodity'] == crop_name) & (df['month'] == month)]
+            
+            if not crop_data.empty:
+                # Find the market with the highest average modal price for this crop
+                best_market_row = crop_data.groupby('Market')['Modal_Price'].mean().idxmax()
+                min_hist = crop_data['Min_Price'].min()
+                max_hist = crop_data['Max_Price'].max()
+            else:
+                best_market_row = "General Market"
+                min_hist = avg_price * 0.9
+                max_hist = avg_price * 1.1
+
             results.append({
                 "crop": crop_name,
-                "match_score": f"{prob * 100:.1f}%"
+                "match_score": f"{prob * 100:.1f}%",
+                "est_revenue": est_revenue,
+                "avg_price": avg_price,
+                "est_yield": est_yield,
+                "best_market": best_market_row,
+                "price_range": f"₹{min_hist:,.0f} - ₹{max_hist:,.0f}"
             })
             
             # Stop once we have reached the required number of top crops
@@ -102,7 +145,6 @@ def initialize_model():
     train_model(df)
 
 if __name__ == "__main__":
-    import os
     base_dir = os.path.dirname(os.path.abspath(__file__))
     filepath = os.path.join(base_dir, "keralaCropDataset.txt")
     print(f"Loading real market dataset from {filepath}...")
@@ -136,14 +178,37 @@ if __name__ == "__main__":
             if district_input.lower() in ['exit', 'quit']:
                 break
                 
-            print(f"\nPredicting best crops for {district_input} in Month {month_input}...")
-            results = predict_top_crops(int(month_input), district_input)
+            land_input = input("Enter Land Area (in hectares): ").strip()
+            if land_input.lower() in ['exit', 'quit']:
+                break
+            try:
+                land_area = float(land_input)
+            except ValueError:
+                print("Invalid land area. Please enter a valid number.")
+                continue
+                
+            print(f"\nPredicting best crops and estimated profit for {district_input} in Month {month_input} on {land_area} hectares...")
+            results = predict_top_crops(int(month_input), district_input, land_area)
             
             if not results:
                 print("No suitable crops found.")
             else:
+                # Comprehensive Output Table
+                print(f"\n{'Rank':<5} | {'Crop Name':<15} | {'Best Market':<20} | {'Price Range/Qtl':<20} | {'Est. Revenue (₹)':<15}")
+                print("-" * 85)
                 for i, res in enumerate(results, 1):
-                    print(f"  {i}. {res['crop']} (Confidence: {res['match_score']})")
+                    print(f"{i:<5} | {res['crop']:<15} | {res['best_market']:<20} | {res['price_range']:<20} | ₹{res['est_revenue']:,.2f}")
+                
+                print("\n" + "="*85)
+                print("DETAILED ANALYSIS FOR TOP RECOMMENDATION")
+                print("="*85)
+                top = results[0]
+                print(f"Target Crop: {top['crop']}")
+                print(f"Recommended Market: {top['best_market']} (Highest historical price in Month {month_input})")
+                print(f"Projected Yield: {top['est_yield']:,.0f} units on {land_area} hectares")
+                print(f"Estimated Revenue: ₹{top['est_revenue']:,.2f}")
+                print(f"Market Volatility: {top['price_range']} (Min-Max Price per Quintal)")
+                print("="*85)
                     
         except KeyboardInterrupt:
             break

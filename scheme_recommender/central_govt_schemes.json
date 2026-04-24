@@ -4,69 +4,79 @@
     "benifit": "₹6,000 per year in three installments for income support.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹15,000 per month",
-    "type": "Central Sector Scheme"
+    "type": "Central Sector Scheme",
+    "eligible_crops": ["all"]
   },
   {
     "scheme_name": "Pradhan Mantri Kisan MaanDhan Yojana (PM-KMY)",
     "benifit": "Monthly pension of ₹3,000 after the age of 60.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹12,500 per month",
-    "type": "Central Sector Scheme"
+    "type": "Central Sector Scheme",
+    "eligible_crops": ["all"]
   },
   {
     "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
     "benifit": "Comprehensive crop insurance against natural calamities and pests.",
     "Land limit": "7.5 hectares",
     "income_limit": "₹14,200 per month",
-    "type": "Central Sector Scheme"
+    "type": "Central Sector Scheme",
+    "eligible_crops": ["wheat", "paddy", "cotton", "sugarcane", "millets", "pulses", "oilseeds"]
   },
   {
     "scheme_name": "Modified Interest Subvention Scheme (MISS)",
     "benifit": "Short-term loans up to ₹3 lakh at 4% effective interest rate.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹10,000 per month",
-    "type": "Central Sector Scheme"
+    "type": "Central Sector Scheme",
+    "eligible_crops": ["all"]
   },
   {
     "scheme_name": "Agriculture Infrastructure Fund (AIF)",
     "benifit": "3% interest subvention for building warehouses or cold storage.",
     "Land limit": "10.0 hectares",
     "income_limit": "No specific limit (Simulated: ₹15,000 per month)",
-    "type": "Central Sector Scheme"
+    "type": "Central Sector Scheme",
+    "eligible_crops": ["all"]
   },
   {
     "scheme_name": "Namo Drone Didi",
     "benifit": "80% subsidy (up to ₹8 lakh) for drones used in farming services.",
     "Land limit": "3.5 hectares",
     "income_limit": "₹8,000 per month",
-    "type": "Central Sector Scheme"
+    "type": "Central Sector Scheme",
+    "eligible_crops": ["all"]
   },
   {
     "scheme_name": "Per Drop More Crop (PDMC)",
     "benifit": "Subsidy for drip and sprinkler irrigation systems.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹11,500 per month",
-    "type": "Centrally Sponsored Scheme"
+    "type": "Centrally Sponsored Scheme",
+    "eligible_crops": ["sugarcane", "cotton", "banana", "horticulture", "vegetables", "fruits"]
   },
   {
     "scheme_name": "Rainfed Area Development (RAD)",
     "benifit": "Support for integrated farming (crops + livestock/fishery).",
     "Land limit": "2.5 hectares",
     "income_limit": "₹9,000 per month",
-    "type": "Centrally Sponsored Scheme"
+    "type": "Centrally Sponsored Scheme",
+    "eligible_crops": ["millets", "pulses", "integrated", "livestock"]
   },
   {
     "scheme_name": "Soil Health Card (SHC)",
     "benifit": "Free analysis of soil nutrients and crop-specific fertilizer advice.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
-    "type": "Centrally Sponsored Scheme"
+    "type": "Centrally Sponsored Scheme",
+    "eligible_crops": ["all"]
   },
   {
     "scheme_name": "Paramparagat Krishi Vikas Yojana (PKVY)",
     "benifit": "Financial aid for transitioning to chemical-free organic farming.",
     "Land limit": "1.0 hectares",
     "income_limit": "₹7,500 per month",
-    "type": "Centrally Sponsored Scheme"
+    "type": "Centrally Sponsored Scheme",
+    "eligible_crops": ["vegetables", "fruits", "spices", "tea", "coffee"]
   }
 ]

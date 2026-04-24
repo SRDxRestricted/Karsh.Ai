@@ -4,55 +4,63 @@
     "benifit": "Monthly financial aid of ₹1,600 for retired farmers above age 60.",
     "Land limit": "1.0 hectares",
     "income_limit": "₹5,000 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["all"]
   },
   {
     "scheme_name": "Subhiksha Keralam Integrated Farming Support",
     "benifit": "Grant for establishing integrated units (paddy + poultry + bio-gas).",
     "Land limit": "2.5 hectares",
     "income_limit": "₹12,000 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["paddy", "poultry", "integrated"]
   },
   {
     "scheme_name": "Kerala Rubber Rejuvenation Subsidy",
     "benifit": "Financial assistance for replanting old rubber trees with high-yield clones.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹15,000 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["rubber"]
   },
   {
     "scheme_name": "Keralagramam Coconut Development Plan",
     "benifit": "Subsidy for coconut tree fertilization and basin management.",
     "Land limit": "4.5 hectares",
     "income_limit": "₹10,500 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["coconut"]
   },
   {
     "scheme_name": "High-Range Spice Cluster Grant",
     "benifit": "Subsidy for post-harvest drying units for Pepper and Cardamom.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹8,500 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["pepper", "cardamom", "spices"]
   },
   {
     "scheme_name": "Kerala Paddy Production Bonus",
     "benifit": "Cash incentive of ₹2,500 per hectare for maintaining paddy cultivation.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹7,000 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["paddy"]
   },
   {
     "scheme_name": "Agri-Start-Up Innovation Fund (Kerala)",
     "benifit": "Seed funding for young farmers to implement IoT-based irrigation.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["horticulture", "floriculture", "hydroponics", "aquaponics"]
   },
   {
     "scheme_name": "Haritha Keralam Bio-Fertilizer Subsidy",
     "benifit": "75% discount on organic fertilizers and vermicompost kits.",
     "Land limit": "6.0 hectares",
     "income_limit": "₹13,000 per month",
-    "type": "State Government Provided"
+    "type": "State Government Provided",
+    "eligible_crops": ["vegetables", "banana", "tapioca", "tubers", "ginger", "turmeric"]
   }
 ]
