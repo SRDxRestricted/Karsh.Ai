@@ -8,6 +8,7 @@ from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 clf = None
 encoders = {}
 average_prices = {}
+df = None
 
 # Average yield per hectare in standard units (kg or nuts)
 YIELD_PER_HA = {
@@ -69,7 +70,7 @@ def predict_top_crops(month, district, land_area, top_n=3):
     Core prediction engine. Transforms string inputs, predicts probabilities, 
     calculates estimated revenue, and returns top matching crops.
     """
-    global clf, encoders, average_prices
+    global clf, encoders, average_prices, df
     
     if clf is None:
         raise ValueError("Model has not been trained yet.")
@@ -135,7 +136,7 @@ def predict_top_crops(month, district, land_area, top_n=3):
     return results
 
 def initialize_model():
-    global clf
+    global clf, df
     if clf is not None:
         return # Already initialized
     import os
