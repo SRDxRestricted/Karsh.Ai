@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import os
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 
@@ -92,7 +93,8 @@ def predict_top_crops(month, district, top_n=3):
     return results
 
 if __name__ == "__main__":
-    filepath = "keralaCropDataset.txt"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    filepath = os.path.join(base_dir, "keralaCropDataset.txt")
     print(f"Loading real market dataset from {filepath}...")
     try:
         df = load_market_data(filepath)
