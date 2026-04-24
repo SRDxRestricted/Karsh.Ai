@@ -31,17 +31,22 @@ def load_schemes():
         
     return schemes
 
-def recommend_schemes(monthly_income, land_size_hectares):
+def recommend_schemes(monthly_income, land_size_hectares, crop_type):
     schemes = load_schemes()
     recommended = []
+    
+    # Normalize crop_type input for comparison
+    crop_type_lower = crop_type.lower().strip()
     
     for scheme in schemes:
         land_limit = parse_land_limit(scheme.get('Land limit', ''))
         income_limit = parse_income_limit(scheme.get('income_limit', ''))
+        eligible_crops = [c.lower() for c in scheme.get('eligible_crops', ['all'])]
         
         # Typically, a farmer is eligible if their land and income are <= the limits
         if land_size_hectares <= land_limit and monthly_income <= income_limit:
-            recommended.append(scheme)
+            if "all" in eligible_crops or crop_type_lower in eligible_crops:
+                recommended.append(scheme)
             
     return recommended
 
@@ -52,11 +57,12 @@ def main():
     try:
         monthly_income = float(input("Enter your monthly income (in ₹): "))
         land_size = float(input("Enter your land size (in hectares): "))
+        crop_type = input("Enter your primary crop type (e.g., rubber, paddy, coconut, pepper): ")
     except ValueError:
-        print("Invalid input. Please enter numeric values.")
+        print("Invalid input. Please enter numeric values for income and land.")
         return
 
-    suitable_schemes = recommend_schemes(monthly_income, land_size)
+    suitable_schemes = recommend_schemes(monthly_income, land_size, crop_type)
     
     print("\n" + "="*50)
     print(f"Found {len(suitable_schemes)} suitable scheme(s) for you:")
@@ -66,7 +72,8 @@ def main():
         print(f"\n{idx}. {scheme['scheme_name']} ({scheme['source']})")
         print(f"   Type: {scheme['type']}")
         print(f"   Benefit: {scheme.get('benifit', 'N/A')}")
-        print(f"   Eligibility Criteria: Land up to {scheme.get('Land limit')}, Income up to {scheme.get('income_limit')}")
+        eligible_crops_str = ", ".join(scheme.get('eligible_crops', ['all'])).title()
+        print(f"   Eligibility Criteria: Land up to {scheme.get('Land limit')}, Income up to {scheme.get('income_limit')}, Crops: {eligible_crops_str}")
 
 if __name__ == "__main__":
     main()
