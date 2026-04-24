@@ -21,7 +21,7 @@
     "Land limit": "7.5 hectares",
     "income_limit": "₹14,200 per month",
     "type": "Central Sector Scheme",
-    "eligible_crops": ["all"]
+    "eligible_crops": ["wheat", "paddy", "cotton", "sugarcane", "millets", "pulses", "oilseeds"]
   },
   {
     "scheme_name": "Modified Interest Subvention Scheme (MISS)",
@@ -53,7 +53,7 @@
     "Land limit": "4.0 hectares",
     "income_limit": "₹11,500 per month",
     "type": "Centrally Sponsored Scheme",
-    "eligible_crops": ["all"]
+    "eligible_crops": ["sugarcane", "cotton", "banana", "horticulture", "vegetables", "fruits"]
   },
   {
     "scheme_name": "Rainfed Area Development (RAD)",
@@ -61,7 +61,7 @@
     "Land limit": "2.5 hectares",
     "income_limit": "₹9,000 per month",
     "type": "Centrally Sponsored Scheme",
-    "eligible_crops": ["all"]
+    "eligible_crops": ["millets", "pulses", "integrated", "livestock"]
   },
   {
     "scheme_name": "Soil Health Card (SHC)",
@@ -77,6 +77,6 @@
     "Land limit": "1.0 hectares",
     "income_limit": "₹7,500 per month",
     "type": "Centrally Sponsored Scheme",
-    "eligible_crops": ["all"]
+    "eligible_crops": ["vegetables", "fruits", "spices", "tea", "coffee"]
   }
 ]

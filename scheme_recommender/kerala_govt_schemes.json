@@ -53,7 +53,7 @@
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "State Government Provided",
-    "eligible_crops": ["all"]
+    "eligible_crops": ["horticulture", "floriculture", "hydroponics", "aquaponics"]
   },
   {
     "scheme_name": "Haritha Keralam Bio-Fertilizer Subsidy",
@@ -61,6 +61,6 @@
     "Land limit": "6.0 hectares",
     "income_limit": "₹13,000 per month",
     "type": "State Government Provided",
-    "eligible_crops": ["all"]
+    "eligible_crops": ["vegetables", "banana", "tapioca", "tubers", "ginger", "turmeric"]
   }
 ]
