@@ -1,7 +1,7 @@
 [
   {
     "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
-    "benifit": "₹6,000 per year in three installments for income support.",
+    "benifit": "₹6,000 yearly income support paid in 3 direct installments of ₹2,000 each.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Central Sector Scheme",
@@ -9,7 +9,7 @@
   },
   {
     "scheme_name": "Pradhan Mantri Kisan MaanDhan Yojana (PM-KMY)",
-    "benifit": "Monthly pension of ₹3,000 after the age of 60.",
+    "benifit": "Guaranteed minimum monthly pension of ₹3,000 upon reaching age 60.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹12,500 per month",
     "type": "Central Sector Scheme",
@@ -17,7 +17,7 @@
   },
   {
     "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
-    "benifit": "Comprehensive crop insurance against natural calamities and pests. Premium as low as 2%.",
+    "benifit": "Low premium insurance: 1.5% for Rabi, 2% for Kharif, and 5% for horticultural crops.",
     "Land limit": "7.5 hectares",
     "income_limit": "₹14,200 per month",
     "type": "Central Sector Scheme",
@@ -25,7 +25,7 @@
   },
   {
     "scheme_name": "Modified Interest Subvention Scheme (MISS)",
-    "benifit": "Short-term crop loans up to ₹3 lakh at 4% effective interest rate.",
+    "benifit": "Interest subvention of 3% on crop loans up to ₹3 lakh, reducing effective interest to 4%.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "Central Sector Scheme",
@@ -33,7 +33,7 @@
   },
   {
     "scheme_name": "Agriculture Infrastructure Fund (AIF)",
-    "benifit": "3% interest subvention on loans up to ₹2 crore for warehouses, cold storage, and pack houses.",
+    "benifit": "3% interest subvention for 7 years on loans for building storage and processing infrastructure.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Central Sector Scheme",
@@ -41,7 +41,7 @@
   },
   {
     "scheme_name": "Namo Drone Didi",
-    "benifit": "80% subsidy (up to ₹8 lakh) for drones used in spraying and crop monitoring.",
+    "benifit": "80% subsidy up to ₹8 lakh for women's self-help groups to buy and use farming drones.",
     "Land limit": "3.5 hectares",
     "income_limit": "₹8,000 per month",
     "type": "Central Sector Scheme",
@@ -49,7 +49,7 @@
   },
   {
     "scheme_name": "Per Drop More Crop (PDMC)",
-    "benifit": "55% subsidy for drip and sprinkler irrigation systems for small and marginal farmers.",
+    "benifit": "55% subsidy for small/marginal farmers and 45% for others on micro-irrigation systems.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹11,500 per month",
     "type": "Centrally Sponsored Scheme",
@@ -57,7 +57,7 @@
   },
   {
     "scheme_name": "Rainfed Area Development (RAD)",
-    "benifit": "Support for integrated farming systems combining crops with livestock or fishery.",
+    "benifit": "₹25,000 grant for integrated farming involving livestock, fisheries, and horticulture.",
     "Land limit": "2.5 hectares",
     "income_limit": "₹9,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -65,7 +65,7 @@
   },
   {
     "scheme_name": "Soil Health Card (SHC)",
-    "benifit": "Free soil testing and crop-specific fertilizer recommendations every 2 years.",
+    "benifit": "Free soil nutrient analysis and ₹2,500 incentive for following the fertilizer recommendations.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -73,7 +73,7 @@
   },
   {
     "scheme_name": "Paramparagat Krishi Vikas Yojana (PKVY)",
-    "benifit": "₹50,000 per hectare over 3 years for transitioning to chemical-free organic farming.",
+    "benifit": "₹50,000 per hectare grant over 3 years for organic conversion and marketing support.",
     "Land limit": "1.0 hectares",
     "income_limit": "₹7,500 per month",
     "type": "Centrally Sponsored Scheme",
@@ -81,7 +81,7 @@
   },
   {
     "scheme_name": "Kisan Credit Card (KCC)",
-    "benifit": "Easy credit up to ₹3 lakh at 4% interest for crop production, post-harvest, and consumption needs.",
+    "benifit": "Working capital loan up to ₹3 lakh with no collateral required for loans up to ₹1.6 lakh.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Central Sector Scheme",
@@ -89,7 +89,7 @@
   },
   {
     "scheme_name": "National Horticulture Mission (NHM)",
-    "benifit": "Subsidy for planting material, drip irrigation, and protected cultivation (polyhouse/shade net).",
+    "benifit": "40% to 50% subsidy on established costs for greenhouses, pack houses, and cold rooms.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -97,7 +97,7 @@
   },
   {
     "scheme_name": "National Mission on Oilseeds and Oil Palm (NMOOP)",
-    "benifit": "Subsidy for oil palm and oilseed cultivation, including planting material and maintenance for 4 years.",
+    "benifit": "₹29,000 per hectare maintenance assistance for 4 years for oil palm growers.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -105,7 +105,7 @@
   },
   {
     "scheme_name": "Sub-Mission on Agricultural Mechanisation (SMAM)",
-    "benifit": "50-80% subsidy on tractors, power tillers, harvesters, and other farm equipment.",
+    "benifit": "40% to 50% subsidy for individual farmers and 80% for custom hiring centers on tractors/tools.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -113,7 +113,7 @@
   },
   {
     "scheme_name": "National Food Security Mission (NFSM)",
-    "benifit": "Support for seeds, nutrients, and farm tools to boost production of rice, wheat, and pulses.",
+    "benifit": "₹5,000 per hectare subsidy for purchasing certified seeds and specialized nutrients.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -121,7 +121,7 @@
   },
   {
     "scheme_name": "Rashtriya Krishi Vikas Yojana (RKVY-RAFTAAR)",
-    "benifit": "Flexible funding for state-specific agricultural priorities including value chain development.",
+    "benifit": "Variable grant based on state project approval for value-chain and infrastructure growth.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹13,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -129,7 +129,7 @@
   },
   {
     "scheme_name": "National Bamboo Mission",
-    "benifit": "Subsidy for bamboo plantation, treatment plants, and marketing. ₹120 per plant for 3 years.",
+    "benifit": "₹120 per plant grant spread over 3 years for plantation and maintenance of bamboo.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -137,7 +137,7 @@
   },
   {
     "scheme_name": "Mission for Integrated Development of Horticulture (MIDH)",
-    "benifit": "Up to 50% subsidy on establishing new fruit orchards and spice gardens.",
+    "benifit": "Subsidy of up to ₹1.25 lakh per hectare for setting up high-density orchards.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -145,7 +145,7 @@
   },
   {
     "scheme_name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
-    "benifit": "Funding for water harvesting, groundwater recharge, and micro-irrigation to ensure 'Har Khet Ko Paani'.",
+    "benifit": "Direct funding of ₹50,000 for building secondary storage structures (ponds) in rainfed areas.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹11,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -153,7 +153,7 @@
   },
   {
     "scheme_name": "National Mission on Sustainable Agriculture (NMSA)",
-    "benifit": "Support for climate-resilient farming practices, soil health management, and water-use efficiency.",
+    "benifit": "₹20,000 grant per family for adopting climate-smart farming and nutrient management.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -161,7 +161,7 @@
   },
   {
     "scheme_name": "e-NAM (National Agriculture Market)",
-    "benifit": "Free registration on online trading platform to sell produce directly to buyers across India.",
+    "benifit": "Free digital shop and ₹15,000 cash incentive for those selling 75%+ of produce via e-NAM.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Central Sector Scheme",
@@ -169,7 +169,7 @@
   },
   {
     "scheme_name": "Coconut Development Board Assistance",
-    "benifit": "₹40 per seedling for new coconut plantations and ₹17,500 per hectare for replanting.",
+    "benifit": "₹1.25 lakh per hectare for rejuvenation of old plantations through removal of senile trees.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹11,000 per month",
     "type": "Central Sector Scheme",
@@ -177,7 +177,7 @@
   },
   {
     "scheme_name": "PM-PRANAM (Alternative Nutrients)",
-    "benifit": "Grant for farmers to reduce chemical fertilizer use and switch to organic/bio-fertilizers.",
+    "benifit": "₹20,000 grant for purchasing organic inputs for every 20% reduction in chemical fertilizer use.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹9,000 per month",
     "type": "Central Sector Scheme",
@@ -185,7 +185,7 @@
   },
   {
     "scheme_name": "NMEO-OP (Oil Palm Mission)",
-    "benifit": "Price support and maintenance assistance of ₹29,000 per hectare for oil palm cultivation.",
+    "benifit": "Assistance of ₹20,000 per hectare for clearing land and planting oil palm seedlings.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -193,7 +193,7 @@
   },
   {
     "scheme_name": "Operation Greens (TOP to TOTAL)",
-    "benifit": "50% subsidy on transportation and storage for Tomato, Onion, Potato, and other perishables.",
+    "benifit": "50% subsidy on transportation costs from farm-gate to cold-storage or market.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Central Sector Scheme",
@@ -201,7 +201,7 @@
   },
   {
     "scheme_name": "Biotech-KISAN (Science Application)",
-    "benifit": "Connection with scientists to solve local problems like pest outbreaks or soil salinity.",
+    "benifit": "₹15,000 annual grant for participating in scientist-led farm demonstration trials.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹8,000 per month",
     "type": "Central Sector Scheme",
@@ -209,7 +209,7 @@
   },
   {
     "scheme_name": "Gramin Krishi Mausam Seva",
-    "benifit": "Localized weather-based crop advisories sent via SMS twice a week.",
+    "benifit": "Free weekly expert analysis report and ₹500 incentive for sharing local weather data.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Central Sector Scheme",
@@ -217,7 +217,7 @@
   },
   {
     "scheme_name": "Mahila Kisan Sashaktikaran Pariyojana (MKSP)",
-    "benifit": "Special funding and training for women farmers to improve participation in sustainable farming.",
+    "benifit": "₹15,000 grant for women farmers to buy low-cost tools and establish organic kitchen gardens.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹6,000 per month",
     "type": "Centrally Sponsored Scheme",
@@ -225,7 +225,7 @@
   },
   {
     "scheme_name": "PM-AASHA (Price Support)",
-    "benifit": "Procurement support for oilseeds and pulses to ensure farmers get at least the MSP.",
+    "benifit": "Price Deficiency Payment: Compensation for the difference between MSP and market selling price.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "Central Sector Scheme",
@@ -233,7 +233,7 @@
   },
   {
     "scheme_name": "Agri-Clinic and Agri-Business Centres (ACABC)",
-    "benifit": "Composite subsidy up to 36% to start your own agricultural consulting or service center.",
+    "benifit": "44% subsidy for SC/ST/Women and 36% for others on loans to start agri-service ventures.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "Central Sector Scheme",

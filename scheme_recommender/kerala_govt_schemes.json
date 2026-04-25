@@ -1,7 +1,7 @@
 [
   {
     "scheme_name": "Kerala Karshaka Pension Scheme",
-    "benifit": "Monthly financial aid of ₹1,600 for retired farmers above age 60.",
+    "benifit": "Monthly pension of ₹1,600 directly to bank account for farmers aged 60+.",
     "Land limit": "1.0 hectares",
     "income_limit": "₹5,000 per month",
     "type": "State Sector Scheme",
@@ -9,7 +9,7 @@
   },
   {
     "scheme_name": "Subhiksha Keralam Integrated Farming Support",
-    "benifit": "Grant for establishing integrated units (paddy + poultry + bio-gas).",
+    "benifit": "₹50,000 one-time grant for setting up a combined poultry, fish, and vegetable unit.",
     "Land limit": "2.5 hectares",
     "income_limit": "₹12,000 per month",
     "type": "State Sector Scheme",
@@ -17,7 +17,7 @@
   },
   {
     "scheme_name": "Kerala Rubber Rejuvenation Subsidy",
-    "benifit": "Financial assistance for replanting old rubber trees with high-yield clones.",
+    "benifit": "Replanting subsidy of ₹25,000 per hectare paid in three annual installments.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "State Sector Scheme",
@@ -25,7 +25,7 @@
   },
   {
     "scheme_name": "Keralagramam Coconut Development Plan",
-    "benifit": "Subsidy for coconut tree fertilization and basin management.",
+    "benifit": "Maintenance grant of ₹175 per tree for fertilization and cleaning of coconut basins.",
     "Land limit": "4.5 hectares",
     "income_limit": "₹10,500 per month",
     "type": "State Sector Scheme",
@@ -33,7 +33,7 @@
   },
   {
     "scheme_name": "High-Range Spice Cluster Grant",
-    "benifit": "Subsidy for post-harvest drying units for Pepper and Cardamom.",
+    "benifit": "50% subsidy up to ₹1.5 lakh for purchasing spice dryers and white-pepper processing units.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹8,500 per month",
     "type": "State Sector Scheme",
@@ -41,7 +41,7 @@
   },
   {
     "scheme_name": "Kerala Paddy Production Bonus",
-    "benifit": "Cash incentive of ₹2,500 per hectare for maintaining paddy cultivation.",
+    "benifit": "Direct cash bonus of ₹2,820 per hectare for every harvest season.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹7,000 per month",
     "type": "State Sector Scheme",
@@ -49,7 +49,7 @@
   },
   {
     "scheme_name": "Agri-Start-Up Innovation Fund (Kerala)",
-    "benifit": "Seed funding up to ₹5 lakh for young farmers to adopt modern irrigation.",
+    "benifit": "Soft loan up to ₹10 lakh at 4% interest for implementing IoT or smart farming solutions.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
     "type": "State Sector Scheme",
@@ -57,7 +57,7 @@
   },
   {
     "scheme_name": "Haritha Keralam Bio-Fertilizer Subsidy",
-    "benifit": "75% discount on organic fertilizers and vermicompost kits.",
+    "benifit": "₹5,000 discount voucher for purchasing organic fertilizer and 5kg of vermicompost.",
     "Land limit": "6.0 hectares",
     "income_limit": "₹13,000 per month",
     "type": "State Sector Scheme",
@@ -65,7 +65,7 @@
   },
   {
     "scheme_name": "Kerala Banana Insurance Scheme",
-    "benifit": "Crop insurance covering natural disasters and disease for banana cultivation. Premium subsidy of 75%.",
+    "benifit": "Insurance coverage of ₹500 per plant against wind, flood, or disease damage.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "State Sector Scheme",
@@ -73,7 +73,7 @@
   },
   {
     "scheme_name": "Coffee Board Replanting Subsidy (Kerala)",
-    "benifit": "₹40,000 per hectare for uprooting old coffee plants and replanting with improved varieties.",
+    "benifit": "₹45,000 per hectare for uprooting old robusta coffee and replanting with improved clones.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "State Sector Scheme",
@@ -81,7 +81,7 @@
   },
   {
     "scheme_name": "Kerala Tea Small Growers Assistance",
-    "benifit": "Subsidy for tea leaf processing equipment and quality improvement. Up to ₹25,000 per unit.",
+    "benifit": "Subsidy of ₹1.2 lakh per hectare for modernization of tea gardens under 2 hectares.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹8,000 per month",
     "type": "State Sector Scheme",
@@ -89,7 +89,7 @@
   },
   {
     "scheme_name": "Jaiva Keralam Organic Certification Support",
-    "benifit": "Free organic certification and ₹10,000 per hectare for organic transition costs.",
+    "benifit": "₹20,000 per hectare grant spread over 3 years to cover organic transition costs.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹11,000 per month",
     "type": "State Sector Scheme",
@@ -97,7 +97,7 @@
   },
   {
     "scheme_name": "Kerala Vegetable Development Programme",
-    "benifit": "Seeds, grow bags, and up to ₹15,000 subsidy for backyard and terrace vegetable farming.",
+    "benifit": "Free kit containing 25 grow bags, seeds, and organic manure worth ₹2,500.",
     "Land limit": "1.0 hectares",
     "income_limit": "₹8,000 per month",
     "type": "State Sector Scheme",
@@ -105,7 +105,7 @@
   },
   {
     "scheme_name": "Kuttanad Package for Paddy Farmers",
-    "benifit": "Special package for Kuttanad region: flood-tolerant seeds, dewatering pumps, and ₹5,000 per hectare.",
+    "benifit": "Dewatering subsidy of ₹12,000 per hectare for paddy fields in backwater regions.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹9,000 per month",
     "type": "State Sector Scheme",
@@ -113,7 +113,7 @@
   },
   {
     "scheme_name": "Coconut Palm Insurance Scheme (Kerala)",
-    "benifit": "Insurance for coconut palms aged 4-60 years against natural calamities. ₹900 per palm coverage.",
+    "benifit": "₹900 coverage per tree with a nominal premium of only ₹2 per year.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "State Sector Scheme",
@@ -121,7 +121,7 @@
   },
   {
     "scheme_name": "Kerala Cashew Development Programme",
-    "benifit": "Subsidy for new cashew plantations and grafting. ₹20,000 per hectare for first 3 years.",
+    "benifit": "₹18,000 per hectare for maintaining new cashew plantations during the gestation period.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "State Sector Scheme",
@@ -129,7 +129,7 @@
   },
   {
     "scheme_name": "Attappady Tribal Farming Support Scheme",
-    "benifit": "Free seeds, tools, and ₹8,000 per season for tribal farmers in Attappady region.",
+    "benifit": "Seasonal grant of ₹12,500 per family for traditional millet and pulse cultivation.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹6,000 per month",
     "type": "State Sector Scheme",
@@ -137,7 +137,7 @@
   },
   {
     "scheme_name": "Kerala Micro Irrigation Subsidy",
-    "benifit": "75% subsidy on drip irrigation and sprinkler systems for small and marginal farmers.",
+    "benifit": "90% subsidy for SC/ST farmers and 75% for others on drip irrigation systems.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "State Sector Scheme",
@@ -145,7 +145,7 @@
   },
   {
     "scheme_name": "Spices Board Quality Improvement Programme",
-    "benifit": "Post-harvest equipment and quality testing labs. Subsidy up to ₹30,000.",
+    "benifit": "Subsidy of ₹35,000 for building a bamboo/plastic-sheet spice drying yard.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹9,000 per month",
     "type": "State Sector Scheme",
@@ -153,7 +153,7 @@
   },
   {
     "scheme_name": "Kerala Farm Mechanisation Scheme",
-    "benifit": "50% subsidy on purchase of power tillers, weeders, and sprayers for small farms.",
+    "benifit": "₹20,000 off on power tillers and ₹3,500 off on manual sprayers from authorized dealers.",
     "Land limit": "2.5 hectares",
     "income_limit": "₹12,000 per month",
     "type": "State Sector Scheme",
@@ -161,7 +161,7 @@
   },
   {
     "scheme_name": "Precision Farming Subsidy (Kerala)",
-    "benifit": "Subsidy for soil sensors, automated irrigation, and precision fertigation systems.",
+    "benifit": "Direct grant of ₹35,000 per hectare for automated nutrient and water delivery systems.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹14,000 per month",
     "type": "State Sector Scheme",
@@ -169,7 +169,7 @@
   },
   {
     "scheme_name": "Kerala Honey Bee Keeping Support",
-    "benifit": "80% subsidy for purchasing bee boxes and honey extraction equipment.",
+    "benifit": "₹8,000 subsidy for a 10-box unit including bee colonies and extraction tools.",
     "Land limit": "1.0 hectares",
     "income_limit": "₹7,500 per month",
     "type": "State Sector Scheme",
@@ -177,7 +177,7 @@
   },
   {
     "scheme_name": "Mushroom Cultivation Grant (Kerala)",
-    "benifit": "Financial aid for setting up mushroom sheds and climate control units.",
+    "benifit": "₹1.5 lakh subsidy for establishing a 1000-bed capacity mushroom production unit.",
     "Land limit": "0.5 hectares",
     "income_limit": "₹8,500 per month",
     "type": "State Sector Scheme",
@@ -185,7 +185,7 @@
   },
   {
     "scheme_name": "Polyhouse Maintenance Subsidy",
-    "benifit": "Support for replacing polyhouse sheets and repairing structure every 3 years.",
+    "benifit": "₹2.5 lakh grant for construction or renovation of a 1000 sq.m naturally ventilated polyhouse.",
     "Land limit": "0.2 hectares",
     "income_limit": "₹15,000 per month",
     "type": "State Sector Scheme",
@@ -193,7 +193,7 @@
   },
   {
     "scheme_name": "Arecanut Plantation Rejuvenation",
-    "benifit": "Subsidy for treating yellow leaf disease and planting high-yield arecanut varieties.",
+    "benifit": "₹12,000 per hectare for purchasing medicine and organic inputs for diseased arecanut trees.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "State Sector Scheme",
@@ -201,7 +201,7 @@
   },
   {
     "scheme_name": "Kerala Agri-Export Promotion Scheme",
-    "benifit": "Support for packaging, branding, and cold-chain logistics for exporting Kerala produce.",
+    "benifit": "₹2.5 lakh assistance for obtaining global food-safety certifications (GAP) and branding.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹20,000 per month",
     "type": "State Sector Scheme",
@@ -209,7 +209,7 @@
   },
   {
     "scheme_name": "Young Farmer Fellowship (Kerala)",
-    "benifit": "Monthly stipend of ₹5,000 for 1 year for agriculture graduates taking up farming.",
+    "benifit": "Monthly stipend of ₹5,000 for one year to support startup farming ventures.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹10,000 per month",
     "type": "State Sector Scheme",
@@ -217,7 +217,7 @@
   },
   {
     "scheme_name": "Kudumbashree Collective Farming Grant",
-    "benifit": "Incentive for group farming by women collectives. ₹10,000 per hectare area incentive.",
+    "benifit": "Incentive of ₹10,000 per hectare for joint-farming groups of 5+ women.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹8,000 per month",
     "type": "State Sector Scheme",
@@ -225,7 +225,7 @@
   },
   {
     "scheme_name": "Rainwater Harvesting for Farm Irrigation",
-    "benifit": "50% subsidy for constructing farm ponds and installing rain-water collection systems.",
+    "benifit": "75% subsidy up to ₹50,000 for constructing lined farm ponds or open wells.",
     "Land limit": "4.0 hectares",
     "income_limit": "₹12,000 per month",
     "type": "State Sector Scheme",
@@ -233,7 +233,7 @@
   },
   {
     "scheme_name": "Wayanad Special Coffee Package",
-    "benifit": "Debt relief and specialized inputs for organic coffee farmers in Wayanad district.",
+    "benifit": "Debt relief of up to ₹25,000 and free high-quality coffee seedlings for small growers.",
     "Land limit": "2.5 hectares",
     "income_limit": "₹7,000 per month",
     "type": "State Sector Scheme",
