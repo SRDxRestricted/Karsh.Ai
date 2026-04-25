@@ -11,6 +11,10 @@ init_theme(); inject_global_css(); require_auth(); render_sidebar()
 
 initialize_model()
 
+st.markdown("### Crop Predictor")
+st.markdown("Get AI-driven crop recommendations based on your district, planting season, and land area.")
+st.markdown("")
+
 c1, c2, c3, c4 = st.columns([2, 2, 1.5, 1])
 with c1:
     st.markdown("📍 **Select District**")

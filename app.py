@@ -38,18 +38,18 @@ render_sidebar()
 
 # ── Hero ────────────────────────────────────────────────────────────────────
 st.markdown('<h1 class="hero-title">Karsh.Ai</h1>', unsafe_allow_html=True)
-st.markdown(f'<p class="hero-sub">Welcome back, <strong>{get_username()}</strong>. An AI-powered agricultural companion built for Kerala\'s farming communities.</p>', unsafe_allow_html=True)
+st.markdown(f'<p class="hero-sub">Hello, <strong>{get_username()}</strong>! Your farming assistant is ready. Check the weather, find the right crop to plant, or discover government schemes you qualify for.</p>', unsafe_allow_html=True)
 
 # ── Stats Row ───────────────────────────────────────────────────────────────
 s1, s2, s3, s4 = st.columns(4)
 with s1:
-    st.markdown('<div class="stat-num">14</div><div class="stat-label">Kerala Districts</div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-num">14</div><div class="stat-label">Districts Covered</div>', unsafe_allow_html=True)
 with s2:
-    st.markdown('<div class="stat-num">50+</div><div class="stat-label">Crops Tracked</div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-num">50+</div><div class="stat-label">Crops Supported</div>', unsafe_allow_html=True)
 with s3:
-    st.markdown('<div class="stat-num">100%</div><div class="stat-label">Offline Capable</div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-num">100%</div><div class="stat-label">Works Offline</div>', unsafe_allow_html=True)
 with s4:
-    st.markdown('<div class="stat-num">മലയാളം</div><div class="stat-label">Voice Support</div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-num">മലയാളം</div><div class="stat-label">Voice Ready</div>', unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -57,7 +57,7 @@ st.markdown("---")
 user_district = get_user_district()
 lat, lon = DISTRICT_COORDS.get(user_district, (9.9816, 76.2999))
 
-st.markdown(f"### Early Warning — {user_district}")
+st.markdown(f"### Weather in {user_district}")
 
 with st.spinner(f"Fetching 48-hr forecast for {user_district}..."):
     weather_data = fetch_weather_forecast(lat, lon)
@@ -94,56 +94,50 @@ else:
     st.warning("Could not fetch meteorological data. Check your internet connection.", icon="📡")
 
 st.markdown("---")
-st.markdown("### Platform Features")
+st.markdown("### What can Karsh.Ai do for you?")
 
 # ── Feature Cards ───────────────────────────────────────────────────────────
 c1, c2 = st.columns(2)
 
 with c1:
     with st.container(border=True):
-        st.markdown("#### 🌱 Crop Predictor System")
+        st.markdown("#### Which crop should I plant?")
         st.markdown(
-            "AI-driven crop recommendations based on historical market data, "
-            "seasonal patterns, and district-specific conditions across Kerala. "
-            "Powered by a Random Forest model trained on real agricultural records."
+            "Tell us your district, the month you want to plant, and how much land you have. "
+            "We'll suggest the best crops and show you how much you could earn."
         )
-        st.success("✓ Live", icon="✅")
-        st.page_link("pages/2_🌱_Crop_Predictor.py", label="Open Crop Predictor →", use_container_width=True)
+        st.success("Ready to use", icon="\u2705")
+        st.page_link("pages/2_\U0001F331_Crop_Predictor.py", label="Find best crops \u2192", use_container_width=True)
 
 with c2:
     with st.container(border=True):
-        st.markdown("#### 🎙️ Malayalam Voice Assistant")
+        st.markdown("#### Ask a farming question")
         st.markdown(
-            "Ask questions in Malayalam using your voice and receive spoken answers. "
-            "Supports both online (Gemini + gTTS) and fully offline (Phi-3 LLM + espeak-ng) "
-            "modes for zero-connectivity environments."
+            "Type or speak your question in English or Malayalam. "
+            "Get answers about diseases, fertilizers, planting schedules, and more."
         )
-        st.success("✓ Live", icon="✅")
-        st.page_link("pages/1_🎙️_Malayalam_Voice_Assistant.py", label="Open Voice Assistant →", use_container_width=True)
+        st.success("Ready to use", icon="\u2705")
+        st.page_link("pages/1_\U0001F399\uFE0F_Malayalam_Voice_Assistant.py", label="Ask a question \u2192", use_container_width=True)
 
 c3, c4 = st.columns(2)
 
 with c3:
     with st.container(border=True):
-        st.markdown("#### 🏛️ Govt. Scheme Finder")
+        st.markdown("#### Am I eligible for any schemes?")
         st.markdown(
-            "Discover central and state government agricultural schemes, subsidies, "
-            "and loan programs tailored to your crop type, land size, and district. "
-            "Never miss a beneficial program again."
+            "Enter your income and land size, and we'll match you "
+            "with central and state government schemes, subsidies, and loans you can apply for."
         )
-        st.info("Beta", icon="🔬")
-        st.page_link("pages/3_🏛️_Govt_Scheme_Finder.py", label="Open Scheme Finder →", use_container_width=True)
+        st.page_link("pages/3_\U0001F3DB\uFE0F_Govt_Scheme_Finder.py", label="Check schemes \u2192", use_container_width=True)
 
 with c4:
     with st.container(border=True):
-        st.markdown("#### 📸 Plant / Crop Identifier")
+        st.markdown("#### What's wrong with my plant?")
         st.markdown(
-            "Take a photo of any crop or plant and instantly receive identification, "
-            "health analysis, disease detection, and care recommendations "
-            "powered by Gemini's multimodal vision AI."
+            "Upload a photo of a leaf or plant. "
+            "We'll identify the crop, spot any diseases, and suggest what to do next."
         )
-        st.info("Beta", icon="🔬")
-        st.page_link("pages/4_📸_Plant_Identifier.py", label="Open Plant Identifier →", use_container_width=True)
+        st.page_link("pages/4_\U0001F4F8_Plant_Identifier.py", label="Upload a photo \u2192", use_container_width=True)
 
 # ── Footer ──────────────────────────────────────────────────────────────────
-st.markdown('<div class="footer-text">Karsh.Ai · Built by Team Xenonites404 · Hackathon 2026</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer-text">Karsh.Ai · Built by Team Xenonites404</div>', unsafe_allow_html=True)

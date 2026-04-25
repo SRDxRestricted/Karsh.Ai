@@ -4,7 +4,7 @@
     "benifit": "Monthly financial aid of ₹1,600 for retired farmers above age 60.",
     "Land limit": "1.0 hectares",
     "income_limit": "₹5,000 per month",
-    "type": "State Government Provided",
+    "type": "State Sector Scheme",
     "eligible_crops": ["all"]
   },
   {
@@ -12,7 +12,7 @@
     "benifit": "Grant for establishing integrated units (paddy + poultry + bio-gas).",
     "Land limit": "2.5 hectares",
     "income_limit": "₹12,000 per month",
-    "type": "State Government Provided",
+    "type": "State Sector Scheme",
     "eligible_crops": ["paddy", "poultry", "integrated"]
   },
   {
@@ -20,7 +20,7 @@
     "benifit": "Financial assistance for replanting old rubber trees with high-yield clones.",
     "Land limit": "5.0 hectares",
     "income_limit": "₹15,000 per month",
-    "type": "State Government Provided",
+    "type": "State Sector Scheme",
     "eligible_crops": ["rubber"]
   },
   {
@@ -28,7 +28,7 @@
     "benifit": "Subsidy for coconut tree fertilization and basin management.",
     "Land limit": "4.5 hectares",
     "income_limit": "₹10,500 per month",
-    "type": "State Government Provided",
+    "type": "State Sector Scheme",
     "eligible_crops": ["coconut"]
   },
   {
@@ -36,31 +36,207 @@
     "benifit": "Subsidy for post-harvest drying units for Pepper and Cardamom.",
     "Land limit": "3.0 hectares",
     "income_limit": "₹8,500 per month",
-    "type": "State Government Provided",
-    "eligible_crops": ["pepper", "cardamom", "spices"]
+    "type": "State Sector Scheme",
+    "eligible_crops": ["pepper", "cardamom", "spices", "black pepper"]
   },
   {
     "scheme_name": "Kerala Paddy Production Bonus",
     "benifit": "Cash incentive of ₹2,500 per hectare for maintaining paddy cultivation.",
     "Land limit": "2.0 hectares",
     "income_limit": "₹7,000 per month",
-    "type": "State Government Provided",
+    "type": "State Sector Scheme",
     "eligible_crops": ["paddy"]
   },
   {
     "scheme_name": "Agri-Start-Up Innovation Fund (Kerala)",
-    "benifit": "Seed funding for young farmers to implement IoT-based irrigation.",
+    "benifit": "Seed funding up to ₹5 lakh for young farmers to adopt modern irrigation.",
     "Land limit": "10.0 hectares",
     "income_limit": "₹15,000 per month",
-    "type": "State Government Provided",
-    "eligible_crops": ["horticulture", "floriculture", "hydroponics", "aquaponics"]
+    "type": "State Sector Scheme",
+    "eligible_crops": ["horticulture", "floriculture", "vegetables", "fruits"]
   },
   {
     "scheme_name": "Haritha Keralam Bio-Fertilizer Subsidy",
     "benifit": "75% discount on organic fertilizers and vermicompost kits.",
     "Land limit": "6.0 hectares",
     "income_limit": "₹13,000 per month",
-    "type": "State Government Provided",
-    "eligible_crops": ["vegetables", "banana", "tapioca", "tubers", "ginger", "turmeric"]
+    "type": "State Sector Scheme",
+    "eligible_crops": ["vegetables", "banana", "tapioca", "ginger", "turmeric"]
+  },
+  {
+    "scheme_name": "Kerala Banana Insurance Scheme",
+    "benifit": "Crop insurance covering natural disasters and disease for banana cultivation. Premium subsidy of 75%.",
+    "Land limit": "3.0 hectares",
+    "income_limit": "₹12,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["banana"]
+  },
+  {
+    "scheme_name": "Coffee Board Replanting Subsidy (Kerala)",
+    "benifit": "₹40,000 per hectare for uprooting old coffee plants and replanting with improved varieties.",
+    "Land limit": "4.0 hectares",
+    "income_limit": "₹10,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["coffee"]
+  },
+  {
+    "scheme_name": "Kerala Tea Small Growers Assistance",
+    "benifit": "Subsidy for tea leaf processing equipment and quality improvement. Up to ₹25,000 per unit.",
+    "Land limit": "2.0 hectares",
+    "income_limit": "₹8,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["tea"]
+  },
+  {
+    "scheme_name": "Jaiva Keralam Organic Certification Support",
+    "benifit": "Free organic certification and ₹10,000 per hectare for organic transition costs.",
+    "Land limit": "5.0 hectares",
+    "income_limit": "₹11,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["all"]
+  },
+  {
+    "scheme_name": "Kerala Vegetable Development Programme",
+    "benifit": "Seeds, grow bags, and up to ₹15,000 subsidy for backyard and terrace vegetable farming.",
+    "Land limit": "1.0 hectares",
+    "income_limit": "₹8,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["vegetables"]
+  },
+  {
+    "scheme_name": "Kuttanad Package for Paddy Farmers",
+    "benifit": "Special package for Kuttanad region: flood-tolerant seeds, dewatering pumps, and ₹5,000 per hectare.",
+    "Land limit": "3.0 hectares",
+    "income_limit": "₹9,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["paddy"]
+  },
+  {
+    "scheme_name": "Coconut Palm Insurance Scheme (Kerala)",
+    "benifit": "Insurance for coconut palms aged 4-60 years against natural calamities. ₹900 per palm coverage.",
+    "Land limit": "4.0 hectares",
+    "income_limit": "₹12,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["coconut"]
+  },
+  {
+    "scheme_name": "Kerala Cashew Development Programme",
+    "benifit": "Subsidy for new cashew plantations and grafting. ₹20,000 per hectare for first 3 years.",
+    "Land limit": "5.0 hectares",
+    "income_limit": "₹10,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["cashew"]
+  },
+  {
+    "scheme_name": "Attappady Tribal Farming Support Scheme",
+    "benifit": "Free seeds, tools, and ₹8,000 per season for tribal farmers in Attappady region.",
+    "Land limit": "2.0 hectares",
+    "income_limit": "₹6,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["millets", "pulses", "vegetables", "tapioca"]
+  },
+  {
+    "scheme_name": "Kerala Micro Irrigation Subsidy",
+    "benifit": "75% subsidy on drip irrigation and sprinkler systems for small and marginal farmers.",
+    "Land limit": "2.0 hectares",
+    "income_limit": "₹10,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["all"]
+  },
+  {
+    "scheme_name": "Spices Board Quality Improvement Programme",
+    "benifit": "Post-harvest equipment and quality testing labs. Subsidy up to ₹30,000.",
+    "Land limit": "3.0 hectares",
+    "income_limit": "₹9,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["black pepper", "cardamom", "ginger", "turmeric", "spices"]
+  },
+  {
+    "scheme_name": "Kerala Farm Mechanisation Scheme",
+    "benifit": "50% subsidy on purchase of power tillers, weeders, and sprayers for small farms.",
+    "Land limit": "2.5 hectares",
+    "income_limit": "₹12,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["all"]
+  },
+  {
+    "scheme_name": "Precision Farming Subsidy (Kerala)",
+    "benifit": "Subsidy for soil sensors, automated irrigation, and precision fertigation systems.",
+    "Land limit": "2.0 hectares",
+    "income_limit": "₹14,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["vegetables", "fruits", "flowers"]
+  },
+  {
+    "scheme_name": "Kerala Honey Bee Keeping Support",
+    "benifit": "80% subsidy for purchasing bee boxes and honey extraction equipment.",
+    "Land limit": "1.0 hectares",
+    "income_limit": "₹7,500 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["apiculture", "honey", "all"]
+  },
+  {
+    "scheme_name": "Mushroom Cultivation Grant (Kerala)",
+    "benifit": "Financial aid for setting up mushroom sheds and climate control units.",
+    "Land limit": "0.5 hectares",
+    "income_limit": "₹8,500 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["mushroom", "all"]
+  },
+  {
+    "scheme_name": "Polyhouse Maintenance Subsidy",
+    "benifit": "Support for replacing polyhouse sheets and repairing structure every 3 years.",
+    "Land limit": "0.2 hectares",
+    "income_limit": "₹15,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["vegetables", "flowers", "horticulture"]
+  },
+  {
+    "scheme_name": "Arecanut Plantation Rejuvenation",
+    "benifit": "Subsidy for treating yellow leaf disease and planting high-yield arecanut varieties.",
+    "Land limit": "3.0 hectares",
+    "income_limit": "₹10,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["arecanut"]
+  },
+  {
+    "scheme_name": "Kerala Agri-Export Promotion Scheme",
+    "benifit": "Support for packaging, branding, and cold-chain logistics for exporting Kerala produce.",
+    "Land limit": "10.0 hectares",
+    "income_limit": "₹20,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["pineapple", "banana", "spices", "jackfruit"]
+  },
+  {
+    "scheme_name": "Young Farmer Fellowship (Kerala)",
+    "benifit": "Monthly stipend of ₹5,000 for 1 year for agriculture graduates taking up farming.",
+    "Land limit": "2.0 hectares",
+    "income_limit": "₹10,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["all"]
+  },
+  {
+    "scheme_name": "Kudumbashree Collective Farming Grant",
+    "benifit": "Incentive for group farming by women collectives. ₹10,000 per hectare area incentive.",
+    "Land limit": "5.0 hectares",
+    "income_limit": "₹8,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["paddy", "vegetables", "banana"]
+  },
+  {
+    "scheme_name": "Rainwater Harvesting for Farm Irrigation",
+    "benifit": "50% subsidy for constructing farm ponds and installing rain-water collection systems.",
+    "Land limit": "4.0 hectares",
+    "income_limit": "₹12,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["all"]
+  },
+  {
+    "scheme_name": "Wayanad Special Coffee Package",
+    "benifit": "Debt relief and specialized inputs for organic coffee farmers in Wayanad district.",
+    "Land limit": "2.5 hectares",
+    "income_limit": "₹7,000 per month",
+    "type": "State Sector Scheme",
+    "eligible_crops": ["coffee", "pepper"]
   }
 ]

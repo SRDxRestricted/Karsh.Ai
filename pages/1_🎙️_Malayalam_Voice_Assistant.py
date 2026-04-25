@@ -8,30 +8,30 @@ from auth import require_auth
 st.set_page_config(page_title="Karsh.Ai | Voice Assistant", page_icon="🎙️", layout="wide")
 init_theme(); inject_global_css(); require_auth(); render_sidebar()
 
-st.markdown("### 🎙 Karsh.ai Assistant")
-st.markdown("Speak to the AI Agronomist in your native language — powered by Google Voice Search and Gemini AI.")
+st.markdown("### Ask a farming question")
+st.markdown("Have a question about your crops, soil, pests, or fertilizers? Type it below or record your voice. We'll do our best to help.")
 
 left, right = st.columns([2, 1])
 with left:
-    st.markdown("**📋 Enter your query**")
-    query = st.text_area("query", placeholder="Type your agricultural question here...", height=120, label_visibility="collapsed")
+    st.markdown("**Your question**")
+    query = st.text_area("query", placeholder="e.g. My coconut leaves are turning yellow, what should I do?", height=120, label_visibility="collapsed")
 with right:
-    st.markdown("**💡 Try These**")
-    if st.button("🌴 Coconut yellowing disease?", use_container_width=True):
-        st.session_state["va_query"] = "Coconut yellowing disease?"
-    if st.button("🌿 When to fertilize rubber?", use_container_width=True):
-        st.session_state["va_query"] = "When to fertilize rubber?"
-    if st.button("🌾 Best rice variety for Kuttanad?", use_container_width=True):
-        st.session_state["va_query"] = "Best rice variety for Kuttanad?"
+    st.markdown("**Common questions**")
+    if st.button("Why are my coconut leaves yellowing?", use_container_width=True):
+        st.session_state["va_query"] = "My coconut leaves are turning yellow. What could be the cause and how do I treat it?"
+    if st.button("When should I fertilize rubber?", use_container_width=True):
+        st.session_state["va_query"] = "When is the best time to apply fertilizer to rubber trees in Kerala?"
+    if st.button("Best rice variety for Kuttanad?", use_container_width=True):
+        st.session_state["va_query"] = "Which rice variety is best suited for Kuttanad's waterlogged conditions?"
 
 # Use suggestion if clicked
 if "va_query" in st.session_state and st.session_state["va_query"]:
     query = st.session_state.pop("va_query")
 
-st.markdown("**🔧 Or Record Voice**")
+st.markdown("**Or record your voice**")
 audio_input = st.audio_input("Record", label_visibility="collapsed")
 
-if st.button("🚀 Ask Assistant", use_container_width=True, type="primary"):
+if st.button("Get answer", use_container_width=True, type="primary"):
     if query:
         with st.spinner("Thinking..."):
             try:
@@ -47,4 +47,4 @@ if st.button("🚀 Ask Assistant", use_container_width=True, type="primary"):
             except Exception as e:
                 st.error(f"Error: {e}")
     else:
-        st.warning("Please enter a query first.")
+        st.warning("Please type a question or record your voice first.")

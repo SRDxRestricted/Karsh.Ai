@@ -63,12 +63,6 @@ def _render_auth_page():
 
     st.markdown("""
     <style>
-        /* Centre the auth card */
-        .auth-wrapper {
-            max-width: 440px;
-            margin: 0 auto;
-            padding-top: 40px;
-        }
         .auth-brand {
             text-align: center;
             margin-bottom: 32px;
@@ -84,7 +78,7 @@ def _render_auth_page():
             font-size: 0.88rem;
             margin: 6px 0 0 0;
         }
-        /* Tab styling tweaks */
+        /* Tab styling */
         .stTabs [data-baseweb="tab-list"] {
             gap: 0;
             justify-content: center;
@@ -93,6 +87,26 @@ def _render_auth_page():
             flex: 1;
             justify-content: center;
             font-weight: 600;
+        }
+        /* Fix password toggle overlap */
+        [data-testid="stForm"] button[kind="icon"] {
+            position: absolute !important;
+            right: 8px !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            z-index: 10 !important;
+        }
+        [data-testid="stForm"] input[type="password"] {
+            padding-right: 40px !important;
+        }
+        /* Hide "Press Enter to submit form" hint */
+        [data-testid="stForm"] [data-testid="InputInstructions"] {
+            display: none !important;
+        }
+        /* Form field spacing */
+        [data-testid="stForm"] [data-testid="stTextInput"],
+        [data-testid="stForm"] [data-testid="stSelectbox"] {
+            margin-bottom: 4px !important;
         }
     </style>
     """, unsafe_allow_html=True)
