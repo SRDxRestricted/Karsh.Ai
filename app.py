@@ -1,428 +1,149 @@
 import streamlit as st
-import json
-import os
-import sys
-import ollama
+from theme import init_theme, inject_global_css, render_sidebar
+from auth import require_auth, get_username, get_user_district
+from early_warning_system.early_warning_system import fetch_weather_forecast, analyze_for_calamities
 
-# Import modules
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from crop_predictor.crop_predictor import initialize_model, predict_top_crops
-from imageProcessing.photoAnalyzer import analyze_crop
-from imageProcessing.extractingInfo import extract_farmer_profile
-from scheme_recommender.recommender import recommend_schemes
-from early_warning_system.early_warning_system import fetch_weather_forecast, analyze_for_calamities, LATITUDE, LONGITUDE
-import importlib.util
+# Kerala district coordinates
+DISTRICT_COORDS = {
+    "Thiruvananthapuram": (8.5241, 76.9366),
+    "Kollam":            (8.8932, 76.6141),
+    "Pathanamthitta":    (9.2648, 76.7870),
+    "Alappuzha":         (9.4981, 76.3388),
+    "Kottayam":          (9.5916, 76.5222),
+    "Idukki":            (9.8500, 76.9492),
+    "Ernakulam":         (9.9816, 76.2999),
+    "Thrissur":          (10.5276, 76.2144),
+    "Palakkad":          (10.7867, 76.6548),
+    "Malappuram":        (11.0510, 76.0711),
+    "Kozhikode":         (11.2588, 75.7804),
+    "Wayanad":           (11.6854, 76.1320),
+    "Kannur":            (11.8745, 75.3704),
+    "Kasaragod":         (12.4996, 74.9869),
+}
 
-spec = importlib.util.spec_from_file_location("translate_and_speak", os.path.join(os.path.dirname(__file__), "Malayalam TTS", "translate_and_speak.py"))
-tts_module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(tts_module)
-
-st.set_page_config(page_title="Karsh.Ai", page_icon="✨", layout="wide", initial_sidebar_state="expanded")
-
-# CSS for Dashboard aesthetic
-st.markdown("""
-<style>
-    /* Global Background and Fonts */
-    .stApp {
-        background-color: #f3f6f4;
-        font-family: 'Inter', sans-serif;
-    }
-
-    /* Remove top padding for a clean top bar area */
-    .block-container {
-        padding-top: 2rem;
-        padding-bottom: 5rem;
-        max-width: 1200px;
-    }
-    
-    /* Hide Streamlit Header */
-    header {visibility: hidden;}
-
-    /* Sidebar Styling - FORCED FIXED */
-    [data-testid="stSidebar"] {
-        background-color: #ffffff !important;
-        border-right: 1px solid #e2e8f0 !important;
-        min-width: 260px !important;
-        max-width: 260px !important;
-        transform: translateX(0) !important;
-        visibility: visible !important;
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        z-index: 999999 !important;
-        height: 100vh !important;
-    }
-    
-    /* Shift main content right to avoid overlapping fixed sidebar */
-    [data-testid="stAppViewContainer"] {
-        padding-left: 260px !important;
-    }
-    .main .block-container {
-        max-width: 1000px !important;
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
-    }
-    
-    /* Completely hide all toggle buttons */
-    [data-testid="collapsedControl"],
-    [data-testid="stSidebarCollapseButton"],
-    button[kind="header"] {
-        display: none !important;
-        visibility: hidden !important;
-    }
-    .css-1544g2n.e1fqcg0o4 {
-        padding-top: 2rem;
-    }
-    
-    /* Common Card Styling */
-    .dash-card {
-        background: #ffffff;
-        border-radius: 12px;
-        padding: 24px;
-        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-        border: 1px solid #e2e8f0;
-        margin-bottom: 20px;
-    }
-
-    /* Alerts */
-    .alert-card {
-        background: #fef2f2;
-        border: 1px solid #fecaca;
-        border-radius: 8px;
-        padding: 15px;
-        height: 100%;
-    }
-    .alert-title {
-        color: #b91c1c;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        margin-bottom: 5px;
-    }
-    
-    /* Feature Cards */
-    .feature-card {
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        border-radius: 12px;
-        padding: 20px;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        cursor: pointer;
-        transition: transform 0.2s;
-    }
-    .feature-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
-    }
-    .feature-card.primary {
-        background: #065f46;
-        color: white;
-        border: none;
-    }
-
-    /* Buttons and Overrides */
-    .stButton>button {
-        font-size: 1rem !important;
-        font-weight: 600 !important;
-        padding: 10px 20px !important;
-        border-radius: 8px !important;
-        border: 1px solid #e2e8f0 !important;
-    }
-    .stButton>button[kind="primary"] {
-        background: #065f46 !important;
-        color: white !important;
-        border: none !important;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-# Initialize Crop Model safely without caching bugs
-initialize_model()
-
-def stream_general_chat(text):
-    try:
-        response = ollama.chat(
-            model='gemma4:e2b',
-            messages=[
-                {'role': 'system', 'content': 'You are a helpful Kerala farming assistant. Always respond in English unless specifically asked to speak Malayalam.'},
-                {'role': 'user', 'content': text}
-            ],
-            stream=True
-        )
-        for chunk in response:
-            yield chunk['message']['content']
-    except Exception as e:
-        yield f"Error: {e}"
-
-# --- SIDEBAR NAVIGATION ---
-st.sidebar.markdown("""
-    <div style='margin-bottom: 30px;'>
-        <h2 style='color: #065f46; margin-bottom: 0; font-size: 1.8rem; font-weight: 900;'>Karsh.Ai</h2>
-        <p style='color: #64748b; font-size: 0.85rem; margin-top: -5px; font-weight: 600;'>Precision Agriculture</p>
-    </div>
-""", unsafe_allow_html=True)
-
-page = st.sidebar.radio(
-    "Navigation", 
-    ["Dashboard", "AI Chat Assistant", "Scheme Discovery", "Profile Extraction", "Crop Predictor"], 
-    label_visibility="collapsed"
+st.set_page_config(
+    page_title="Karsh.Ai — AI Farming Assistant",
+    page_icon="🌱",
+    layout="wide",
+    initial_sidebar_state="expanded",
 )
 
-st.sidebar.markdown("<br>" * 10, unsafe_allow_html=True)
-st.sidebar.markdown("<p style='color:#64748b; font-weight:600; font-size:0.9rem; cursor:pointer;'>❔ Support</p>", unsafe_allow_html=True)
-st.sidebar.markdown("<p style='color:#64748b; font-weight:600; font-size:0.9rem; cursor:pointer;'>🚪 Sign Out</p>", unsafe_allow_html=True)
+init_theme()
+inject_global_css()
 
-# --- PAGE CONTENT ---
+# Gate: must log in before seeing anything
+require_auth()
 
-if page == "Dashboard":
-    # Greeting
-    st.markdown("""
-        <h1 style='color: #065f46; margin-bottom: 0; font-size: 2.2rem;'>Good morning, Ravi</h1>
-        <p style='color: #64748b; font-size: 1.05rem; margin-top: 5px; margin-bottom: 25px;'>Here is your farm overview and alerts for today.</p>
-    """, unsafe_allow_html=True)
-    
-    # Real Early Warning Alerts
-    with st.spinner("Fetching meteorological data..."):
-        weather_data = fetch_weather_forecast(LATITUDE, LONGITUDE)
-        
-    if weather_data:
-        warnings = analyze_for_calamities(weather_data)
-        
-        if warnings:
-            st.markdown("""
-                <div class="dash-card" style="background:#fff1f2; border: 1px solid #ffe4e6;">
-                    <h3 style="margin:0 0 15px 0; font-size:1.1rem; color:#be123c; display:flex; align-items:center; gap:8px;">⚠️ Early Warning Alerts (Next 48 Hours)</h3>
-                    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:15px;">
-            """, unsafe_allow_html=True)
-            
-            for w in warnings:
-                time_str = w['time']
-                for alert in w['alerts']:
-                    icon = "⚠️"
-                    if "RAIN" in alert: icon = "🌧️"
-                    elif "WINDS" in alert: icon = "🌪️"
-                    elif "HEAT" in alert: icon = "🌡️"
-                    
-                    st.markdown(f"""
-                        <div style="background:white; padding:15px; border-radius:8px; display:flex; gap:10px; border:1px solid #fecaca;">
-                            <div style="background:#fee2e2; width:35px; height:35px; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#b91c1c;">{icon}</div>
-                            <div>
-                                <div style="font-weight:700; color:#0f172a; font-size:0.95rem; margin-bottom:4px;">{time_str}</div>
-                                <div style="font-size:0.8rem; color:#64748b; line-height:1.4;">{alert}</div>
-                            </div>
-                        </div>
-                    """, unsafe_allow_html=True)
-            
-            st.markdown("</div></div>", unsafe_allow_html=True)
-        else:
-            st.markdown("""
-                <div class="dash-card" style="background:#f0fdf4; border: 1px solid #dcfce7;">
-                    <h3 style="margin:0 0 5px 0; font-size:1.1rem; color:#166534; display:flex; align-items:center; gap:8px;">✅ All Clear</h3>
-                    <p style="margin:0; font-size:0.9rem; color:#166534;">No extreme weather events predicted for the next 48 hours. Normal farming activities can proceed.</p>
-                </div>
-            """, unsafe_allow_html=True)
+render_sidebar()
+
+# ── Hero ────────────────────────────────────────────────────────────────────
+st.markdown('<h1 class="hero-title">Karsh.Ai</h1>', unsafe_allow_html=True)
+st.markdown(f'<p class="hero-sub">Welcome back, <strong>{get_username()}</strong>. An AI-powered agricultural companion built for Kerala\'s farming communities.</p>', unsafe_allow_html=True)
+
+# ── Stats Row ───────────────────────────────────────────────────────────────
+s1, s2, s3, s4 = st.columns(4)
+with s1:
+    st.markdown('<div class="stat-num">14</div><div class="stat-label">Kerala Districts</div>', unsafe_allow_html=True)
+with s2:
+    st.markdown('<div class="stat-num">50+</div><div class="stat-label">Crops Tracked</div>', unsafe_allow_html=True)
+with s3:
+    st.markdown('<div class="stat-num">100%</div><div class="stat-label">Offline Capable</div>', unsafe_allow_html=True)
+with s4:
+    st.markdown('<div class="stat-num">മലയാളം</div><div class="stat-label">Voice Support</div>', unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ── Early Warning System (user's district) ──────────────────────────────────
+user_district = get_user_district()
+lat, lon = DISTRICT_COORDS.get(user_district, (9.9816, 76.2999))
+
+st.markdown(f"### Early Warning — {user_district}")
+
+with st.spinner(f"Fetching 48-hr forecast for {user_district}..."):
+    weather_data = fetch_weather_forecast(lat, lon)
+
+if weather_data:
+    warnings = analyze_for_calamities(weather_data)
+    if warnings:
+        total = sum(len(w['alerts']) for w in warnings)
+        st.error(f"**{total} alert(s)** detected in {user_district} over the next 48 hours", icon="⚠️")
+        shown = 0
+        for w in warnings:
+            if shown >= 5:
+                break
+            for alert in w['alerts']:
+                if shown >= 5:
+                    break
+                icon = "🌧️" if "RAIN" in alert else "🌪️" if "WIND" in alert else "🌡️" if "HEAT" in alert else "⚠️"
+                st.markdown(
+                    f"<div style='background:#2a1515;border:1px solid #5c2020;border-radius:10px;"
+                    f"padding:14px 18px;margin-bottom:8px;display:flex;align-items:center;gap:12px;'>"
+                    f"<span style='font-size:1.4rem;'>{icon}</span>"
+                    f"<div>"
+                    f"<div style='font-weight:700;color:#ff6b6b;font-size:0.9rem;'>{w['time']}</div>"
+                    f"<div style='color:#d0d0d0;font-size:0.85rem;'>{alert}</div>"
+                    f"</div></div>",
+                    unsafe_allow_html=True,
+                )
+                shown += 1
+        if total > 5:
+            st.caption(f"+ {total - 5} more alert(s) not shown")
     else:
-        st.warning("Could not fetch meteorological data.")
-            
-    st.markdown("<br>", unsafe_allow_html=True)
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.markdown("""
-            <div class="feature-card primary">
-                <div style="display:flex; justify-content:space-between; margin-bottom:40px;">
-                    <span style="font-size:1.5rem;">🧠</span>
-                    <span style="font-size:1.5rem;">→</span>
-                </div>
-                <h3 style="margin:0 0 5px 0; font-size:1.2rem;">Crop Predictor</h3>
-                <p style="margin:0; font-size:0.85rem; opacity:0.9; line-height:1.4;">AI-driven yield forecasts and optimal harvest timing based on current growth data.</p>
-            </div>
-        """, unsafe_allow_html=True)
-        
-    with col2:
-        st.markdown("""
-            <div class="feature-card">
-                <div style="display:flex; justify-content:space-between; margin-bottom:40px;">
-                    <span style="font-size:1.5rem;">🏛️</span>
-                    <span style="font-size:1.5rem; color:#94a3b8;">→</span>
-                </div>
-                <h3 style="margin:0 0 5px 0; font-size:1.2rem; color:#1e293b;">Scheme Discovery</h3>
-                <p style="margin:0; font-size:0.85rem; color:#64748b; line-height:1.4;">Personalized government subsidies and insurance programs matched to your farm profile.</p>
-            </div>
-        """, unsafe_allow_html=True)
-        
-    with col3:
-        st.markdown("""
-            <div class="feature-card">
-                <div style="display:flex; justify-content:space-between; margin-bottom:40px;">
-                    <span style="font-size:1.5rem;">💬</span>
-                    <span style="font-size:1.5rem; color:#94a3b8;">→</span>
-                </div>
-                <h3 style="margin:0 0 5px 0; font-size:1.2rem; color:#1e293b;">AI Chat Assistant</h3>
-                <p style="margin:0; font-size:0.85rem; color:#64748b; line-height:1.4;">Your virtual agronomist. Ask questions and get crop health diagnostics instantly.</p>
-            </div>
-        """, unsafe_allow_html=True)
+        st.success(f"All clear in {user_district} — no extreme weather predicted for the next 48 hours.", icon="✅")
+else:
+    st.warning("Could not fetch meteorological data. Check your internet connection.", icon="📡")
 
-elif page == "AI Chat Assistant":
-    st.subheader("Your Virtual Agronomist")
-    
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
+st.markdown("---")
+st.markdown("### Platform Features")
 
-    for msg in st.session_state.messages:
-        with st.chat_message(msg["role"]):
-            if "image" in msg and msg["image"]:
-                st.image(msg["image"], width=300)
-            st.markdown(msg["content"])
+# ── Feature Cards ───────────────────────────────────────────────────────────
+c1, c2 = st.columns(2)
 
-    if prompt := st.chat_input(
-        "Ask Karsh.Ai a question or describe your crop issues...",
-        accept_file=True,
-        file_type=["jpg", "jpeg", "png"]
-    ):
-        img_bytes = None
-        if prompt.files:
-            img_bytes = prompt.files[0].read()
-            
-        prompt_text = prompt.text
-        
-        user_msg = {"role": "user", "content": prompt_text}
-        if img_bytes:
-            user_msg["image"] = img_bytes
-        st.session_state.messages.append(user_msg)
-        
-        with st.chat_message("user"):
-            if img_bytes:
-                st.image(img_bytes, width=300)
-            if prompt_text:
-                st.markdown(prompt_text)
-        
-        with st.chat_message("assistant"):
-            with st.spinner("Thinking..."):
-                result_container = st.empty()
-                full_response = ""
-                
-                if img_bytes:
-                    st.caption("*(Running Crop Diagnosis...)*")
-                    for chunk in analyze_crop(img_bytes):
-                        full_response += chunk
-                        result_container.markdown(full_response + "▌")
-                else:
-                    for chunk in stream_general_chat(prompt_text):
-                        full_response += chunk
-                        result_container.markdown(full_response + "▌")
-                        
-                result_container.markdown(full_response)
-                st.session_state.messages.append({"role": "assistant", "content": full_response})
+with c1:
+    with st.container(border=True):
+        st.markdown("#### 🌱 Crop Predictor System")
+        st.markdown(
+            "AI-driven crop recommendations based on historical market data, "
+            "seasonal patterns, and district-specific conditions across Kerala. "
+            "Powered by a Random Forest model trained on real agricultural records."
+        )
+        st.success("✓ Live", icon="✅")
+        st.page_link("pages/2_🌱_Crop_Predictor.py", label="Open Crop Predictor →", use_container_width=True)
 
-    if st.session_state.messages and st.session_state.messages[-1]["role"] == "assistant":
-        if st.button("🔊 Listen in Malayalam", key=f"tts_{len(st.session_state.messages)}"):
-            with st.spinner("Translating and generating audio..."):
-                try:
-                    audio_path = tts_module.speak_malayalam_from_english(st.session_state.messages[-1]["content"][:1000])
-                    st.audio(audio_path, format="audio/mp3")
-                except Exception as e:
-                    st.error(f"TTS Failed: {e}")
+with c2:
+    with st.container(border=True):
+        st.markdown("#### 🎙️ Malayalam Voice Assistant")
+        st.markdown(
+            "Ask questions in Malayalam using your voice and receive spoken answers. "
+            "Supports both online (Gemini + gTTS) and fully offline (Phi-3 LLM + espeak-ng) "
+            "modes for zero-connectivity environments."
+        )
+        st.success("✓ Live", icon="✅")
+        st.page_link("pages/1_🎙️_Malayalam_Voice_Assistant.py", label="Open Voice Assistant →", use_container_width=True)
 
-elif page == "Scheme Discovery":
-    st.header("🏛️ Scheme Discovery")
-    st.markdown("Find the financial support you are entitled to based on your land and income.")
-    
-    col1, col2 = st.columns(2)
-    with col1:
-        income = st.number_input("Monthly Income (₹)", min_value=0, value=10000, step=1000)
-    with col2:
-        land_size = st.number_input("Land Size (in hectares)", min_value=0.0, value=1.0, step=0.1)
-        
-    if st.button("Find Schemes", use_container_width=True, type="primary"):
-        schemes = recommend_schemes(income, land_size)
-        if schemes:
-            st.success(f"Found {len(schemes)} eligible scheme(s)!")
-            for idx, scheme in enumerate(schemes):
-                with st.expander(f"{idx+1}. {scheme['scheme_name']} ({scheme['source']})"):
-                    st.markdown(f"**Type:** {scheme['type']}")
-                    st.markdown(f"**Benefit:** {scheme.get('benifit', 'N/A')}")
-                    st.markdown(f"**Eligibility:** Land up to {scheme.get('Land limit', 'Any')}, Income up to {scheme.get('income_limit', 'Any')}")
-                    
-                    scheme_summary = f"{scheme['scheme_name']}. Provides {scheme.get('benifit', 'financial support')}"
-                    
-                    if st.button(f"🔊 Listen in Malayalam", key=f"tts_scheme_{idx}"):
-                        with st.spinner("Generating audio..."):
-                            try:
-                                audio_path = tts_module.speak_malayalam_from_english(scheme_summary)
-                                st.audio(audio_path, format="audio/mp3")
-                            except Exception as e:
-                                st.error(f"TTS Failed: {e}")
-        else:
-            st.warning("No matching schemes found for your profile.")
+c3, c4 = st.columns(2)
 
-elif page == "Profile Extraction":
-    st.header("📄 Smart Profile Extraction (KYC)")
-    st.markdown("Upload your Aadhar or Land Record. We will automatically extract the details.")
-    
-    uploaded_doc = st.file_uploader("Upload Document", type=["jpg", "jpeg", "png"], key="doc_upload")
-    
-    if uploaded_doc:
-        st.image(uploaded_doc, caption="Uploaded Document", width=400)
-        if st.button("Extract Information", use_container_width=True, type="primary"):
-            img_bytes = uploaded_doc.read()
-            with st.spinner("Extracting info using Vision AI..."):
-                extracted_data = extract_farmer_profile(img_bytes)
-                st.success("Extraction Complete!")
-                st.json(extracted_data)
+with c3:
+    with st.container(border=True):
+        st.markdown("#### 🏛️ Govt. Scheme Finder")
+        st.markdown(
+            "Discover central and state government agricultural schemes, subsidies, "
+            "and loan programs tailored to your crop type, land size, and district. "
+            "Never miss a beneficial program again."
+        )
+        st.info("Beta", icon="🔬")
+        st.page_link("pages/3_🏛️_Govt_Scheme_Finder.py", label="Open Scheme Finder →", use_container_width=True)
 
-elif page == "Crop Predictor":
-    st.header("📈 Predict the Most Profitable Crop")
-    st.markdown("Select your details to see data-driven planting recommendations for maximum yield and profit.")
-    
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        month = st.selectbox("Planting Month", list(range(1, 13)), format_func=lambda x: [
-            "January", "February", "March", "April", "May", "June", 
-            "July", "August", "September", "October", "November", "December"][x-1])
-    with col2:
-        district = st.selectbox("District", [
-            "Thiruvananthapuram", "Kollam", "Pathanamthitta", "Alappuzha", "Kottayam", "Idukki", 
-            "Ernakulam", "Thrissur", "Palakkad", "Malappuram", "Kozhikode", "Wayanad", "Kannur", "Kasaragod"
-        ])
-    with col3:
-        land_area = st.number_input("Land Area (hectares)", min_value=0.1, value=1.0, step=0.1)
-    
-    if st.button("Predict Optimal Crops", use_container_width=True, type="primary"):
-        with st.spinner("Analyzing market data and predicting..."):
-            results = predict_top_crops(month, district, land_area)
-            if results:
-                for idx, res in enumerate(results):
-                    st.markdown(f"""
-                    <div class="dash-card">
-                        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #e2e8f0; padding-bottom:15px; margin-bottom:15px;">
-                            <h3 style="margin:0; font-size:1.3rem; color:#065f46;">#{idx+1} {res['crop']}</h3>
-                            <div style="background:#dcfce7; color:#166534; padding:5px 12px; border-radius:15px; font-weight:700; font-size:0.9rem;">🎯 {res['match_score']} Match</div>
-                        </div>
-                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                            <div>
-                                <div style="font-size:0.85rem; color:#64748b; font-weight:600; text-transform:uppercase;">💰 Est. Revenue</div>
-                                <div style="font-size:1.2rem; color:#065f46; font-weight:800;">₹{res['est_revenue']:,.2f}</div>
-                            </div>
-                            <div>
-                                <div style="font-size:0.85rem; color:#64748b; font-weight:600; text-transform:uppercase;">⚖️ Est. Yield</div>
-                                <div style="font-size:1.1rem; font-weight:600;">{res['est_yield']:,.0f} Units</div>
-                            </div>
-                            <div>
-                                <div style="font-size:0.85rem; color:#64748b; font-weight:600; text-transform:uppercase;">🏪 Best Market</div>
-                                <div style="font-size:1.1rem; font-weight:600;">{res['best_market']}</div>
-                            </div>
-                            <div>
-                                <div style="font-size:0.85rem; color:#64748b; font-weight:600; text-transform:uppercase;">📊 Price Range / Qtl</div>
-                                <div style="font-size:1.1rem; font-weight:600;">{res['price_range']}</div>
-                            </div>
-                        </div>
-                    </div>
-                    """, unsafe_allow_html=True)
-            else:
-                st.warning("No suitable crops found.")
+with c4:
+    with st.container(border=True):
+        st.markdown("#### 📸 Plant / Crop Identifier")
+        st.markdown(
+            "Take a photo of any crop or plant and instantly receive identification, "
+            "health analysis, disease detection, and care recommendations "
+            "powered by Gemini's multimodal vision AI."
+        )
+        st.info("Beta", icon="🔬")
+        st.page_link("pages/4_📸_Plant_Identifier.py", label="Open Plant Identifier →", use_container_width=True)
+
+# ── Footer ──────────────────────────────────────────────────────────────────
+st.markdown('<div class="footer-text">Karsh.Ai · Built by Team Xenonites404 · Hackathon 2026</div>', unsafe_allow_html=True)

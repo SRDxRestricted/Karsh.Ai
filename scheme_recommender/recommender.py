@@ -36,12 +36,15 @@ def load_schemes():
         
     return schemes
 
-def recommend_schemes(monthly_income, land_size_hectares, crop_type):
+def recommend_schemes(monthly_income, land_size_hectares, crop_types):
     schemes = load_schemes()
     recommended = []
     
-    # Normalize crop_type input for comparison
-    crop_type_lower = crop_type.lower().strip()
+    # Normalize crop_types input: accept a comma-separated string or a list
+    if isinstance(crop_types, str):
+        farmer_crops = [c.lower().strip() for c in crop_types.split(",") if c.strip()]
+    else:
+        farmer_crops = [c.lower().strip() for c in crop_types if c.strip()]
     
     for scheme in schemes:
         land_limit = parse_land_limit(scheme.get('Land limit', ''))
@@ -50,7 +53,8 @@ def recommend_schemes(monthly_income, land_size_hectares, crop_type):
         
         # Typically, a farmer is eligible if their land and income are <= the limits
         if land_size_hectares <= land_limit and monthly_income <= income_limit:
-            if "all" in eligible_crops or crop_type_lower in eligible_crops:
+            # Match if scheme covers "all" crops, or ANY of the farmer's crops match
+            if "all" in eligible_crops or any(fc in eligible_crops for fc in farmer_crops):
                 recommended.append(scheme)
             
     return recommended

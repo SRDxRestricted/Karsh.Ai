@@ -23,3 +23,6 @@ env/
 
 # MacOS
 .DS_Store
+
+# Auth credentials
+users.json
