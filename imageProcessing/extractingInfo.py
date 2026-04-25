@@ -28,7 +28,11 @@ def extract_farmer_profile(img_bytes, current_data=None):
             'role': 'user',
             'content': system_prompt,
             'images': [img_bytes]
-        }]
+        }],
+        options={
+            'num_predict': 500, # JSON can be long, but still capped
+            'temperature': 0.1, # More deterministic for JSON
+        }
     )
 
     updated_json_str = response['message']['content']

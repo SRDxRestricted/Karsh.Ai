@@ -41,12 +41,12 @@ if st.button("Get answer", use_container_width=True, type="primary"):
                     messages=[
                         {
                             'role': 'system', 
-                            'content': 'You are a helpful Kerala farming assistant. Give very concise, direct, and short answers (max 3-4 sentences).'
+                            'content': 'You are a helpful Kerala farming assistant. Give very concise, direct, and short answers (max 120 words).'
                         },
                         {'role': 'user', 'content': query}
                     ],
                     options={
-                        'num_predict': 150,  # Limit tokens for faster generation
+                        'num_predict': 200,  # Limit tokens for faster generation (roughly 150 words max)
                         'temperature': 0.7,
                     }
                 )
