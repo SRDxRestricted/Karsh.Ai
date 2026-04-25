@@ -39,9 +39,16 @@ if st.button("Get answer", use_container_width=True, type="primary"):
                 response = ollama.chat(
                     model='gemma4:e2b',
                     messages=[
-                        {'role': 'system', 'content': 'You are a helpful Kerala farming assistant. Respond in English.'},
+                        {
+                            'role': 'system', 
+                            'content': 'You are a helpful Kerala farming assistant. Give very concise, direct, and short answers (max 3-4 sentences).'
+                        },
                         {'role': 'user', 'content': query}
-                    ]
+                    ],
+                    options={
+                        'num_predict': 150,  # Limit tokens for faster generation
+                        'temperature': 0.7,
+                    }
                 )
                 st.markdown(response['message']['content'])
             except Exception as e:
