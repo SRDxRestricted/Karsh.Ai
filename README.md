@@ -55,8 +55,8 @@ To run Karsh.Ai locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/govt_schemes.git
-   cd govt_schemes
+   git clone https://github.com/SRDxRestricted/Karsh.Ai
+   cd Karsh.Ai
    ```
 
 2. **Set up Virtual Environment:**
