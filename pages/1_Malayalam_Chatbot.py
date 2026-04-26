@@ -35,42 +35,58 @@ if st.button("Get answer", use_container_width=True, type="primary"):
         with st.spinner("Thinking..."):
             try:
                 import google.generativeai as genai
-                api_key = st.secrets.get("GEMINI_API_KEY")
-                if not api_key:
-                    st.error("Missing `GEMINI_API_KEY`. Please add it to `.streamlit/secrets.toml` (local) or Streamlit Cloud Secrets (web).")
-                    st.info("Format: `GEMINI_API_KEY = 'your_key_here'`")
-                else:
-                    genai.configure(api_key=api_key)
-                    model = genai.GenerativeModel('gemini-2.5-flash-lite')
+                from groq import Groq
 
-                    # ── Step 1: Get precise English answer ──
-                    system_prompt = (
-                        "You are a Kerala farming expert. "
-                        "Give a precise, practical answer in 100-150 words. "
-                        "Use bullet points. Include the cause, solution, and one preventive tip. "
-                        "No filler — every sentence must be useful to a farmer."
+                # Get keys
+                groq_key = st.secrets.get("GROQ_API_KEY")
+                gemini_key = st.secrets.get("GEMINI_API_KEY")
+
+                if groq_key:
+                    # ── Use Groq (Primary) ──
+                    client = Groq(api_key=groq_key)
+                    model_id = "llama-3.3-70b-versatile"
+                    
+                    # Step 1: English Answer
+                    system_prompt = "You are a Kerala farming expert. Give a precise, practical answer in 100-150 words. Use bullet points. Include the cause, solution, and one preventive tip."
+                    chat_completion = client.chat.completions.create(
+                        messages=[
+                            {"role": "system", "content": system_prompt},
+                            {"role": "user", "content": query},
+                        ],
+                        model=model_id,
                     )
+                    english_answer = chat_completion.choices[0].message.content
+
+                    # Step 2: Translation
+                    with st.spinner("Translating to Malayalam..."):
+                        translate_prompt = f"Translate the following agricultural advice into simple Malayalam for a rural farmer. Return ONLY the translation:\n\n{english_answer}"
+                        translation_completion = client.chat.completions.create(
+                            messages=[{"role": "user", "content": translate_prompt}],
+                            model=model_id,
+                        )
+                        malayalam_answer = translation_completion.choices[0].message.content
+
+                elif gemini_key:
+                    # ── Use Gemini (Fallback) ──
+                    genai.configure(api_key=gemini_key)
+                    model = genai.GenerativeModel('gemini-2.5-flash-lite')
+                    system_prompt = "You are a Kerala farming expert. Give a precise, practical answer in 100-150 words. Use bullet points. Include the cause, solution, and one preventive tip."
                     response = model.generate_content(f"{system_prompt}\n\nFarmer's Question: {query}")
                     english_answer = response.text
-
-                    # ── Step 2: Translate to Malayalam ──
                     with st.spinner("Translating to Malayalam..."):
-                        translate_prompt = (
-                            "Translate the following agricultural advice into Malayalam. "
-                            "Use simple, everyday Malayalam that a rural farmer can easily understand. "
-                            "Keep it short and practical. Keep bullet points. "
-                            "Return ONLY the Malayalam translation.\n\n"
-                            f"{english_answer}"
-                        )
+                        translate_prompt = f"Translate the following agricultural advice into simple Malayalam. Return ONLY the translation:\n\n{english_answer}"
                         ml_response = model.generate_content(translate_prompt)
                         malayalam_answer = ml_response.text
+                else:
+                    st.error("No API keys found. Please add `GROQ_API_KEY` or `GEMINI_API_KEY` to your secrets.")
+                    st.stop()
 
-                    # ── Step 3: Display in tabs ──
-                    tab_en, tab_ml = st.tabs(["English", "മലയാളം"])
-                    with tab_en:
-                        st.markdown(english_answer)
-                    with tab_ml:
-                        st.markdown(malayalam_answer)
+                # ── Step 3: Display ──
+                tab_en, tab_ml = st.tabs(["English", "മലയാളം"])
+                with tab_en:
+                    st.markdown(english_answer)
+                with tab_ml:
+                    st.markdown(malayalam_answer)
 
             except Exception as e:
                 st.error(f"Error: {e}")

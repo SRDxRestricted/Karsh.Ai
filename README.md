@@ -25,10 +25,10 @@
 - **Economic Forecasting:** Estimates potential earnings and provides planting schedules based on the current month and land size.
 - **Machine Learning Powered:** Uses historical data to predict optimal crop yields.
 
-### 🎙️ Malayalam Voice Assistant
+### 💬 Malayalam Chatbot
 - **Multilingual Support:** Interact with the dashboard in English or Malayalam.
-- **Voice Queries:** Ask questions about fertilizers, irrigation, or disease control using natural speech.
-- **TTS (Text-to-Speech):** Receives audible advice, making technology accessible to all literacy levels.
+- **Expert Advice:** Ask questions about fertilizers, irrigation, or disease control.
+- **Fast Responses:** Powered by Groq (Llama 3.3) for near-instant answers.
 
 ### 📸 AI Plant Identifier
 - **Disease Detection:** Upload photos of your crops to identify pests or diseases instantly.
@@ -43,7 +43,7 @@
 ## 🛠️ Tech Stack
 
 - **Frontend:** [Streamlit](https://streamlit.io/) (for a fast, interactive web interface)
-- **AI/LLM:** [Ollama](https://ollama.com/) (for intelligent query handling and voice assistant)
+- **AI/LLM:** [Groq](https://groq.com/) & [Gemini](https://aistudio.google.com/) (for high-speed intelligent query handling)
 - **ML Models:** Scikit-Learn (for crop prediction algorithms)
 - **Natural Language:** `gTTS` & `deep-translator` (for Malayalam support)
 - **Data Handling:** Pandas & JSON
@@ -77,9 +77,10 @@ To run Karsh.Ai locally, follow these steps:
 4. **Configure API Keys:**
    - Create a folder named `.streamlit` in the root directory.
    - Create a file named `secrets.toml` inside that folder.
-   - Add your Google Gemini API key:
+   - Add your API keys (Groq is recommended for higher limits):
      ```toml
-     GEMINI_API_KEY = "your_api_key_here"
+     GROQ_API_KEY = "your_groq_key_here"
+     GEMINI_API_KEY = "your_gemini_key_here"
      ```
    - *Note: This file is already in .gitignore and will not be pushed to GitHub.*
 
@@ -97,10 +98,10 @@ To run Karsh.Ai locally, follow these steps:
 ├── auth.py                 # User authentication logic
 ├── theme.py                # UI/UX design tokens & Global CSS
 ├── pages/                  # Multipage Streamlit application
-│   ├── 1_🎙️_Malayalam_Voice_Assistant.py
-│   ├── 2_🌱_Crop_Predictor.py
-│   ├── 3_🏛️_Govt_Scheme_Finder.py
-│   └── 4_📸_Plant_Identifier.py
+│   ├── 1_Malayalam_Chatbot.py
+│   ├── 2_Crop_Predictor.py
+│   ├── 3_Govt_Scheme_Finder.py
+│   └── 4_Plant_Identifier.py
 ├── scheme_recommender/     # Logic & Data for govt schemes
 ├── early_warning_system/   # Weather monitoring & Alerts
 ├── imageProcessing/        # Plant disease identification logic
