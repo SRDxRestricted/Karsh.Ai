@@ -72,7 +72,16 @@ To run Karsh.Ai locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-4. **Run the Application:**
+4. **Configure API Keys:**
+   - Create a folder named `.streamlit` in the root directory.
+   - Create a file named `secrets.toml` inside that folder.
+   - Add your Google Gemini API key:
+     ```toml
+     GEMINI_API_KEY = "your_api_key_here"
+     ```
+   - *Note: This file is already in .gitignore and will not be pushed to GitHub.*
+
+5. **Run the Application:**
    ```bash
    streamlit run app.py
    ```

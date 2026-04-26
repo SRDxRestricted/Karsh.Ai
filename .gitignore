@@ -27,3 +27,6 @@ env/
 # Auth credentials
 users.json
 .streamlit/secrets.toml
+
+# Scratch and testing
+scratch/
