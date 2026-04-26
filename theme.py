@@ -223,7 +223,7 @@ def render_sidebar():
 
     # ── Nav links (no icons) ──
     st.sidebar.page_link("app.py", label="Homepage")
-    st.sidebar.page_link("pages/1_Malayalam_Voice_Assistant.py", label="Voice Assistant")
+    st.sidebar.page_link("pages/1_Malayalam_Chatbot.py", label="Chatbot")
     st.sidebar.page_link("pages/2_Crop_Predictor.py", label="Crop Predictor")
     st.sidebar.page_link("pages/3_Govt_Scheme_Finder.py", label="Govt. Schemes")
     st.sidebar.page_link("pages/4_Plant_Identifier.py", label="Plant Identifier")

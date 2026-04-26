@@ -5,10 +5,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from theme import init_theme, inject_global_css, render_sidebar
 from auth import require_auth
 
-st.set_page_config(page_title="Karsh.Ai | Farming Assistant", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="Karsh.Ai | Chatbot", page_icon="🌱", layout="wide")
 init_theme(); inject_global_css(); require_auth(); render_sidebar()
 
-st.markdown("### Ask a farming question")
+st.markdown("### Malayalam Chatbot")
 st.markdown("Have a question about your crops, soil, pests, or fertilizers? Type it below and we'll answer in **English and Malayalam**.")
 
 left, right = st.columns([2, 1])

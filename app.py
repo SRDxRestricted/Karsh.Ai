@@ -49,7 +49,7 @@ with s2:
 with s3:
     st.markdown('<div class="stat-num">100%</div><div class="stat-label">Works Offline</div>', unsafe_allow_html=True)
 with s4:
-    st.markdown('<div class="stat-num">മലയാളം</div><div class="stat-label">Voice Ready</div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-num">മലയാളം</div><div class="stat-label">Chatbot Active</div>', unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -117,7 +117,7 @@ with c2:
             "Get answers about diseases, fertilizers, planting schedules, and more."
         )
         st.success("Ready to use")
-        st.page_link("pages/1_Malayalam_Voice_Assistant.py", label="Ask a question", use_container_width=True)
+        st.page_link("pages/1_Malayalam_Chatbot.py", label="Open Chatbot", use_container_width=True)
 
 c3, c4 = st.columns(2)
 
