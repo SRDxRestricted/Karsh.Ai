@@ -203,7 +203,7 @@ def render_sidebar():
         """
 <div style='padding:14px 16px 8px 16px;'>
     <div style='display:flex;align-items:center;gap:9px;'>
-        <span style='font-size:1.6rem;'>🌾</span>
+        <span style='font-size:1.6rem;'>🌱</span>
         <span style='color:#00c853;font-size:1.4rem;font-weight:900;letter-spacing:-0.3px;'>Karsh.Ai</span>
     </div>
     <p style='color:#7a7a9e;font-size:0.72rem;margin:4px 0 0 0;font-weight:500;'>AI-Powered Farming Assistant</p>
@@ -223,10 +223,10 @@ def render_sidebar():
 
     # ── Nav links (no icons) ──
     st.sidebar.page_link("app.py", label="Homepage")
-    st.sidebar.page_link("pages/1_\U0001F399\uFE0F_Malayalam_Voice_Assistant.py", label="Voice Assistant")
-    st.sidebar.page_link("pages/2_\U0001F331_Crop_Predictor.py", label="Crop Predictor")
-    st.sidebar.page_link("pages/3_\U0001F3DB\uFE0F_Govt_Scheme_Finder.py", label="Govt. Schemes")
-    st.sidebar.page_link("pages/4_\U0001F4F8_Plant_Identifier.py", label="Plant Identifier")
+    st.sidebar.page_link("pages/1_Malayalam_Voice_Assistant.py", label="Voice Assistant")
+    st.sidebar.page_link("pages/2_Crop_Predictor.py", label="Crop Predictor")
+    st.sidebar.page_link("pages/3_Govt_Scheme_Finder.py", label="Govt. Schemes")
+    st.sidebar.page_link("pages/4_Plant_Identifier.py", label="Plant Identifier")
 
     # ── Footer ──
     st.sidebar.markdown(

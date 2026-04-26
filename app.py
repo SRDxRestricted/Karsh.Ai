@@ -66,7 +66,7 @@ if weather_data:
     warnings = analyze_for_calamities(weather_data)
     if warnings:
         total = sum(len(w['alerts']) for w in warnings)
-        st.error(f"**{total} alert(s)** detected in {user_district} over the next 48 hours", icon="⚠️")
+        st.error(f"**{total} alert(s)** detected in {user_district} over the next 48 hours")
         shown = 0
         for w in warnings:
             if shown >= 5:
@@ -74,7 +74,7 @@ if weather_data:
             for alert in w['alerts']:
                 if shown >= 5:
                     break
-                icon = "🌧️" if "RAIN" in alert else "🌪️" if "WIND" in alert else "🌡️" if "HEAT" in alert else "⚠️"
+                icon = "Alert" if "RAIN" in alert else "Alert" if "WIND" in alert else "Alert" if "HEAT" in alert else "Alert"
                 st.markdown(
                     f"<div style='background:#2a1515;border:1px solid #5c2020;border-radius:10px;"
                     f"padding:14px 18px;margin-bottom:8px;display:flex;align-items:center;gap:12px;'>"
@@ -89,9 +89,9 @@ if weather_data:
         if total > 5:
             st.caption(f"+ {total - 5} more alert(s) not shown")
     else:
-        st.success(f"All clear in {user_district} — no extreme weather predicted for the next 48 hours.", icon="✅")
+        st.success(f"All clear in {user_district} — no extreme weather predicted for the next 48 hours.")
 else:
-    st.warning("Could not fetch meteorological data. Check your internet connection.", icon="📡")
+    st.warning("Could not fetch meteorological data. Check your internet connection.")
 
 st.markdown("---")
 st.markdown("### What can Karsh.Ai do for you?")
@@ -106,8 +106,8 @@ with c1:
             "Tell us your district, the month you want to plant, and how much land you have. "
             "We'll suggest the best crops and show you how much you could earn."
         )
-        st.success("Ready to use", icon="\u2705")
-        st.page_link("pages/2_\U0001F331_Crop_Predictor.py", label="Find best crops \u2192", use_container_width=True)
+        st.success("Ready to use")
+        st.page_link("pages/2_Crop_Predictor.py", label="Find best crops", use_container_width=True)
 
 with c2:
     with st.container(border=True):
@@ -116,8 +116,8 @@ with c2:
             "Type or speak your question in English or Malayalam. "
             "Get answers about diseases, fertilizers, planting schedules, and more."
         )
-        st.success("Ready to use", icon="\u2705")
-        st.page_link("pages/1_\U0001F399\uFE0F_Malayalam_Voice_Assistant.py", label="Ask a question \u2192", use_container_width=True)
+        st.success("Ready to use")
+        st.page_link("pages/1_Malayalam_Voice_Assistant.py", label="Ask a question", use_container_width=True)
 
 c3, c4 = st.columns(2)
 
@@ -128,7 +128,7 @@ with c3:
             "Enter your income and land size, and we'll match you "
             "with central and state government schemes, subsidies, and loans you can apply for."
         )
-        st.page_link("pages/3_\U0001F3DB\uFE0F_Govt_Scheme_Finder.py", label="Check schemes \u2192", use_container_width=True)
+        st.page_link("pages/3_Govt_Scheme_Finder.py", label="Check schemes", use_container_width=True)
 
 with c4:
     with st.container(border=True):
@@ -137,7 +137,7 @@ with c4:
             "Upload a photo of a leaf or plant. "
             "We'll identify the crop, spot any diseases, and suggest what to do next."
         )
-        st.page_link("pages/4_\U0001F4F8_Plant_Identifier.py", label="Upload a photo \u2192", use_container_width=True)
+        st.page_link("pages/4_Plant_Identifier.py", label="Upload a photo", use_container_width=True)
 
 # ── Footer ──────────────────────────────────────────────────────────────────
 st.markdown('<div class="footer-text">Karsh.Ai · Built by Team Xenonites404</div>', unsafe_allow_html=True)

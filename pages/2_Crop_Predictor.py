@@ -17,28 +17,28 @@ st.markdown("")
 
 c1, c2, c3, c4 = st.columns([2, 2, 1.5, 1])
 with c1:
-    st.markdown("📍 **Select District**")
+    st.markdown("District")
     district = st.selectbox("District", [
         "Thiruvananthapuram", "Kollam", "Pathanamthitta", "Alappuzha", "Kottayam", "Idukki",
         "Ernakulam", "Thrissur", "Palakkad", "Malappuram", "Kozhikode", "Wayanad", "Kannur", "Kasaragod"
     ], label_visibility="collapsed")
 with c2:
-    st.markdown("📅 **Select Planting Month**")
+    st.markdown("Planting Month")
     month = st.selectbox("Month", list(range(1, 13)), format_func=lambda x: [
         "January","February","March","April","May","June",
         "July","August","September","October","November","December"][x-1], label_visibility="collapsed")
 with c3:
-    st.markdown("🌿 **Land Area (Hectares)**")
+    st.markdown("Land Area (Hectares)")
     land_area = st.number_input("Land", min_value=0.1, value=1.3, step=0.1, label_visibility="collapsed")
 with c4:
     st.markdown("&nbsp;")
-    predict_btn = st.button("🌱 Predict", use_container_width=True, type="primary")
+    predict_btn = st.button("Predict", use_container_width=True, type="primary")
 
 if predict_btn:
     with st.spinner("Analyzing market data..."):
         results = predict_top_crops(month, district, land_area)
         if results:
-            st.markdown("### 📊 Recommended Crops & Financial Forecast")
+            st.markdown("### Recommended Crops & Financial Forecast")
             for idx, res in enumerate(results):
                 conf_pct = float(res['match_score'].replace('%', ''))
                 st.markdown(f"""
