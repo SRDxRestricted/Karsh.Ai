@@ -37,7 +37,8 @@ if st.button("Get answer", use_container_width=True, type="primary"):
                 import google.generativeai as genai
                 api_key = st.secrets.get("GEMINI_API_KEY")
                 if not api_key:
-                    st.error("GEMINI_API_KEY not found in Streamlit Secrets.")
+                    st.error("Missing `GEMINI_API_KEY`. Please add it to `.streamlit/secrets.toml` (local) or Streamlit Cloud Secrets (web).")
+                    st.info("Format: `GEMINI_API_KEY = 'your_key_here'`")
                 else:
                     genai.configure(api_key=api_key)
                     model = genai.GenerativeModel('gemini-2.5-flash-lite')
