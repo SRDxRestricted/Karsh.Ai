@@ -35,22 +35,17 @@ if st.button("Get answer", use_container_width=True, type="primary"):
     if query:
         with st.spinner("Thinking..."):
             try:
-                import ollama
-                response = ollama.chat(
-                    model='gemma4:e2b',
-                    messages=[
-                        {
-                            'role': 'system', 
-                            'content': 'You are a helpful Kerala farming assistant. Give very concise, direct, and short answers (max 120 words).'
-                        },
-                        {'role': 'user', 'content': query}
-                    ],
-                    options={
-                        'num_predict': 200,  # Limit tokens for faster generation (roughly 150 words max)
-                        'temperature': 0.7,
-                    }
-                )
-                st.markdown(response['message']['content'])
+                import google.generativeai as genai
+                api_key = st.secrets.get("GEMINI_API_KEY")
+                if not api_key:
+                    st.error("GEMINI_API_KEY not found in Streamlit Secrets.")
+                else:
+                    genai.configure(api_key=api_key)
+                    model = genai.GenerativeModel('gemini-1.5-flash')
+                    
+                    system_prompt = "You are a helpful Kerala farming assistant. Give very concise, direct, and short answers (max 120 words)."
+                    response = model.generate_content(f"{system_prompt}\n\nUser Question: {query}")
+                    st.markdown(response.text)
             except Exception as e:
                 st.error(f"Error: {e}")
     else:

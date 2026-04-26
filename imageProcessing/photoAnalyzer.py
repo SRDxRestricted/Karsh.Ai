@@ -1,32 +1,36 @@
-import ollama
-import sys
-import os
+import google.generativeai as genai
+import streamlit as st
+import PIL.Image
+import io
 
 def analyze_crop(image_bytes):
+    """
+    Analyzes crop image using Google Gemini 1.5 Flash.
+    Requires GEMINI_API_KEY in st.secrets.
+    """
     try:
-        response = ollama.chat(
-            model='gemma4:e2b',
-            messages=[
-                {
-                    'role': 'system',
-                    'content': 'You are a Kerala agriculture expert. Identify crop issues and provide remedies in English. Be extremely concise (max 120 words).'
-                },
-                {
-                    'role': 'user',
-                    'content': 'Analyze this crop image for diseases.',
-                    'images': [image_bytes]
-                }
-            ],
-            stream=True,
-            options={
-                'num_predict': 200,
-                'temperature': 0.6,
-            }
+        api_key = st.secrets.get("GEMINI_API_KEY")
+        if not api_key:
+            yield "❌ Error: GEMINI_API_KEY not found in Streamlit Secrets."
+            return
+
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel('gemini-1.5-flash')
+        
+        # Convert bytes to PIL Image
+        img = PIL.Image.open(io.BytesIO(image_bytes))
+        
+        prompt = (
+            "You are a Kerala agriculture expert. Identify the crop in this image, "
+            "detect any diseases or pests, and provide concise remedies. "
+            "Be extremely concise (max 120 words)."
         )
+        
+        response = model.generate_content([prompt, img], stream=True)
 
         for chunk in response:
-            content = chunk['message']['content']
-            yield content
+            if chunk.text:
+                yield chunk.text
 
     except Exception as e:
-        yield f"\n❌ An error occurred: {e}"
+        yield f"\n❌ An error occurred during Gemini analysis: {e}"
