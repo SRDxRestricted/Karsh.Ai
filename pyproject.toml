@@ -1,14 +1,18 @@
 [project]
 name = "karsh-ai"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-Powered Farming Assistant for Kerala"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "deep-translator>=1.11.4",
     "gtts>=2.5.4",
     "ollama>=0.6.1",
-    "pandas>=3.0.2",
-    "scikit-learn>=1.8.0",
-    "streamlit>=1.56.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "streamlit>=1.30.0",
+    "requests>=2.31.0",
+    "google-generativeai>=0.3.0",
+    "Pillow>=10.0.0",
+    "numpy>=1.26.0",
 ]
