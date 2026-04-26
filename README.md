@@ -9,6 +9,8 @@
 
 **Karsh.Ai** is an intelligent agricultural dashboard designed to empower rural farmers by bridging the technology gap. It provides data-driven insights, personalized government scheme recommendations, and real-time alerts to ensure sustainable farming and financial security.
 
+### 🌐 Live Demo: [karshai-for-farmers.streamlit.app](https://karshai-for-farmers.streamlit.app/)
+
 ---
 
 ## 🚀 Key Features
