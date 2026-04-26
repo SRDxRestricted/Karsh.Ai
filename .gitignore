@@ -26,3 +26,4 @@ env/
 
 # Auth credentials
 users.json
+.streamlit/secrets.toml

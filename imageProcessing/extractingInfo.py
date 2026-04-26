@@ -1,10 +1,22 @@
-import ollama
+import google.generativeai as genai
+import streamlit as st
 import json
-import os
+import PIL.Image
+import io
 
 def extract_farmer_profile(img_bytes, current_data=None):
     if current_data is None:
         current_data = {}
+
+    api_key = st.secrets.get("GEMINI_API_KEY")
+    if not api_key:
+        return {"error": "GEMINI_API_KEY not found in Streamlit Secrets."}
+
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel('gemini-2.5-flash-lite')
+
+    # Convert bytes to PIL Image
+    img = PIL.Image.open(io.BytesIO(img_bytes))
 
     system_prompt = f"""
     You are a specialized Kerala Data Assistant.
@@ -21,23 +33,21 @@ def extract_farmer_profile(img_bytes, current_data=None):
     - Return ONLY the updated JSON. No conversational text.
     """
 
-    response = ollama.chat(
-        model='gemma4:e2b',
-        format='json',
-        messages=[{
-            'role': 'user',
-            'content': system_prompt,
-            'images': [img_bytes]
-        }],
-        options={
-            'num_predict': 500, # JSON can be long, but still capped
-            'temperature': 0.1, # More deterministic for JSON
-        }
-    )
-
-    updated_json_str = response['message']['content']
     try:
-        new_data = json.loads(updated_json_str)
-        return new_data
+        response = model.generate_content(
+            [system_prompt, img],
+            generation_config=genai.GenerationConfig(
+                response_mime_type="application/json",
+                temperature=0.1,
+                max_output_tokens=500,
+            )
+        )
+
+        updated_json_str = response.text
+        try:
+            new_data = json.loads(updated_json_str)
+            return new_data
+        except Exception as e:
+            return {"error": str(e), "raw_response": updated_json_str}
     except Exception as e:
-        return {"error": str(e), "raw_response": updated_json_str}
+        return {"error": str(e)}
