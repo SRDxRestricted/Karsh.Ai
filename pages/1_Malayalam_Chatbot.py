@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from theme import init_theme, inject_global_css, render_sidebar
 from auth import require_auth
 
-st.set_page_config(page_title="Karsh.Ai | Chatbot", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="Karsh.Ai | Chatbot", page_icon="🌱", layout="wide", initial_sidebar_state="expanded")
 init_theme(); inject_global_css(); require_auth(); render_sidebar()
 
 st.markdown("### Malayalam Chatbot")

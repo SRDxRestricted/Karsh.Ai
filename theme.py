@@ -34,6 +34,12 @@ header { visibility: hidden; }
 [data-testid="stSidebar"] {
     background-color: #1e1e36 !important;
     border-right: 1px solid #2a2a4a !important;
+    /* Prevent sidebar from collapsing / disappearing */
+    min-width: 245px !important;
+    width: 245px !important;
+    transform: none !important;
+    visibility: visible !important;
+    position: relative !important;
 }
 /* Kill ALL top space */
 [data-testid="stSidebar"] > div {
@@ -42,7 +48,11 @@ header { visibility: hidden; }
 [data-testid="stSidebar"] > div > div {
     padding-top: 0 !important;
 }
-[data-testid="stSidebarCollapseButton"],
+/* Hide the collapse chevron so users can't close the sidebar */
+[data-testid="stSidebarCollapseButton"] {
+    display: none !important;
+}
+/* Keep the expand control visible as fallback recovery */
 [data-testid="collapsedControl"] {
     display: none !important;
 }
@@ -51,6 +61,16 @@ header { visibility: hidden; }
 }
 [data-testid="stSidebarUserContent"] {
     padding-top: 0 !important;
+}
+/* Force sidebar to stay open even on narrow viewports */
+@media (max-width: 768px) {
+    [data-testid="stSidebar"] {
+        min-width: 200px !important;
+        width: 200px !important;
+        transform: none !important;
+        visibility: visible !important;
+        display: block !important;
+    }
 }
 
 /* Sidebar page_link buttons */

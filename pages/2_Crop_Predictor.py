@@ -6,7 +6,7 @@ from theme import init_theme, inject_global_css, render_sidebar
 from auth import require_auth
 from crop_predictor.crop_predictor import initialize_model, predict_top_crops
 
-st.set_page_config(page_title="Karsh.Ai | Crop Predictor", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="Karsh.Ai | Crop Predictor", page_icon="🌱", layout="wide", initial_sidebar_state="expanded")
 init_theme(); inject_global_css(); require_auth(); render_sidebar()
 
 initialize_model()

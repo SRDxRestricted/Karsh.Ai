@@ -6,7 +6,7 @@ from theme import init_theme, inject_global_css, render_sidebar
 from auth import require_auth
 from imageProcessing.photoAnalyzer import analyze_crop
 
-st.set_page_config(page_title="Karsh.Ai | Plant Identifier", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="Karsh.Ai | Plant Identifier", page_icon="🌱", layout="wide", initial_sidebar_state="expanded")
 init_theme(); inject_global_css(); require_auth(); render_sidebar()
 
 st.markdown("### Plant & Disease Identifier")
