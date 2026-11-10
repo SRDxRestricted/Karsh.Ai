@@ -45,7 +45,7 @@ s1, s2, s3, s4 = st.columns(4)
 with s1:
     st.markdown('<div class="stat-num">14</div><div class="stat-label">Districts Covered</div>', unsafe_allow_html=True)
 with s2:
-    st.markdown('<div class="stat-num">50+</div><div class="stat-label">Crops Supported</div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-num">7</div><div class="stat-label">Crops Priced</div>', unsafe_allow_html=True)
 with s3:
     st.markdown('<div class="stat-num">100%</div><div class="stat-label">Works Offline</div>', unsafe_allow_html=True)
 with s4:
@@ -138,6 +138,14 @@ with c4:
             "We'll identify the crop, spot any diseases, and suggest what to do next."
         )
         st.page_link("pages/4_Plant_Identifier.py", label="Upload a photo", use_container_width=True)
+
+with st.container(border=True):
+    st.markdown("#### How much is my crop selling for?")
+    st.markdown(
+        "See daily wholesale prices for your district, compare markets, "
+        "and check whether now looks like a good time to sell."
+    )
+    st.page_link("pages/5_Mandi_Prices.py", label="Check mandi prices", use_container_width=True)
 
 # ── Footer ──────────────────────────────────────────────────────────────────
 st.markdown('<div class="footer-text">Karsh.Ai · Built by Team Xenonites404</div>', unsafe_allow_html=True)

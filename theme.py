@@ -168,6 +168,40 @@ header { visibility: hidden; }
 .scheme-meta { color: #9e9eb8; font-size: 0.82rem; margin-top: 8px; }
 .scheme-meta span { margin-right: 22px; }
 
+/* ── Mandi price KPI cards ────────────────────────────── */
+.kpi-card {
+    background: #1e1e36;
+    border: 1px solid #2a2a4a;
+    border-radius: 12px;
+    padding: 16px 18px;
+    min-height: 112px;
+}
+.kpi-label {
+    color: #7a7a9e;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+.kpi-value {
+    color: #e0e0e0;
+    font-size: 1.45rem;
+    font-weight: 800;
+    margin-top: 6px;
+    line-height: 1.2;
+}
+.kpi-sub {
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.kpi-up { color: #00c853; }
+.kpi-down { color: #ff6b6b; }
+.kpi-flat { color: #9e9eb8; }
+@media (max-width: 768px) {
+    .kpi-value { font-size: 1.2rem; }
+}
+
 /* ── Footer ───────────────────────────────────────────── */
 .footer-text {
     text-align: center;
@@ -245,6 +279,7 @@ def render_sidebar():
     st.sidebar.page_link("app.py", label="Homepage")
     st.sidebar.page_link("pages/1_Malayalam_Chatbot.py", label="Chatbot")
     st.sidebar.page_link("pages/2_Crop_Predictor.py", label="Crop Predictor")
+    st.sidebar.page_link("pages/5_Mandi_Prices.py", label="Mandi Prices")
     st.sidebar.page_link("pages/3_Govt_Scheme_Finder.py", label="Govt. Schemes")
     st.sidebar.page_link("pages/4_Plant_Identifier.py", label="Plant Identifier")
 
