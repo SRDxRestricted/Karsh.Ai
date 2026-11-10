@@ -19,6 +19,7 @@ Malayalam TTS/*.pyc
 # Virtual Environment
 venv/
 env/
+.venv/
 .env
 
 # MacOS

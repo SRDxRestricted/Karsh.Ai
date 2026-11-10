@@ -140,14 +140,14 @@ def initialize_model():
     if clf is not None:
         return # Already initialized
     import os
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    filepath = os.path.join(base_dir, "keralaCropDataset.txt")
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    filepath = os.path.join(project_root, "data", "mandi_prices.csv")
     df = load_market_data(filepath)
     train_model(df)
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    filepath = os.path.join(base_dir, "keralaCropDataset.txt")
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    filepath = os.path.join(project_root, "data", "mandi_prices.csv")
     print(f"Loading real market dataset from {filepath}...")
     try:
         df = load_market_data(filepath)

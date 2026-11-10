@@ -25,6 +25,12 @@
 - **Economic Forecasting:** Estimates potential earnings and provides planting schedules based on the current month and land size.
 - **Machine Learning Powered:** Uses historical data to predict optimal crop yields.
 
+### 💹 Mandi Price Dashboard
+- **Daily Prices:** Track modal, minimum and maximum wholesale prices for every crop and district in the dataset.
+- **Market Comparison:** See which district pays the most for a crop, and by what premium over the cheapest market in view.
+- **Honest Signals:** A transparent range-based indicator shows whether today's price is high or low against the last 90 days — clearly labelled as a heuristic, not a forecast.
+- **Built-in Data Health:** A coverage matrix and integrity report make missing reporting periods visible instead of silently hiding them.
+
 ### 💬 Malayalam Chatbot
 - **Multilingual Support:** Interact with the dashboard in English or Malayalam.
 - **Expert Advice:** Ask questions about fertilizers, irrigation, or disease control.
@@ -57,7 +63,7 @@ To run Karsh.Ai locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/SRDxRestricted/Karsh.Ai
+   git clone https://github.com/Shreyasu1016/Karsh.Ai
    cd Karsh.Ai
    ```
 
@@ -101,12 +107,27 @@ To run Karsh.Ai locally, follow these steps:
 │   ├── 1_Malayalam_Chatbot.py
 │   ├── 2_Crop_Predictor.py
 │   ├── 3_Govt_Scheme_Finder.py
-│   └── 4_Plant_Identifier.py
+│   ├── 4_Plant_Identifier.py
+│   └── 5_Mandi_Prices.py
+├── data/
+│   └── mandi_prices.csv    # Daily crop price dataset
+├── mandi_prices/           # Price loading, analytics, charts, formatting
 ├── scheme_recommender/     # Logic & Data for govt schemes
 ├── early_warning_system/   # Weather monitoring & Alerts
 ├── imageProcessing/        # Plant disease identification logic
-└── Malayalam TTS/          # Voice processing assets
+├── Malayalam TTS/          # Voice processing assets
+└── tests/                  # pytest suite for the price analytics
 ```
+
+---
+
+## 📊 Data note
+
+The bundled `data/mandi_prices.csv` is a **synthetic preview dataset**, not a live
+market feed. It covers 11 districts and 7 crops, and each crop is only reported
+for part of the year. The dashboard derives its date filters from this coverage
+instead of assuming a full calendar year, and hides rows dated in the future by
+default. Swap in a real Agmarknet export with the same column names to go live.
 
 ---
 
