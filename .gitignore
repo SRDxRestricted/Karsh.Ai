@@ -28,5 +28,8 @@ env/
 users.json
 .streamlit/secrets.toml
 
+# Local soil advisor history
+data/soil_readings.jsonl
+
 # Scratch and testing
 scratch/

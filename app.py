@@ -139,5 +139,20 @@ with c4:
         )
         st.page_link("pages/4_Plant_Identifier.py", label="Upload a photo", use_container_width=True)
 
+st.markdown("---")
+with st.container(border=True):
+    st.markdown("#### What should I grow in my soil?")
+    st.markdown(
+        "Enter your soil test values — nitrogen, phosphorus, potassium, pH — plus local "
+        "temperature, humidity and rainfall. The model ranks the Kerala crops that fit "
+        "your soil best."
+    )
+    st.success("New")
+    st.page_link(
+        "pages/6_Soil_Crop_Advisor.py",
+        label="Open Soil & Crop Advisor",
+        use_container_width=True,
+    )
+
 # ── Footer ──────────────────────────────────────────────────────────────────
 st.markdown('<div class="footer-text">Karsh.Ai · Built by Team Xenonites404</div>', unsafe_allow_html=True)

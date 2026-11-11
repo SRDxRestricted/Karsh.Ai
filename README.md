@@ -25,6 +25,12 @@
 - **Economic Forecasting:** Estimates potential earnings and provides planting schedules based on the current month and land size.
 - **Machine Learning Powered:** Uses historical data to predict optimal crop yields.
 
+### 🧪 Soil & Crop Advisor
+- **Soil-Test Driven:** Enter nitrogen, phosphorus, potassium, pH, temperature, humidity and rainfall to get crop recommendations.
+- **Top Matches:** Ranks the best-fitting Kerala crops with confidence scores and Malayalam names.
+- **Honest Model Card:** Shows accuracy, macro-F1, top-3 accuracy, training ranges and whether the model used real or synthetic data.
+- **History:** Keeps your recent soil checks so you can compare fields over time.
+
 ### 💬 Malayalam Chatbot
 - **Multilingual Support:** Interact with the dashboard in English or Malayalam.
 - **Expert Advice:** Ask questions about fertilizers, irrigation, or disease control.
@@ -101,12 +107,38 @@ To run Karsh.Ai locally, follow these steps:
 │   ├── 1_Malayalam_Chatbot.py
 │   ├── 2_Crop_Predictor.py
 │   ├── 3_Govt_Scheme_Finder.py
-│   └── 4_Plant_Identifier.py
+│   ├── 4_Plant_Identifier.py
+│   └── 6_Soil_Crop_Advisor.py
+├── data/                   # Optional soil dataset + local history
+├── tests/                  # pytest suite for the soil advisor
 ├── scheme_recommender/     # Logic & Data for govt schemes
 ├── early_warning_system/   # Weather monitoring & Alerts
 ├── imageProcessing/        # Plant disease identification logic
+├── soil_advisor/           # Soil-based crop recommendation model
 └── Malayalam TTS/          # Voice processing assets
 ```
+
+---
+
+## 🧪 Soil Advisor data
+
+The soil model works out of the box using **synthetic Kerala crop profiles** so the
+demo is runnable offline. To train on measured data, drop a CSV at
+`data/crop_recommendation.csv` with these columns:
+
+```text
+N,P,K,temperature,humidity,ph,rainfall,label
+```
+
+Then retrain:
+
+```bash
+python -m soil_advisor.train
+```
+
+The model and its metadata are written to the gitignored `models/` folder. The UI
+shows the data source and metrics so a demo model is never mistaken for a
+production one. See `data/README.md` for details.
 
 ---
 
