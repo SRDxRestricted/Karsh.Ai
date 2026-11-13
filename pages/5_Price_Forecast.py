@@ -2,24 +2,21 @@ from datetime import date, timedelta
 import altair as alt
 import pandas as pd
 import streamlit as st
+
 # Approximate, editable harvest-duration defaults in days.
-# These are typical estimates; the crop variety and growing conditions matter.
 DEFAULT_GROWTH_DAYS = {
     "rice": 125,
     "paddy": 125,
-    "banana": 317,  # approximate average for Nendran types; adjust for the variety
+    "banana": 317,  # approximate average for Nendran types
     "tapioca": 255,
     "ginger": 253,
     "turmeric": 258,
 }
+
 from price_forecaster import (
     explain_forecast, forecast_price_trend, get_supported_crops,
     InsufficientDataError, load_prices,
 )
-
-# --- Match your other pages here (theme / auth). Example, adjust to your project: ---
-# from theme import apply_theme; apply_theme()
-# from auth import require_login; require_login()
 
 st.set_page_config(page_title="Price Trend Estimate", page_icon="📈", layout="wide")
 st.title("📈 Market Price Trend Estimate")
@@ -27,8 +24,18 @@ st.caption("Uses past market prices to estimate whether a crop's price may rise 
 st.warning("⚠️ This is an ESTIMATE from past prices only. It is not a guarantee or financial advice.")
 st.subheader("Estimate harvest date")
 
+# --- Define helper functions first ---
+@st.cache_data(ttl=3600, show_spinner=False)
+def _crops():
+    return get_supported_crops()
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def _load(crop_name):
+    return load_prices(crop_name)
+
+# --- Layout Inputs ---
 col1, col2 = st.columns([2, 1])
-crop = col1.selectbox("Crop", _crops())
+crop = col1.selectbox("Select Crop", _crops())
 lang_label = col2.radio("Language", ["English", "മലയാളം"], horizontal=True)
 lang = "ml" if lang_label == "മലയാളം" else "en"
 
@@ -36,6 +43,7 @@ planting_date = st.date_input(
     "Planting date",
     value=date.today(),
 )
+
 if crop.strip().lower() not in DEFAULT_GROWTH_DAYS:
     st.caption("Estimate whether a crop's price may rise or fall by its expected harvest month.")
 
@@ -43,7 +51,7 @@ growth_days = st.number_input(
     "Expected growing time (days)",
     min_value=1,
     max_value=2000,
-    value=DEFAULT_GROWTH_DAYS.get(crop.strip().lower()),
+    value=DEFAULT_GROWTH_DAYS.get(crop.strip().lower(), 120),
     step=1,
     placeholder="Enter the expected number of days",
     key=f"growth_days_{crop.strip().lower().replace(' ', '_')}",
@@ -58,18 +66,7 @@ if growth_days is None:
     st.info("Enter the expected growing time to calculate a harvest date.")
     st.stop()
 
- @st.cache_data(ttl=3600, show_spinner=False)
-def _crops():
-    return get_supported_crops()
-
-
-@st.cache_data(ttl=3600, show_spinner=False)
-def _load(crop):
-    return load_prices(crop)
-
-
-
-
+# --- Load Data & Forecast ---
 df, source = _load(crop)
 latest_price_date = pd.to_datetime(df["date"], errors="coerce").max()
 
