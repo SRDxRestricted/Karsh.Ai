@@ -18,8 +18,8 @@ from price_forecaster import (
     InsufficientDataError, load_prices,
 )
 
-st.set_page_config(page_title="Price Trend Estimate", page_icon="📈", layout="wide")
-st.title("📈 Market Price Trend Estimate")
+st.set_page_config(page_title="Price Trend Estimate", layout="wide")
+st.title("Market Price Trend Estimate")
 st.caption("Uses past market prices to estimate whether a crop's price may rise or fall.")
 st.warning("⚠️ This is an ESTIMATE from past prices only. It is not a guarantee or financial advice.")
 st.subheader("Estimate harvest date")
