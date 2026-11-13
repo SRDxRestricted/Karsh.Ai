@@ -139,5 +139,16 @@ with c4:
         )
         st.page_link("pages/4_Plant_Identifier.py", label="Upload a photo", use_container_width=True)
 
+c5, _ = st.columns(2)
+
+with c5:
+    with st.container(border=True):
+        st.markdown("#### Will crop prices rise or fall?")
+        st.markdown(
+            "Select your crop and expected harvest date. "
+            "We'll estimate future market price trends using past price history."
+        )
+        st.success("Ready to use")
+        st.page_link("pages/5_Price_Forecast.py", label="Check price forecast", use_container_width=True)
 # ── Footer ──────────────────────────────────────────────────────────────────
 st.markdown('<div class="footer-text">Karsh.Ai · Built by Team Xenonites404</div>', unsafe_allow_html=True)

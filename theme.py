@@ -241,13 +241,14 @@ def render_sidebar():
         unsafe_allow_html=True,
     )
 
-    # ── Nav links (no icons) ──
+   # ── Nav links (no icons) ──
     st.sidebar.page_link("app.py", label="Homepage")
     st.sidebar.page_link("pages/1_Malayalam_Chatbot.py", label="Chatbot")
     st.sidebar.page_link("pages/2_Crop_Predictor.py", label="Crop Predictor")
     st.sidebar.page_link("pages/3_Govt_Scheme_Finder.py", label="Govt. Schemes")
     st.sidebar.page_link("pages/4_Plant_Identifier.py", label="Plant Identifier")
-
+    st.sidebar.page_link("pages/5_Price_Forecast.py", label="📈 Price Forecast")
+    
     # ── Footer ──
     st.sidebar.markdown(
         "<div style='position:fixed;bottom:16px;padding:0 16px;'>"
